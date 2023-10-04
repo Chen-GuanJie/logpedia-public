@@ -1,0 +1,47 @@
+46
+cmd.exe_8108 0
+C:\Users\azureuser 1
+C:\None 2
+C:\Users 3
+C:\Windows\System32\wscript.exe 4
+C:\Windows\System32 5
+C:\Users\azureuser\AppData\Roaming\svchost.exe 6
+C:\Windows\System32\ntmarta.dll 7
+C:\Users\azureuser\AppData\Roaming 8
+C:\Windows\System32\en-US\cmd.exe.mui 9
+C:\Windows\Globalization\Sorting\SortDefault.nls 10
+C:\Windows\System32\cmd.exe 11
+C:\Windows\apppatch\sysmain.sdb 12
+cmd.exe_6804 13
+System\CurrentControlSet\Control\FileSystem 14
+System\CurrentControlSet\Control\Nls\Sorting\Versions 15
+System\CurrentControlSet\Control\Nls\Sorting\Versions 16
+ 17
+ 18
+Software\Classes 19
+Control Panel\Desktop\MuiCached 20
+SOFTWARE\Microsoft\Command Processor 21
+SOFTWARE\Microsoft\Command Processor 22
+SOFTWARE\Microsoft\Command Processor 23
+SOFTWARE\Microsoft\Command Processor 24
+System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-3812273841-921784874-4059084093-500\\Device\HarddiskVolume4\Windows\System32 25
+SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers 26
+SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders 27
+svchost.exe_8460 28
+C:\Windows\system32\cmd.exe 29
+C:\Windows\Prefetch\SVCHOST.EXE-408186F6.pf 30
+C:\Windows\System32\version.dll 31
+C:\Windows\System32\imm32.dll 32
+C:\Windows\System32\rpcss.dll 33
+C:\Windows\System32\kernel.appcore.dll 34
+C:\Windows\System32\uxtheme.dll 35
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\svchost.exe 36
+System\CurrentControlSet\Control\Lsa\FipsAlgorithmPolicy 37
+SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize 38
+System\CurrentControlSet\Control\ComputerName\ActiveComputerName 39
+SYSTEM\Setup 40
+SYSTEM\Setup 41
+Software 42
+System\CurrentControlSet\Control\Lsa 43
+SOFTWARE\Microsoft\Windows Script Host\Settings 44
+SOFTWARE\Microsoft\Windows Script Host\Settings 45

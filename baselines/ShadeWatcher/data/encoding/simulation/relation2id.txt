@@ -1,0 +1,7 @@
+6
+Wrote 0
+Accessed 1
+Fork 2
+Read Key 3
+File Of 4
+SWBUG 5

@@ -1,0 +1,94 @@
+REGSVR32 mshtml.dll
+REGSVR32 C:\Windows\System32\urlmon.dll
+REGSVR32 /s oleaut32.dll
+REGSVR32 /U msxml3.dll
+REGSVR32 /U /s shdocvw.dll
+REGSVR32 /i comcat.dll
+REGSVR32 /i /s actxprxy.dll
+REGSVR32 /n /i msimg32.dll
+REGSVR32 /n /i /s comctl32.dll
+REGSVR32 /U /i wmp.dll
+REGSVR32 /s msi.dll
+REGSVR32 /U /s wuapi.dll
+REGSVR32 ole32.dll
+REGSVR32 C:\Windows\System32\oleacc.dll
+REGSVR32 /i msdxm.ocx
+REGSVR32 /i /s wmpdxm.dll
+REGSVR32 /n /i odbc32.dll
+REGSVR32 /n /i /s odbccp32.dll
+REGSVR32 /U /i quartz.dll
+REGSVR32 /s rasapi32.dll
+REGSVR32 rpcrt4.dll
+REGSVR32 C:\Windows\System32\rsaenh.dll
+REGSVR32 /U /s scrrun.dll
+REGSVR32 secur32.dll
+REGSVR32 /i setupapi.dll
+REGSVR32 /i /s sfc.dll
+REGSVR32 /n /i shell32.dll
+REGSVR32 /n /i /s shlwapi.dll
+REGSVR32 /U /i slbcsp.dll
+REGSVR32 /s softpub.dll
+REGSVR32 stdole2.tlb
+REGSVR32 C:\Windows\System32\syncui.dll
+REGSVR32 /U /s t2embed.dll
+REGSVR32 url.dll
+REGSVR32 /i user32.dll
+REGSVR32 /i /s userenv.dll
+REGSVR32 /n /i uxtheme.dll
+REGSVR32 /n /i /s vbscript.dll
+REGSVR32 /U /i verifier.dll
+REGSVR32 /s version.dll
+REGSVR32 wininet.dll
+REGSVR32 C:\Windows\System32\wintrust.dll
+REGSVR32 /U /s wldap32.dll
+REGSVR32 wmdrmsdk.dll
+REGSVR32 /i wmi.dll
+REGSVR32 /i /s wmiutils.dll
+REGSVR32 /n /i ws2_32.dll
+REGSVR32 /n /i /s wshcon.dll
+REGSVR32 /U /i wshext.dll
+REGSVR32 /s wuaueng.dll
+REGSVR32 xpsp2res.dll
+REGSVR32 C:\Windows\System32\xmlrw.dll
+REGSVR32 /U /s zipfldr.dll
+REGSVR32 cryptdlg.dll
+REGSVR32 /i cryptext.dll
+REGSVR32 /i /s cscdll.dll
+REGSVR32 /n /i cscript.exe
+REGSVR32 /n /i /s dispex.dll
+REGSVR32 /U /i dssenh.dll
+REGSVR32 /s dxmasf.dll
+REGSVR32 C:\Windows\System32\filename.dll
+REGSVR32 /U /s gpedit.dll
+REGSVR32 hhctrl.ocx
+REGSVR32 /i hlink.dll
+REGSVR32 /i /s httpapi.dll
+REGSVR32 /n /i icardie.dll
+REGSVR32 /n /i /s iepeers.dll
+REGSVR32 /U /i iernonce.dll
+REGSVR32 /s iertutil.dll
+REGSVR32 jscript.dll
+REGSVR32 C:\Windows\System32\licmgr10.dll
+REGSVR32 /U /s msasn1.dll
+REGSVR32 mshtmled.dll
+REGSVR32 /i msnsspc.dll
+REGSVR32 /i /s msr2c.dll
+REGSVR32 /n /i mssip32.dll
+REGSVR32 /n /i /s msxml.dll
+REGSVR32 /U /i msxml3r.dll
+REGSVR32 /s mswsock.dll
+REGSVR32 C:\Windows\System32\navcancl.dll
+REGSVR32 /U /s ndeapi.dll
+REGSVR32 netapi32.dll
+REGSVR32 /i netcfgx.dll
+REGSVR32 /i /s netman.dll
+REGSVR32 /n /i ntdsapi.dll
+REGSVR32 /n /i /s odbcint.dll
+REGSVR32 /U /i oledb32.dll
+REGSVR32 /s opengl32.dll
+REGSVR32 pdh.dll
+REGSVR32 C:\Windows\System32\perfctrs.dll
+REGSVR32 /U /s perfdisk.dll
+REGSVR32 psapi.dll
+REGSVR32 /i qmgr.dll
+REGSVR32 /i /s qmgrprxy.dll

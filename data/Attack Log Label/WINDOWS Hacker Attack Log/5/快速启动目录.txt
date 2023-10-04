@@ -1,0 +1,2 @@
+AutoRun_Startup_Test.exe
+SOFTWARE\Microsoft\Windows\CurrentVersion\Run\520

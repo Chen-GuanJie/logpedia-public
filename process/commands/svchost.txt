@@ -1,0 +1,71 @@
+C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s Dhcp
+Get-DhcpServer4Scope -ScopeID 
+Get-DhcpServerv4Lease IPAddress
+IPconfig /release
+Ipconfig /renew
+C:\Windows\system32\svchost.exe -k appmodel -s StateRepository
+C:\Windows\system32\svchost.exe -k appmodel -p -s camsvc
+C:\Windows\system32\svchost.exe -k appmodel 
+C:\Windows\system32\svchost.exe -k appmodel -p -s tiledatamodelsvc
+C:\Windows\system32\svchost.exe -k camera -s FrameServer
+C:\Windows\system32\svchost.exe -k dcomlaunch -s LSM
+C:\Windows\system32\svchost.exe -k dcomlaunch -s PlugPlay
+C:\Windows\system32\svchost.exe -k defragsvc
+C:\Windows\system32\svchost.exe -k devicesflow -s DevicesFlowUserSvc
+C:\Windows\system32\svchost.exe -k imgsvc
+C:\Windows\system32\svchost.exe -k localService -s EventSystem
+C:\Windows\system32\svchost.exe -k localService -s bthserv
+C:\Windows\system32\svchost.exe -k LocalService -p -s BthAvctpSvc
+C:\Windows\system32\svchost.exe -k localService -s nsi
+C:\Windows\system32\svchost.exe -k localService -s w32Time
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted
+C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService 
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s DeviceAssociationService
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s NcbService
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s SensorService
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s TabletInputService
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s UmRdpService
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s WPDBusEnum
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -p -s NgcSvc 
+C:\Windows\system32\svchost.exe -k localServiceNetworkRestricted -p -s NgcCtnrSvc 
+C:\Windows\system32\svchost.exe -k localServiceAndNoImpersonation -s SCardSvr
+C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv
+C:\Windows\System32\svchost.exe -k netsvcs -p -s SessionEnv
+C:\Windows\system32\svchost.exe -k localSystemNetworkRestricted -s WdiSystemHost 
+C:\Windows\System32\svchost.exe -k localSystemNetworkRestricted -p -s WdiSystemHost <!--Windows: Diagnostic System Host
+C:\Windows\system32\svchost.exe -k netsvcs -p -s wlidsvc 
+C:\Windows\system32\svchost.exe -k netsvcs -p -s ncaSvc 
+C:\Windows\system32\svchost.exe -k netsvcs -s BDESVC 
+C:\Windows\System32\svchost.exe -k netsvcs -p -s BDESVC 
+C:\Windows\system32\svchost.exe -k netsvcs -p -s BITS
+C:\Windows\system32\svchost.exe -k netsvcs -s BITS
+C:\Windows\system32\svchost.exe -k netsvcs -s CertPropSvc
+C:\Windows\system32\svchost.exe -k netsvcs -s DsmSvc
+C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo
+C:\Windows\system32\svchost.exe -k netsvcs -s Gpsvc 
+C:\Windows\system32\svchost.exe -k netsvcs -s ProfSvc 
+C:\Windows\system32\svchost.exe -k netsvcs -s SENS 
+C:\Windows\system32\svchost.exe -k netsvcs -s SessionEnv 
+C:\Windows\system32\svchost.exe -k netsvcs -s Themes 
+C:\Windows\system32\svchost.exe -k netsvcs -s Winmgmt 
+C:\Windows\system32\svchost.exe -k netsvcs 
+C:\Windows\system32\svchost.exe -k networkService -p -s DoSvc
+C:\Windows\system32\svchost.exe -k networkService -s Dnscache 
+C:\Windows\system32\svchost.exe -k networkService -s LanmanWorkstation 
+C:\Windows\system32\svchost.exe -k networkService -s NlaSvc 
+C:\Windows\system32\svchost.exe -k networkService -s TermService 
+C:\Windows\system32\svchost.exe -k networkService 
+C:\Windows\system32\svchost.exe -k networkService -p 
+C:\Windows\system32\svchost.exe -k networkServiceNetworkRestricted 
+C:\Windows\system32\svchost.exe -k rPCSS 
+C:\Windows\system32\svchost.exe -k secsvcs
+C:\Windows\system32\svchost.exe -k swprv 
+C:\Windows\system32\svchost.exe -k unistackSvcGroup 
+C:\Windows\system32\svchost.exe -k utcsvc 
+C:\Windows\system32\svchost.exe -k wbioSvcGroup 
+C:\Windows\system32\svchost.exe -k werSvcGroup 
+C:\Windows\system32\svchost.exe -k wusvcs -p -s WaaSMedicSvc 
+C:\Windows\System32\svchost.exe -k wsappx -p -s ClipSVC 
+C:\Windows\system32\svchost.exe -k wsappx -p -s AppXSvc 
+C:\Windows\system32\svchost.exe -k wsappx -s ClipSVC 
+C:\Windows\system32\svchost.exe -k wsappx 

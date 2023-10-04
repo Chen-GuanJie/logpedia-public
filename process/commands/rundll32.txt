@@ -1,0 +1,87 @@
+Rundll32.exe shell32.dll,ShellAbout
+Rundll32 %SystemRoot%\system32\shwebsvc.dll,AddNetPlaceRunDll
+Rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL AddPrinter
+Rundll32.exe tcpmonui.dll,LocalAddPortUI
+Rundll32.exe shell32.dll,Control_RunDLL
+Rundll32.exe shell32.dll,Control_RunDLL timedate.cpl
+Rundll32.exe shell32.dll,Control_RunDLL timedate.cpl,,1
+Rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,0
+Rundll32.exe %SystemRoot%\System32\newdev.dll,DeviceInternetSettingUi
+Rundll32.exe devmgr.dll DeviceManager_Execute
+Rundll32.exe shell32.dll,Control_RunDLL desk.cpl
+Rundll32.exe shell32.dll,Control_RunDLL access.cpl
+Rundll32.exe sysdm.cpl,EditEnvironmentVariables
+Rundll32.exe shell32.dll,Options_RunDLL 0
+Rundll32.exe shell32.dll,Options_RunDLL 2
+Rundll32.exe shell32.dll,Options_RunDLL 7
+Rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL FontsFolder
+Rundll32.exe keymgr.dll,PRShowSaveWizardExW
+Rundll32.exe shell32.dll,Control_RunDLL joy.cpl
+Rundll32.exe powrprof.dll,SetSuspendState
+Rundll32.exe shell32.dll,Control_RunDLL srchadmin.dll
+Rundll32.exe shell32.dll,Control_RunDLL irprops.cpl
+Rundll32.exe InetCpl.cpl,ClearMyTracksByProcess 255
+Rundll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351
+Rundll32.exe InetCpl.cpl,ClearMyTracksByProcess 2
+Rundll32.exe InetCpl.cpl,ClearMyTracksByProcess 16384
+Rundll32.exe InetCpl.cpl,ClearMyTracksByProcess 16
+Rundll32.exe InetCpl.cpl,ClearMyTracksByProcess 1
+Rundll32.exe InetCpl.cpl,ClearMyTracksByProcess 32
+Rundll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
+Rundll32.exe shdocvw.dll,DoOrganizeFavDlg
+Rundll32.exe shell32.dll,Control_RunDLL inetcpl.cpl
+Rundll32.exe shell32.dll,Control_RunDLL inetcpl.cpl,,1
+Rundll32.exe shell32.dll,Control_RunDLL inetcpl.cpl,,2
+Rundll32.exe shell32.dll,Control_RunDLL inetcpl.cpl,,3
+Rundll32.exe shell32.dll,Control_RunDLL inetcpl.cpl,,4
+Rundll32.exe shell32.dll,Control_RunDLL inetcpl.cpl,,5
+Rundll32.exe shell32.dll,Control_RunDLL inetcpl.cpl,,6
+Rundll32.exe shell32.dll,Control_RunDLL main.cpl @1
+Rundll32.exe user32.dll,LockWorkStation
+Rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL Connect
+Rundll32.exe user32.dll,SwapMouseButton
+Rundll32.exe shell32.dll,Control_RunDLL main.cpl
+Rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1
+Rundll32.exe shell32.dll,Control_RunDLL main.cpl,,2
+Rundll32.exe shell32.dll,Control_RunDLL main.cpl,,3
+Rundll32.exe shell32.dll,Control_RunDLL main.cpl,,4
+Rundll32.exe shell32.dll,Control_RunDLL ncpa.cpl
+Rundll32.exe shell32.dll,Control_RunDLL odbccp32.cpl
+Rundll32.exe Shell32.dll,Control_RunDLL cscui.dll,,0
+Rundll32.exe Shell32.dll,Control_RunDLL cscui.dll,,1
+Rundll32.exe Shell32.dll,Control_RunDLL cscui.dll,,2
+Rundll32.exe Shell32.dll,Control_RunDLL cscui.dll,,3
+Rundll32.exe shell32.dll,Control_RunDLL tabletpc.cpl
+Rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,2
+Rundll32.exe shell32.dll,Control_RunDLL powercfg.cpl
+Rundll32.exe Printui.dll,PrintUIEntry /?
+Rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL PrintersFolder
+Rundll32.exe advapi32.dll,ProcessIdleTasks
+Rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl,,0
+Rundll32.exe shell32.dll,Control_RunDLL Intl.cpl,,0
+Rundll32.exe shell32.dll,Control_RunDLL Intl.cpl,,1
+Rundll32.exe shell32.dll,Control_RunDLL Intl.cpl,,2
+Rundll32.exe shell32.dll,Control_RunDLL HotPlug.dll
+Rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,1
+Rundll32.exe shell32.dll,Control_RunDLL wscui.cpl
+Rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl,,3
+Rundll32.exe shell32.dll,Control_RunDLL NetSetup.cpl
+Rundll32.exe powrprof.dll,SetSuspendState
+Rundll32.exe shell32.dll,Control_RunDLL Mmsys.cpl,,0
+Rundll32.exe shell32.dll,Control_RunDLL Mmsys.cpl,,1
+Rundll32.exe shell32.dll,Control_RunDLL Mmsys.cpl,,2
+Rundll32.exe shell32.dll,Control_RunDLL Mmsys.cpl,,3
+Rundll32.exe shell32.dll,Control_RunDLL %SystemRoot%\System32\Speech\SpeechUX\sapi.cpl,,1
+Rundll32.exe shell32.dll,Options_RunDLL 3
+Rundll32.exe keymgr.dll,KRShowKeyMgr
+Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,1
+Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,2
+Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,3
+Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,4
+Rundll32.exe shell32.dll,Control_RunDLL Sysdm.cpl,,5
+Rundll32.exe shell32.dll,Options_RunDLL 1
+Rundll32.exe Shell32.dll,Control_RunDLL input.dll,,{C07337D3-DB2C-4D0B-9A93-B722A6C106E2}
+Rundll32.exe shell32.dll,Control_RunDLL nusrmgr.cpl
+Rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl,,2
+Rundll32.exe shell32.dll,Control_RunDLL firewall.cpl
+Rundll32.exe pwlauncher.dll,ShowPortableWorkspaceLauncherConfigurationUX

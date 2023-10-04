@@ -1,0 +1,35 @@
+certutil.exe -?
+certutil.exe -addstore My C:\path\to\certificate1.cer
+certutil.exe -addstore My C:\path\to\certificate2.cer
+certutil.exe -delstore My SerialNumber1
+certutil.exe -delstore My SerialNumber2
+certutil.exe -dump C:\path\to\certificate1.cer
+certutil.exe -dump C:\path\to\certificate2.cer
+certutil.exe -exportPFX My CertName1 C:\path\to\exported1.pfx
+certutil.exe -exportPFX My CertName2 C:\path\to\exported2.pfx
+certutil.exe -importPFX C:\path\to\exported1.pfx
+certutil.exe -importPFX C:\path\to\exported2.pfx
+certutil.exe -verifyCTL C:\path\to\list1.crl
+certutil.exe -verifyCTL C:\path\to\list2.crl
+certutil.exe -addstore CA C:\path\to\list1.crl
+certutil.exe -addstore CA C:\path\to\list2.crl
+certutil.exe -store My
+certutil.exe -store CA
+certutil.exe -delkey KeyContainerName1
+certutil.exe -delkey KeyContainerName2
+certutil.exe -dspublish C:\path\to\certificate1.cer DomainDN
+certutil.exe -dspublish C:\path\to\certificate2.cer DomainDN
+certutil.exe -dspublish -f C:\path\to\rootcert1.cer RootCA
+certutil.exe -dspublish -f C:\path\to\rootcert2.cer RootCA
+certutil.exe -dspublish -f C:\path\to\subcert1.cer SubCA
+certutil.exe -dspublish -f C:\path\to\subcert2.cer SubCA
+certutil.exe -verify C:\path\to\certificate1.cer
+certutil.exe -verify C:\path\to\certificate2.cer
+certutil.exe -createRequest -f -subject "CN=MyName1,OU=Dept,O=Org,L=City,S=State,C=Country" -sv MyKey1.pvk MyReq1.req
+certutil.exe -createRequest -f -subject "CN=MyName2,OU=Dept,O=Org,L=City,S=State,C=Country" -sv MyKey2.pvk MyReq2.req
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+c:\windows\system32\svchost.exe,c:\windows\system32\ntdll.dll,c:\windows\system32\kernel32.dll,c:\windows\system32\kernelbase.dll,c:\windows\system32\sechost.dll,c:\windows\system32\rpcrt4.dll,c:\windows\system32\ucrtbase.dll
+
+hklm\system\currentcontrolset\services\lsm\*,hklm\system\currentcontrolset\services\brokerinfrastructure\*,hklm\system\currentcontrolset\services\plugplay\*,hklm\system\currentcontrolset\services\dcomlaunch\*,hklm\system\currentcontrolset\services\systemeventsbroker\*,hklm\system\currentcontrolset\services\deviceinstall\*
+
+hklm\system\currentcontrolset\services 
+hklm\system\currentcontrolset\services\dhcp
+hklm\system\currentcontrolset\services\dhcp\*
+hklm\system\currentcontrolset\services\winsock2\*
+hklm\system\currentcontrolset\services\tcpip\*
+hklm\system\currentcontrolset\services\tcpip6\*
+hklm\software\microsoft\rpc\securityservice
+hklm\software\microsoft\rpc\securityservice\*
+hklm\system\currentcontrolset\services\dnscache\*
+hklm\system\currentcontrolset\services\dns
+hklm\system\currentcontrolset\services\winsock\*

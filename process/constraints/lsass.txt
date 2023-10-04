@@ -1,0 +1,12 @@
+1 c:\windows\system32\dnsapi.dll,c:\windows\system32\iphlpapi.dll
+
+2 c:\windows\system32\netlogon.dll,c:\windows\system32\gmsaclient.dll
+
+3 hklm\system\currentcontrolset\services\tcpip\*,hklm\system\currentcontrolset\services\winsock\*
+hklm\software\microsoft\rpc\securityservice\*,hklm\security\policy\secrets\dpapi_system\*,c:\windows\system32\winsta.dll
+
+4 hklm\sam\sam\domains\account\*,hklm\system\currentcontrolset\services\ntds\*,hklm\system\currentcontrolset\services\samss\*,c:\windows\system32\kdcpw.dll,c:\windows\system32\scecli.dll,hklm\software\microsoft\rpc\securityservice\
+
+5 c:\windows\system32\sechost.dll,hklm\system\currentcontrolset\control\nls\*,hklm\system\currentcontrolset\control\lsa\*,hklm\system\currentcontrolset\control\lsa\*,c:\windows\system32\samsrv.dll,c:\windows\system32\crypt32.dll,hklm\system\setup\systemsetupinprogress,hklm\system\setup\upgradeinprogress,hklm\system\currentcontrolset\control\productoptions\*,c:\windows\system32\ncrypt.dll
+
+6 "hklm\security\policy\accounts\s-1-5-32-544\*,hklm\security\policy\accounts\s-1-5-32-545\*,hklm\security\policy\accounts\s-1-5-32-551\*,hklm\security\policy\accounts\s-1-5-32-555\*,hklm\security\policy\accounts\s-1-5-32-559\*,hklm\security\policy\accounts\s-1-5-6\*,hklm\security\policy\accounts\s-1-5-80-0\*,hklm\security\policy\accounts\s-1-5-80-3139157870-2983391045-3678747466-658725712-1809340420\*,hklm\security\policy\accounts\s-1-5-90-0\*,hklm\security\policy\accounts\s-1-5-80-3139157870-2983391045-3678747466-658725712-1809340420\*,hklm\security\policy\accounts\s-1-5-80-0\*,hklm\security\policy\accounts\s-1-5-6\*,hklm\security\policy\accounts\s-1-5-32-559\*"

@@ -1,0 +1,717 @@
+,source_pid,des_pid,time,relationship,source,destination
+0,6548,6548,2023-09-27 04:32:56.461,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+1,6548,6548,2023-09-27 04:32:56.461,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+2,3336,3336,2023-09-27 04:32:56.674,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched
+3,3336,3336,2023-09-27 04:32:56.674,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched\VisualStudio.da4b6eb0
+4,3336,3336,2023-09-27 04:32:56.678,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\Zvpebfbsg.NhgbTrarengrq.{4NO0R8Q6-94N9-84ON-O051-SR8Q294OQ68P}
+5,3336,3336,2023-09-27 04:32:56.678,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+6,868,9912,2023-09-27 04:32:56.680,access,C:\Windows\system32\svchost.exe,E:\Software\Microsoft Visual Studio\Common7\IDE\devenv.exe
+7,5648,5648,2023-09-27 04:32:56.681,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+8,5648,5648,2023-09-27 04:32:56.681,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+9,3336,5648,2023-09-27 04:32:56.682,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+10,3336,6312,2023-09-27 04:32:56.682,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+11,3336,6492,2023-09-27 04:32:56.682,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+12,3336,4316,2023-09-27 04:32:56.682,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+13,3336,7504,2023-09-27 04:32:56.682,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+14,3336,10152,2023-09-27 04:32:56.682,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+15,3336,5864,2023-09-27 04:32:56.682,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+16,3336,3336,2023-09-27 04:32:56.687,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\ActivityDataModel\ReaderRevisionInfo\C576D885-A342-B9F1-2607-4651ECE05371
+17,3336,3336,2023-09-27 04:32:56.688,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\ActivityDataModel\ReaderRevisionInfo\C576D885-A342-B9F1-2607-4651ECE05371
+18,3336,5648,2023-09-27 04:32:56.850,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+19,3336,6312,2023-09-27 04:32:56.850,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+20,3336,6492,2023-09-27 04:32:56.850,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+21,3336,4316,2023-09-27 04:32:56.850,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+22,3336,7504,2023-09-27 04:32:56.850,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+23,3336,10152,2023-09-27 04:32:56.850,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+24,3336,5864,2023-09-27 04:32:56.850,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+25,6548,6548,2023-09-27 04:32:57.084,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+26,6548,6548,2023-09-27 04:32:57.084,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+27,3336,3336,2023-09-27 04:32:57.299,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched
+28,3336,3336,2023-09-27 04:32:57.299,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched\VisualStudio.da4b6eb0
+29,3336,5648,2023-09-27 04:32:57.308,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+30,3336,6312,2023-09-27 04:32:57.308,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+31,3336,6492,2023-09-27 04:32:57.308,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+32,3336,4316,2023-09-27 04:32:57.308,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+33,868,9168,2023-09-27 04:32:57.311,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\mmc.exe
+34,3336,3336,2023-09-27 04:32:57.314,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\IvfhnyFghqvb.qn4o6ro0
+35,3336,3336,2023-09-27 04:32:57.314,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+36,5648,5648,2023-09-27 04:32:57.315,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+37,5648,5648,2023-09-27 04:32:57.315,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+38,9912,9912,2023-09-27 04:32:58.233,reg_create_del,E:\Software\Microsoft Visual Studio\Common7\IDE\devenv.exe,\REGISTRY\A\{3122495e-4566-ff69-cb7a-7a40cc64dc08}\Software\Microsoft\VisualStudio\17.0_da4b6eb0\General
+39,9912,9912,2023-09-27 04:32:58.233,reg_set_value,E:\Software\Microsoft Visual Studio\Common7\IDE\devenv.exe,\REGISTRY\A\{3122495e-4566-ff69-cb7a-7a40cc64dc08}\Software\Microsoft\VisualStudio\17.0_da4b6eb0\General\AutoRecover\AutoRecover Last From Restart Manager
+40,3336,3336,2023-09-27 04:32:58.643,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Search
+41,3336,3336,2023-09-27 04:32:58.643,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Search\TraySearchBoxVisible
+42,3336,3336,2023-09-27 04:32:58.643,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Search
+43,3336,3336,2023-09-27 04:32:58.643,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Search\TraySearchBoxVisibleOnAnyMonitor
+44,14156,14156,2023-09-27 04:32:58.939,reg_create_del,E:\Software\Microsoft Visual Studio\Common7\ServiceHub\Hosts\ServiceHub.Host.AnyCPU\ServiceHub.SettingsHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections
+45,9912,9912,2023-09-27 04:32:59.577,reg_create_del,E:\Software\Microsoft Visual Studio\Common7\IDE\devenv.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\VSCommon\17.0\SQM\PIDs\9912
+46,9912,9912,2023-09-27 04:32:59.577,reg_set_value,E:\Software\Microsoft Visual Studio\Common7\IDE\devenv.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\VSCommon\17.0\SQM\PIDs\9912\DebuggerPresent
+47,8,1036,2023-09-27 04:33:00.007,access,C:\Windows\system32\svchost.exe,C:\Windows\System32\svchost.exe
+48,8,1036,2023-09-27 04:33:00.008,access,C:\Windows\system32\svchost.exe,C:\Windows\System32\svchost.exe
+49,3188,3188,2023-09-27 04:33:00.008,reg_create_del,C:\Windows\System32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\VFUProvider
+50,3188,3188,2023-09-27 04:33:00.009,reg_set_value,C:\Windows\System32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\VFUProvider\StartTime
+51,5864,5864,2023-09-27 04:33:00.277,reg_create_del,C:\Program Files\Google\Chrome\Application\chrome.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections
+52,3336,3336,2023-09-27 04:33:00.321,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\Zvpebfbsg.NhgbTrarengrq.{4NO0R8Q6-94N9-84ON-O051-SR8Q294OQ68P}
+53,3336,3336,2023-09-27 04:33:00.321,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+54,868,3336,2023-09-27 04:33:00.581,access,C:\Windows\system32\svchost.exe,C:\Windows\Explorer.EXE
+55,3336,3336,2023-09-27 04:33:00.582,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\Zvpebfbsg.NhgbTrarengrq.{4NO0R8Q6-94N9-84ON-O051-SR8Q294OQ68P}
+56,3336,3336,2023-09-27 04:33:00.582,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+57,6548,6548,2023-09-27 04:33:00.585,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+58,6548,6548,2023-09-27 04:33:00.585,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+59,3336,5648,2023-09-27 04:33:00.585,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+60,3336,6312,2023-09-27 04:33:00.585,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+61,3336,6492,2023-09-27 04:33:00.586,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+62,3336,4316,2023-09-27 04:33:00.586,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+63,3336,7504,2023-09-27 04:33:00.586,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+64,3336,10152,2023-09-27 04:33:00.586,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+65,3336,5864,2023-09-27 04:33:00.586,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+66,5648,5648,2023-09-27 04:33:00.588,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+67,5648,5648,2023-09-27 04:33:00.588,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+68,3336,3336,2023-09-27 04:33:00.590,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\ActivityDataModel\ReaderRevisionInfo\C576D885-A342-B9F1-2607-4651ECE05371
+69,3336,3336,2023-09-27 04:33:00.591,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\ActivityDataModel\ReaderRevisionInfo\C576D885-A342-B9F1-2607-4651ECE05371
+70,3336,3336,2023-09-27 04:33:00.806,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched
+71,3336,3336,2023-09-27 04:33:00.806,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage\AppSwitched\Microsoft.Windows.Explorer
+72,6548,6548,2023-09-27 04:33:00.810,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+73,6548,6548,2023-09-27 04:33:00.810,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+74,3336,3336,2023-09-27 04:33:00.842,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001_Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell\NavBar
+75,868,3336,2023-09-27 04:33:00.848,access,C:\Windows\system32\svchost.exe,C:\Windows\Explorer.EXE
+76,6548,6548,2023-09-27 04:33:00.868,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+77,6548,6548,2023-09-27 04:33:00.868,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+78,5648,5648,2023-09-27 04:33:00.872,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+79,5648,5648,2023-09-27 04:33:00.873,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+80,10708,10708,2023-09-27 04:33:01.285,reg_set_value,E:\Software\Microsoft Visual Studio\Common7\ServiceHub\Hosts\ServiceHub.Host.Dotnet.x64\ServiceHub.IdentityHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\VSCommon\16.0\SQM\PIDs\10708_638313745581069923\StillAlive
+81,3336,5648,2023-09-27 04:33:02.316,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+82,3336,6312,2023-09-27 04:33:02.316,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+83,3336,6492,2023-09-27 04:33:02.316,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+84,3336,4316,2023-09-27 04:33:02.316,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+85,3336,7504,2023-09-27 04:33:02.316,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+86,3336,10152,2023-09-27 04:33:02.316,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+87,3336,5864,2023-09-27 04:33:02.316,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+88,3336,3336,2023-09-27 04:33:02.582,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\R:\Rkcrevzrag\Jvaqbjf Unpxre Nggnpx Cebtenz\6\Olcnff HNP\Grfg.rkr
+89,3336,3336,2023-09-27 04:33:02.582,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+90,3336,3336,2023-09-27 04:33:02.584,reg_set_value,C:\Windows\Explorer.EXE,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2994737283-653069417-2221972583-1001\\Device\HarddiskVolume6\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+91,3336,7432,2023-09-27 04:33:02.583,process_create,C:\Windows\explorer.exe,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+92,3336,7432,2023-09-27 04:33:02.587,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+93,592,7432,2023-09-27 04:33:02.588,access,C:\Windows\system32\csrss.exe,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+94,4696,3336,2023-09-27 04:33:02.588,access,C:\Windows\system32\svchost.exe,C:\Windows\Explorer.EXE
+95,4696,4696,2023-09-27 04:33:02.589,reg_create_del,C:\Windows\system32\svchost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store
+96,4696,7432,2023-09-27 04:33:02.589,access,C:\Windows\system32\svchost.exe,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+97,4696,4696,2023-09-27 04:33:02.589,reg_create_del,C:\Windows\system32\svchost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store
+98,7432,7432,2023-09-27 04:33:02.590,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+99,7432,7432,2023-09-27 04:33:02.590,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\System32\ntdll.dll
+100,7432,7432,2023-09-27 04:33:02.590,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\ntdll.dll
+101,7432,7432,2023-09-27 04:33:02.591,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\System32\wow64.dll
+102,7432,7432,2023-09-27 04:33:02.591,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\System32\wow64win.dll
+103,7432,7432,2023-09-27 04:33:02.591,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\System32\wow64cpu.dll
+104,7432,7432,2023-09-27 04:33:02.592,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\kernel32.dll
+105,7432,7432,2023-09-27 04:33:02.592,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\KernelBase.dll
+106,4696,11876,2023-09-27 04:33:02.593,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\conhost.exe
+107,11876,11876,2023-09-27 04:33:02.596,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\conhost.exe
+108,11876,11876,2023-09-27 04:33:02.596,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\ntdll.dll
+109,11876,11876,2023-09-27 04:33:02.596,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\kernel32.dll
+110,11876,11876,2023-09-27 04:33:02.596,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\KernelBase.dll
+111,592,11876,2023-09-27 04:33:02.597,access,C:\Windows\system32\csrss.exe,C:\Windows\system32\conhost.exe
+112,11876,11876,2023-09-27 04:33:02.598,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\msvcp_win.dll
+113,11876,11876,2023-09-27 04:33:02.598,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\ucrtbase.dll
+114,11876,11876,2023-09-27 04:33:02.598,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\SHCore.dll
+115,11876,11876,2023-09-27 04:33:02.598,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\msvcrt.dll
+116,11876,11876,2023-09-27 04:33:02.598,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\combase.dll
+117,11876,11876,2023-09-27 04:33:02.599,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\rpcrt4.dll
+118,11876,11876,2023-09-27 04:33:02.599,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\advapi32.dll
+119,11876,11876,2023-09-27 04:33:02.599,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\sechost.dll
+120,11876,7432,2023-09-27 04:33:02.601,access,C:\Windows\system32\conhost.exe,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+121,11876,11876,2023-09-27 04:33:02.601,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\user32.dll
+122,11876,11876,2023-09-27 04:33:02.601,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\win32u.dll
+123,11876,11876,2023-09-27 04:33:02.602,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\gdi32.dll
+124,11876,11876,2023-09-27 04:33:02.602,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\gdi32full.dll
+125,11876,11876,2023-09-27 04:33:02.603,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\imm32.dll
+126,11876,11876,2023-09-27 04:33:02.604,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\shell32.dll
+127,11876,11876,2023-09-27 04:33:02.605,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\uxtheme.dll
+128,1528,11876,2023-09-27 04:33:02.605,access,C:\Windows\System32\svchost.exe,C:\Windows\system32\conhost.exe
+129,11876,11876,2023-09-27 04:33:02.612,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\msctf.dll
+130,11876,11876,2023-09-27 04:33:02.613,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\oleaut32.dll
+131,11876,11876,2023-09-27 04:33:02.618,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\TextShaping.dll
+132,11876,11876,2023-09-27 04:33:02.622,load,C:\Windows\System32\conhost.exe,C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\comctl32.dll
+133,11876,11876,2023-09-27 04:33:02.623,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\dwmapi.dll
+134,3336,11876,2023-09-27 04:33:02.624,access,C:\Windows\Explorer.EXE,C:\Windows\system32\conhost.exe
+135,3336,11876,2023-09-27 04:33:02.625,access,C:\Windows\Explorer.EXE,C:\Windows\system32\conhost.exe
+136,11876,11876,2023-09-27 04:33:02.625,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\kernel.appcore.dll
+137,11876,11876,2023-09-27 04:33:02.626,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\bcryptprimitives.dll
+138,11876,11876,2023-09-27 04:33:02.628,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\TextInputFramework.dll
+139,11876,11876,2023-09-27 04:33:02.628,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\CoreUIComponents.dll
+140,11876,11876,2023-09-27 04:33:02.628,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\CoreMessaging.dll
+141,11876,11876,2023-09-27 04:33:02.629,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\ws2_32.dll
+142,11876,11876,2023-09-27 04:33:02.629,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\ntmarta.dll
+143,11876,11876,2023-09-27 04:33:02.629,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\WinTypes.dll
+144,11876,11876,2023-09-27 04:33:02.633,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\clbcatq.dll
+145,868,11876,2023-09-27 04:33:02.635,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\conhost.exe
+146,3336,3336,2023-09-27 04:33:02.637,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SessionInfo\1\ApplicationViewManagement\W32:0000000000660ADC
+147,3336,3336,2023-09-27 04:33:02.637,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SessionInfo\1\ApplicationViewManagement\W32:0000000000660ADC\VirtualDesktop
+148,3336,7432,2023-09-27 04:33:02.639,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+149,3336,7432,2023-09-27 04:33:02.639,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+150,3336,3336,2023-09-27 04:33:02.640,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\Zvpebfbsg.Jvaqbjf.Rkcybere
+151,3336,3336,2023-09-27 04:33:02.640,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+152,3336,7432,2023-09-27 04:33:02.640,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+153,3336,7432,2023-09-27 04:33:02.641,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+154,3336,7432,2023-09-27 04:33:02.642,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+155,6548,6548,2023-09-27 04:33:02.646,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+156,6548,6548,2023-09-27 04:33:02.646,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+157,7432,7432,2023-09-27 04:33:02.648,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\sechost.dll
+158,5648,5648,2023-09-27 04:33:02.649,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+159,5648,5648,2023-09-27 04:33:02.649,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+160,7432,7432,2023-09-27 04:33:02.650,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\rpcrt4.dll
+161,4696,11840,2023-09-27 04:33:02.651,access,C:\Windows\system32\svchost.exe,C:\Windows\SysWOW64\rundll32.exe
+162,3336,5648,2023-09-27 04:33:02.653,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+163,3336,6312,2023-09-27 04:33:02.653,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+164,3336,6492,2023-09-27 04:33:02.653,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+165,3336,4316,2023-09-27 04:33:02.654,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+166,3336,7432,2023-09-27 04:33:02.654,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+167,3336,7504,2023-09-27 04:33:02.654,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+168,3336,10152,2023-09-27 04:33:02.654,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+169,3336,5864,2023-09-27 04:33:02.654,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+170,7432,7432,2023-09-27 04:33:02.656,reg_set_value,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2994737283-653069417-2221972583-1001\\Device\HarddiskVolume3\Windows\SysWOW64\rundll32.exe
+171,7432,11840,2023-09-27 04:33:02.651,process_create,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\rundll32.exe
+172,7432,11840,2023-09-27 04:33:02.657,access,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\rundll32.exe
+173,592,11840,2023-09-27 04:33:02.660,access,C:\Windows\system32\csrss.exe,C:\Windows\SysWOW64\rundll32.exe
+174,3336,3336,2023-09-27 04:33:02.660,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\ActivityDataModel\ReaderRevisionInfo\C576D885-A342-B9F1-2607-4651ECE05371
+175,7432,7432,2023-09-27 04:33:02.660,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\apphelp.dll
+176,11840,11840,2023-09-27 04:33:02.661,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\rundll32.exe
+177,11840,11840,2023-09-27 04:33:02.661,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\System32\ntdll.dll
+178,11840,11840,2023-09-27 04:33:02.661,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\ntdll.dll
+179,11840,11840,2023-09-27 04:33:02.662,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\System32\wow64.dll
+180,11840,11840,2023-09-27 04:33:02.663,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\System32\wow64win.dll
+181,6548,6548,2023-09-27 04:33:02.663,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+182,6548,6548,2023-09-27 04:33:02.663,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+183,3336,3336,2023-09-27 04:33:02.664,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\ActivityDataModel\ReaderRevisionInfo\C576D885-A342-B9F1-2607-4651ECE05371
+184,11840,11840,2023-09-27 04:33:02.664,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\System32\wow64cpu.dll
+185,11840,11840,2023-09-27 04:33:02.665,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\kernel32.dll
+186,11840,11840,2023-09-27 04:33:02.665,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\KernelBase.dll
+187,4696,1760,2023-09-27 04:33:02.665,access,C:\Windows\system32\svchost.exe,C:\Windows\SysWOW64\cmd.exe
+188,7432,7432,2023-09-27 04:33:02.667,reg_set_value,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2994737283-653069417-2221972583-1001\\Device\HarddiskVolume3\Windows\SysWOW64\cmd.exe
+189,7432,1760,2023-09-27 04:33:02.663,process_create,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\cmd.exe
+190,7432,1760,2023-09-27 04:33:02.667,access,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\cmd.exe
+191,592,1760,2023-09-27 04:33:02.667,access,C:\Windows\system32\csrss.exe,C:\Windows\SysWOW64\cmd.exe
+192,11840,11840,2023-09-27 04:33:02.668,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\apphelp.dll
+193,1760,1760,2023-09-27 04:33:02.668,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\cmd.exe
+194,1760,1760,2023-09-27 04:33:02.668,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\System32\ntdll.dll
+195,1760,1760,2023-09-27 04:33:02.668,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\ntdll.dll
+196,1760,1760,2023-09-27 04:33:02.668,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\System32\wow64.dll
+197,11840,11840,2023-09-27 04:33:02.669,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\AcLayers.dll
+198,11840,11840,2023-09-27 04:33:02.669,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\msvcrt.dll
+199,11840,11840,2023-09-27 04:33:02.669,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\user32.dll
+200,11840,11840,2023-09-27 04:33:02.670,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\win32u.dll
+201,11840,11840,2023-09-27 04:33:02.670,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\gdi32.dll
+202,11840,11840,2023-09-27 04:33:02.670,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\gdi32full.dll
+203,1760,1760,2023-09-27 04:33:02.670,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\System32\wow64win.dll
+204,11840,11840,2023-09-27 04:33:02.670,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\msvcp_win.dll
+205,11840,11840,2023-09-27 04:33:02.671,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\ucrtbase.dll
+206,1760,1760,2023-09-27 04:33:02.671,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\System32\wow64cpu.dll
+207,11840,11840,2023-09-27 04:33:02.671,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\shell32.dll
+208,11840,11840,2023-09-27 04:33:02.671,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\shlwapi.dll
+209,11840,11840,2023-09-27 04:33:02.672,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\oleaut32.dll
+210,11840,11840,2023-09-27 04:33:02.672,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\combase.dll
+211,11840,11840,2023-09-27 04:33:02.672,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\rpcrt4.dll
+212,11840,11840,2023-09-27 04:33:02.672,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\setupapi.dll
+213,11840,11840,2023-09-27 04:33:02.673,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\cfgmgr32.dll
+214,1760,1760,2023-09-27 04:33:02.673,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\kernel32.dll
+215,11840,11840,2023-09-27 04:33:02.673,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\bcrypt.dll
+216,1760,1760,2023-09-27 04:33:02.673,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\KernelBase.dll
+217,11876,1760,2023-09-27 04:33:02.674,access,C:\Windows\system32\conhost.exe,C:\Windows\SysWOW64\cmd.exe
+218,11840,11840,2023-09-27 04:33:02.674,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\mpr.dll
+219,11840,11840,2023-09-27 04:33:02.675,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\sfc.dll
+220,1760,1760,2023-09-27 04:33:02.675,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\msvcrt.dll
+221,11840,11840,2023-09-27 04:33:02.675,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\winspool.drv
+222,1760,1760,2023-09-27 04:33:02.675,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\combase.dll
+223,11840,11840,2023-09-27 04:33:02.675,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\SHCore.dll
+224,1760,1760,2023-09-27 04:33:02.675,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\ucrtbase.dll
+225,1760,1760,2023-09-27 04:33:02.676,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\rpcrt4.dll
+226,11840,11840,2023-09-27 04:33:02.676,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\sfc_os.dll
+227,11840,11840,2023-09-27 04:33:02.678,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\imm32.dll
+228,11840,11840,2023-09-27 04:33:02.680,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\imagehlp.dll
+229,11840,11840,2023-09-27 04:33:02.736,load,C:\Windows\SysWOW64\rundll32.exe,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\BypassUAC2_Test.dll
+230,11840,11840,2023-09-27 04:33:02.737,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\ole32.dll
+231,11840,11840,2023-09-27 04:33:02.739,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\uxtheme.dll
+232,1528,11840,2023-09-27 04:33:02.739,access,C:\Windows\System32\svchost.exe,C:\Windows\SysWOW64\rundll32.exe
+233,11840,11840,2023-09-27 04:33:02.740,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\msctf.dll
+234,11840,11840,2023-09-27 04:33:02.740,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\sechost.dll
+235,11840,11840,2023-09-27 04:33:02.742,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\kernel.appcore.dll
+236,11840,11840,2023-09-27 04:33:02.742,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\bcryptprimitives.dll
+237,11840,11840,2023-09-27 04:33:02.743,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\clbcatq.dll
+238,11840,11840,2023-09-27 04:33:02.745,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\comsvcs.dll
+239,11840,11840,2023-09-27 04:33:02.746,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\cryptsp.dll
+240,11840,11840,2023-09-27 04:33:02.746,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\rsaenh.dll
+241,11840,11840,2023-09-27 04:33:02.747,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\cryptbase.dll
+242,992,11840,2023-09-27 04:33:02.748,access,C:\Windows\system32\svchost.exe,C:\Windows\SysWOW64\rundll32.exe
+243,1092,992,2023-09-27 04:33:02.749,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\svchost.exe
+244,1092,992,2023-09-27 04:33:02.749,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\svchost.exe
+245,1092,8244,2023-09-27 04:33:02.750,process_create,C:\Windows\System32\svchost.exe,C:\Windows\System32\consent.exe
+246,1092,8244,2023-09-27 04:33:02.754,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\consent.exe
+247,476,8244,2023-09-27 04:33:02.754,access,C:\Windows\system32\csrss.exe,C:\Windows\system32\consent.exe
+248,8244,8244,2023-09-27 04:33:02.755,load,C:\Windows\System32\consent.exe,C:\Windows\System32\consent.exe
+249,8244,8244,2023-09-27 04:33:02.755,load,C:\Windows\System32\consent.exe,C:\Windows\System32\ntdll.dll
+250,8244,8244,2023-09-27 04:33:02.755,load,C:\Windows\System32\consent.exe,C:\Windows\System32\kernel32.dll
+251,8244,8244,2023-09-27 04:33:02.756,load,C:\Windows\System32\consent.exe,C:\Windows\System32\KernelBase.dll
+252,592,8244,2023-09-27 04:33:02.756,access,C:\Windows\system32\csrss.exe,C:\Windows\system32\consent.exe
+253,8244,8244,2023-09-27 04:33:02.757,load,C:\Windows\System32\consent.exe,C:\Windows\System32\gdi32.dll
+254,8244,8244,2023-09-27 04:33:02.757,load,C:\Windows\System32\consent.exe,C:\Windows\System32\win32u.dll
+255,8244,8244,2023-09-27 04:33:02.758,load,C:\Windows\System32\consent.exe,C:\Windows\System32\gdi32full.dll
+256,8244,8244,2023-09-27 04:33:02.758,load,C:\Windows\System32\consent.exe,C:\Windows\System32\msvcp_win.dll
+257,8244,8244,2023-09-27 04:33:02.758,load,C:\Windows\System32\consent.exe,C:\Windows\System32\ucrtbase.dll
+258,8244,8244,2023-09-27 04:33:02.758,load,C:\Windows\System32\consent.exe,C:\Windows\System32\user32.dll
+259,8244,8244,2023-09-27 04:33:02.759,load,C:\Windows\System32\consent.exe,C:\Windows\System32\msvcrt.dll
+260,8244,8244,2023-09-27 04:33:02.759,load,C:\Windows\System32\consent.exe,C:\Windows\System32\combase.dll
+261,8244,8244,2023-09-27 04:33:02.759,load,C:\Windows\System32\consent.exe,C:\Windows\System32\rpcrt4.dll
+262,8244,8244,2023-09-27 04:33:02.759,load,C:\Windows\System32\consent.exe,C:\Windows\System32\crypt32.dll
+263,8244,8244,2023-09-27 04:33:02.759,load,C:\Windows\System32\consent.exe,C:\Windows\System32\sspicli.dll
+264,8244,8244,2023-09-27 04:33:02.759,load,C:\Windows\System32\consent.exe,C:\Windows\System32\samcli.dll
+265,8244,8244,2023-09-27 04:33:02.759,load,C:\Windows\System32\consent.exe,C:\Windows\System32\sechost.dll
+266,8244,8244,2023-09-27 04:33:02.760,load,C:\Windows\System32\consent.exe,C:\Windows\System32\netutils.dll
+267,8244,8244,2023-09-27 04:33:02.760,load,C:\Windows\System32\consent.exe,C:\Windows\System32\userenv.dll
+268,8244,8244,2023-09-27 04:33:02.760,load,C:\Windows\System32\consent.exe,C:\Windows\System32\wmsgapi.dll
+269,8244,8244,2023-09-27 04:33:02.760,load,C:\Windows\System32\consent.exe,C:\Windows\System32\amsi.dll
+270,8244,8244,2023-09-27 04:33:02.760,load,C:\Windows\System32\consent.exe,C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\comctl32.dll
+271,8244,8244,2023-09-27 04:33:02.761,load,C:\Windows\System32\consent.exe,C:\Windows\System32\MsCtfMonitor.dll
+272,8244,8244,2023-09-27 04:33:02.761,load,C:\Windows\System32\consent.exe,C:\Windows\System32\winsta.dll
+273,8244,8244,2023-09-27 04:33:02.761,load,C:\Windows\System32\consent.exe,C:\Windows\System32\msctf.dll
+274,8244,8244,2023-09-27 04:33:02.761,load,C:\Windows\System32\consent.exe,C:\Windows\System32\msimg32.dll
+275,8244,8244,2023-09-27 04:33:02.761,load,C:\Windows\System32\consent.exe,C:\Windows\System32\wtsapi32.dll
+276,8244,8244,2023-09-27 04:33:02.761,load,C:\Windows\System32\consent.exe,C:\Windows\System32\oleaut32.dll
+277,8244,8244,2023-09-27 04:33:02.761,load,C:\Windows\System32\consent.exe,C:\Windows\System32\imm32.dll
+278,8244,8244,2023-09-27 04:33:02.762,load,C:\Windows\System32\consent.exe,C:\Windows\System32\msutb.dll
+279,700,8244,2023-09-27 04:33:02.765,access,C:\Windows\system32\lsass.exe,C:\Windows\system32\consent.exe
+280,8244,8244,2023-09-27 04:33:02.765,load,C:\Windows\System32\consent.exe,C:\Windows\System32\shell32.dll
+281,8244,8244,2023-09-27 04:33:02.766,load,C:\Windows\System32\consent.exe,C:\Windows\System32\SHCore.dll
+282,8244,1092,2023-09-27 04:33:02.766,access,C:\Windows\system32\consent.exe,C:\Windows\system32\svchost.exe
+283,8244,8244,2023-09-27 04:33:02.767,load,C:\Windows\System32\consent.exe,C:\Windows\System32\kernel.appcore.dll
+284,8244,8244,2023-09-27 04:33:02.767,load,C:\Windows\System32\consent.exe,C:\Windows\System32\bcryptprimitives.dll
+285,8244,8244,2023-09-27 04:33:02.768,load,C:\Windows\System32\consent.exe,C:\Windows\System32\uxtheme.dll
+286,1528,8244,2023-09-27 04:33:02.768,access,C:\Windows\System32\svchost.exe,C:\Windows\system32\consent.exe
+287,992,8244,2023-09-27 04:33:02.769,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\consent.exe
+288,8244,8244,2023-09-27 04:33:02.769,load,C:\Windows\System32\consent.exe,C:\Windows\System32\shlwapi.dll
+289,8244,8244,2023-09-27 04:33:02.770,load,C:\Windows\System32\consent.exe,C:\Windows\System32\wintrust.dll
+290,8244,8244,2023-09-27 04:33:02.770,load,C:\Windows\System32\consent.exe,C:\Windows\System32\msasn1.dll
+291,8244,8244,2023-09-27 04:33:02.770,load,C:\Windows\System32\consent.exe,C:\Windows\System32\clbcatq.dll
+292,8244,8244,2023-09-27 04:33:02.771,load,C:\Windows\System32\consent.exe,C:\Windows\System32\cryptsp.dll
+293,8244,8244,2023-09-27 04:33:02.771,load,C:\Windows\System32\consent.exe,C:\Windows\System32\rsaenh.dll
+294,8244,8244,2023-09-27 04:33:02.771,load,C:\Windows\System32\consent.exe,C:\Windows\System32\bcrypt.dll
+295,8244,8244,2023-09-27 04:33:02.772,load,C:\Windows\System32\consent.exe,C:\Windows\System32\cryptbase.dll
+296,8244,8244,2023-09-27 04:33:02.773,load,C:\Windows\System32\consent.exe,C:\Windows\System32\amsiproxy.dll
+297,8244,8244,2023-09-27 04:33:02.774,load,C:\Windows\System32\consent.exe,C:\Windows\System32\imagehlp.dll
+298,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\CA
+299,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\CA
+300,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\CA\Certificates
+301,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\CA\CRLs
+302,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\CA\CTLs
+303,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE
+304,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies
+305,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft
+306,8244,8244,2023-09-27 04:33:02.774,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+307,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+308,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+309,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+310,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+311,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+312,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+313,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+314,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies
+315,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft
+316,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates
+317,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+318,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+319,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+320,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+321,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+322,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+323,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE
+324,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies
+325,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft
+326,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+327,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+328,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+329,8244,8244,2023-09-27 04:33:02.775,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+330,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+331,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+332,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+333,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+334,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies
+335,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft
+336,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates
+337,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+338,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+339,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+340,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+341,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+342,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+343,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\Root
+344,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\Root
+345,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\Root\Certificates
+346,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\Root\CRLs
+347,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\Root\CTLs
+348,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+349,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+350,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+351,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+352,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+353,8244,8244,2023-09-27 04:33:02.776,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+354,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+355,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+356,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+357,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+358,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies
+359,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft
+360,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates
+361,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+362,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+363,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+364,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+365,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+366,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+367,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+368,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+369,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+370,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot
+371,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot\Certificates
+372,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot\CRLs
+373,8244,8244,2023-09-27 04:33:02.777,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot\CTLs
+374,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople
+375,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople
+376,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople\Certificates
+377,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople\CRLs
+378,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople\CTLs
+379,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE
+380,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies
+381,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft
+382,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+383,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+384,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+385,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+386,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+387,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+388,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+389,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+390,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies
+391,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft
+392,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates
+393,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+394,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+395,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+396,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+397,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+398,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+399,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\trust
+400,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\trust
+401,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\trust\Certificates
+402,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\trust\CRLs
+403,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\SystemCertificates\trust\CTLs
+404,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE
+405,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies
+406,8244,8244,2023-09-27 04:33:02.778,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft
+407,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+408,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+409,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+410,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+411,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+412,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+413,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+414,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+415,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies
+416,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft
+417,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates
+418,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+419,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+420,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+421,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+422,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+423,8244,8244,2023-09-27 04:33:02.779,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+424,8244,8244,2023-09-27 04:33:02.780,load,C:\Windows\System32\consent.exe,C:\Windows\System32\gpapi.dll
+425,3164,8244,2023-09-27 04:33:02.783,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\consent.exe
+426,8244,8244,2023-09-27 04:33:02.785,load,C:\Windows\System32\consent.exe,C:\Windows\System32\advapi32.dll
+427,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE
+428,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies
+429,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft
+430,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+431,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+432,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+433,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+434,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+435,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+436,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+437,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+438,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies
+439,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft
+440,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates
+441,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+442,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+443,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+444,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+445,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+446,8244,8244,2023-09-27 04:33:02.789,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+447,8244,8244,2023-09-27 04:33:02.793,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE
+448,8244,8244,2023-09-27 04:33:02.793,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies
+449,8244,8244,2023-09-27 04:33:02.793,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft
+450,8244,8244,2023-09-27 04:33:02.793,reg_create_del,C:\Windows\system32\consent.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Policies\Microsoft\SystemCertificates
+451,8244,8244,2023-09-27 04:33:02.793,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+452,8244,8244,2023-09-27 04:33:02.793,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+453,8244,8244,2023-09-27 04:33:02.793,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+454,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+455,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+456,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\SystemCertificates
+457,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+458,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies
+459,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft
+460,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates
+461,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+462,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+463,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+464,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE
+465,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft
+466,8244,8244,2023-09-27 04:33:02.794,reg_create_del,C:\Windows\system32\consent.exe,HKLM\SOFTWARE\Microsoft\EnterpriseCertificates
+467,8244,8244,2023-09-27 04:33:02.795,load,C:\Windows\System32\consent.exe,C:\Windows\System32\urlmon.dll
+468,8244,8244,2023-09-27 04:33:02.795,load,C:\Windows\System32\consent.exe,C:\Windows\System32\iertutil.dll
+469,8244,8244,2023-09-27 04:33:02.795,load,C:\Windows\System32\consent.exe,C:\Windows\System32\srvcli.dll
+470,8244,8244,2023-09-27 04:33:02.796,load,C:\Windows\System32\consent.exe,C:\Windows\System32\propsys.dll
+471,8244,8244,2023-09-27 04:33:02.797,load,C:\Windows\System32\consent.exe,C:\Windows\System32\windows.storage.dll
+472,8244,8244,2023-09-27 04:33:02.797,load,C:\Windows\System32\consent.exe,C:\Windows\System32\wldp.dll
+473,700,8244,2023-09-27 04:33:02.799,access,C:\Windows\system32\lsass.exe,C:\Windows\system32\consent.exe
+474,8244,8244,2023-09-27 04:33:02.800,load,C:\Windows\System32\consent.exe,C:\Windows\System32\ole32.dll
+475,1236,1236,2023-09-27 04:33:02.805,reg_create_del,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileService\References
+476,1236,1236,2023-09-27 04:33:02.805,reg_create_del,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileService\References\S-1-5-21-2994737283-653069417-2221972583-1001
+477,1236,1236,2023-09-27 04:33:02.805,reg_create_del,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileService\References
+478,1236,1236,2023-09-27 04:33:02.805,reg_create_del,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileService\References\S-1-5-21-2994737283-653069417-2221972583-1001
+479,1236,1236,2023-09-27 04:33:02.805,reg_set_value,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileService\References\S-1-5-21-2994737283-653069417-2221972583-1001\RefCount
+480,1236,1236,2023-09-27 04:33:02.805,reg_create_del,C:\Windows\system32\svchost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\CloudStore
+481,1236,1236,2023-09-27 04:33:02.805,reg_create_del,C:\Windows\system32\svchost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\CloudStore\Store
+482,1236,1236,2023-09-27 04:33:02.806,reg_create_del,C:\Windows\system32\svchost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\CloudStore\SystemMetaData
+483,1236,1236,2023-09-27 04:33:02.806,reg_create_del,C:\Windows\system32\svchost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\CloudStore\Store\Cache
+484,1236,1236,2023-09-27 04:33:02.806,reg_create_del,C:\Windows\system32\svchost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\CloudStore\StoreInit
+485,1236,1236,2023-09-27 04:33:02.806,reg_create_del,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\IdentityStore\Cache\S-1-5-21-2994737283-653069417-2221972583-1001
+486,868,8292,2023-09-27 04:33:02.808,process_create,C:\Windows\System32\svchost.exe,C:\Windows\SysWOW64\dllhost.exe
+487,868,8292,2023-09-27 04:33:02.811,access,C:\Windows\system32\svchost.exe,C:\Windows\SysWOW64\DllHost.exe
+488,476,8292,2023-09-27 04:33:02.812,access,C:\Windows\system32\csrss.exe,C:\Windows\SysWOW64\DllHost.exe
+489,8292,8292,2023-09-27 04:33:02.812,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\dllhost.exe
+490,8292,8292,2023-09-27 04:33:02.812,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\System32\ntdll.dll
+491,8292,8292,2023-09-27 04:33:02.812,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\ntdll.dll
+492,8292,8292,2023-09-27 04:33:02.813,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\System32\wow64.dll
+493,8292,8292,2023-09-27 04:33:02.813,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\System32\wow64win.dll
+494,8292,8292,2023-09-27 04:33:02.813,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\System32\wow64cpu.dll
+495,8292,8292,2023-09-27 04:33:02.814,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\kernel32.dll
+496,8292,8292,2023-09-27 04:33:02.814,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\KernelBase.dll
+497,592,8292,2023-09-27 04:33:02.815,access,C:\Windows\system32\csrss.exe,C:\Windows\SysWOW64\DllHost.exe
+498,8292,8292,2023-09-27 04:33:02.815,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\ucrtbase.dll
+499,8292,8292,2023-09-27 04:33:02.816,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\combase.dll
+500,8292,8292,2023-09-27 04:33:02.816,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\rpcrt4.dll
+501,8292,8292,2023-09-27 04:33:02.817,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\kernel.appcore.dll
+502,8292,8292,2023-09-27 04:33:02.818,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\msvcrt.dll
+503,8292,8292,2023-09-27 04:33:02.818,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\bcryptprimitives.dll
+504,8292,8292,2023-09-27 04:33:02.819,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\clbcatq.dll
+505,992,8292,2023-09-27 04:33:02.820,access,C:\Windows\system32\svchost.exe,C:\Windows\SysWOW64\DllHost.exe
+506,8292,8292,2023-09-27 04:33:02.820,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\sechost.dll
+507,8292,8292,2023-09-27 04:33:02.821,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\user32.dll
+508,8292,8292,2023-09-27 04:33:02.822,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\win32u.dll
+509,8292,8292,2023-09-27 04:33:02.822,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\gdi32.dll
+510,8292,8292,2023-09-27 04:33:02.822,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\gdi32full.dll
+511,8292,8292,2023-09-27 04:33:02.823,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\msvcp_win.dll
+512,8292,8292,2023-09-27 04:33:02.823,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\imm32.dll
+513,8292,8292,2023-09-27 04:33:02.825,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\uxtheme.dll
+514,1528,8292,2023-09-27 04:33:02.825,access,C:\Windows\System32\svchost.exe,C:\Windows\SysWOW64\DllHost.exe
+515,8292,8292,2023-09-27 04:33:02.827,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\cmstplua.dll
+516,8292,8292,2023-09-27 04:33:02.827,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\advapi32.dll
+517,8292,8292,2023-09-27 04:33:02.828,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\cmutil.dll
+518,8292,8292,2023-09-27 04:33:02.828,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\shell32.dll
+519,8292,8292,2023-09-27 04:33:02.828,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\ole32.dll
+520,8292,8292,2023-09-27 04:33:02.828,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\version.dll
+521,8292,8292,2023-09-27 04:33:02.830,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\cmlua.dll
+522,11840,11840,2023-09-27 04:33:02.831,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\cmlua.dll
+523,11840,11840,2023-09-27 04:33:02.832,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\advapi32.dll
+524,11840,11840,2023-09-27 04:33:02.832,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\cmutil.dll
+525,11840,11840,2023-09-27 04:33:02.832,load,C:\Windows\SysWOW64\rundll32.exe,C:\Windows\SysWOW64\version.dll
+526,8292,8292,2023-09-27 04:33:02.833,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\SHCore.dll
+527,8292,8292,2023-09-27 04:33:02.834,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\shlwapi.dll
+528,8292,8292,2023-09-27 04:33:02.834,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\windows.storage.dll
+529,8292,8292,2023-09-27 04:33:02.835,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\wldp.dll
+530,8292,8292,2023-09-27 04:33:02.836,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\propsys.dll
+531,8292,8292,2023-09-27 04:33:02.836,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\oleaut32.dll
+532,8292,8292,2023-09-27 04:33:02.840,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\profapi.dll
+533,8292,8292,2023-09-27 04:33:02.842,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\cfgmgr32.dll
+534,8292,8292,2023-09-27 04:33:02.847,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\Windows.StateRepositoryPS.dll
+535,8292,8292,2023-09-27 04:33:02.885,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\WinTypes.dll
+536,8292,8292,2023-09-27 04:33:02.892,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\edputil.dll
+537,8292,8292,2023-09-27 04:33:02.893,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\urlmon.dll
+538,8292,8292,2023-09-27 04:33:02.893,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\iertutil.dll
+539,8292,8292,2023-09-27 04:33:02.893,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\srvcli.dll
+540,8292,8292,2023-09-27 04:33:02.893,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\netutils.dll
+541,8292,8292,2023-09-27 04:33:02.895,reg_create_del,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap
+542,8292,8292,2023-09-27 04:33:02.895,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\sspicli.dll
+543,700,8292,2023-09-27 04:33:02.895,access,C:\Windows\system32\lsass.exe,C:\Windows\SysWOW64\DllHost.exe
+544,8292,8292,2023-09-27 04:33:02.896,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass
+545,8292,8292,2023-09-27 04:33:02.896,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName
+546,8292,8292,2023-09-27 04:33:02.896,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet
+547,8292,8292,2023-09-27 04:33:02.896,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect
+548,8292,8292,2023-09-27 04:33:02.896,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass
+549,8292,8292,2023-09-27 04:33:02.896,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName
+550,8292,8292,2023-09-27 04:33:02.896,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet
+551,8292,8292,2023-09-27 04:33:02.896,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect
+552,8292,8292,2023-09-27 04:33:02.897,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\virtdisk.dll
+553,8292,8292,2023-09-27 04:33:02.898,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\fltLib.dll
+554,8292,8292,2023-09-27 04:33:02.901,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\AppResolver.dll
+555,8292,8292,2023-09-27 04:33:02.901,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\userenv.dll
+556,8292,8292,2023-09-27 04:33:02.901,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\slc.dll
+557,8292,8292,2023-09-27 04:33:02.901,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\BCP47Langs.dll
+558,8292,8292,2023-09-27 04:33:02.902,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\sppc.dll
+559,8292,8292,2023-09-27 04:33:02.904,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\OneCoreCommonProxyStub.dll
+560,8292,8292,2023-09-27 04:33:02.905,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\OneCoreUAPCommonProxyStub.dll
+561,8292,8292,2023-09-27 04:33:02.910,reg_set_value,C:\Windows\SysWOW64\DllHost.exe,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2994737283-653069417-2221972583-1001\\Device\HarddiskVolume3\Windows\SysWOW64\cmd.exe
+562,8292,464,2023-09-27 04:33:02.907,process_create,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\cmd.exe
+563,8292,464,2023-09-27 04:33:02.910,access,C:\Windows\SysWOW64\DllHost.exe,C:\Windows\SysWOW64\cmd.exe
+564,592,464,2023-09-27 04:33:02.911,access,C:\Windows\system32\csrss.exe,C:\Windows\SysWOW64\cmd.exe
+565,8292,8292,2023-09-27 04:33:02.911,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\pcacli.dll
+566,8292,8292,2023-09-27 04:33:02.911,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\mpr.dll
+567,8292,8292,2023-09-27 04:33:02.912,load,C:\Windows\SysWOW64\dllhost.exe,C:\Windows\SysWOW64\sfc_os.dll
+568,464,464,2023-09-27 04:33:02.913,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\cmd.exe
+569,464,464,2023-09-27 04:33:02.913,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\System32\ntdll.dll
+570,464,464,2023-09-27 04:33:02.913,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\ntdll.dll
+571,464,464,2023-09-27 04:33:02.914,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\System32\wow64.dll
+572,464,464,2023-09-27 04:33:02.915,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\System32\wow64win.dll
+573,464,464,2023-09-27 04:33:02.915,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\System32\wow64cpu.dll
+574,464,464,2023-09-27 04:33:02.916,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\kernel32.dll
+575,464,464,2023-09-27 04:33:02.916,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\KernelBase.dll
+576,11840,11840,2023-09-27 04:33:02.916,reg_set_value,C:\Windows\SysWOW64\rundll32.exe,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2994737283-653069417-2221972583-1001\\Device\HarddiskVolume3\Windows\SysWOW64\rundll32.exe
+577,1520,1520,2023-09-27 04:33:02.918,file_create,C:\Windows\system32\svchost.exe,C:\Windows\Prefetch\RUNDLL32.EXE-D0E0AC11.pf
+578,13244,13244,2023-09-27 04:33:02.919,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\conhost.exe
+579,13244,13244,2023-09-27 04:33:02.919,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\ntdll.dll
+580,13244,13244,2023-09-27 04:33:02.919,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\kernel32.dll
+581,13244,13244,2023-09-27 04:33:02.920,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\KernelBase.dll
+582,592,13244,2023-09-27 04:33:02.920,access,C:\Windows\system32\csrss.exe,C:\Windows\system32\conhost.exe
+583,13244,13244,2023-09-27 04:33:02.921,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\msvcp_win.dll
+584,13244,13244,2023-09-27 04:33:02.921,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\ucrtbase.dll
+585,13244,13244,2023-09-27 04:33:02.921,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\SHCore.dll
+586,13244,13244,2023-09-27 04:33:02.921,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\msvcrt.dll
+587,13244,13244,2023-09-27 04:33:02.922,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\combase.dll
+588,13244,13244,2023-09-27 04:33:02.922,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\rpcrt4.dll
+589,13244,13244,2023-09-27 04:33:02.922,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\advapi32.dll
+590,13244,13244,2023-09-27 04:33:02.922,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\sechost.dll
+591,13244,464,2023-09-27 04:33:02.924,access,C:\Windows\system32\conhost.exe,C:\Windows\SysWOW64\cmd.exe
+592,13244,13244,2023-09-27 04:33:02.924,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\user32.dll
+593,13244,13244,2023-09-27 04:33:02.925,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\win32u.dll
+594,13244,13244,2023-09-27 04:33:02.925,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\gdi32.dll
+595,13244,13244,2023-09-27 04:33:02.925,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\gdi32full.dll
+596,13244,13244,2023-09-27 04:33:02.926,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\imm32.dll
+597,13244,13244,2023-09-27 04:33:02.927,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\shell32.dll
+598,13244,13244,2023-09-27 04:33:02.927,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\uxtheme.dll
+599,1528,13244,2023-09-27 04:33:02.928,access,C:\Windows\System32\svchost.exe,C:\Windows\system32\conhost.exe
+600,13244,13244,2023-09-27 04:33:02.936,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\msctf.dll
+601,13244,13244,2023-09-27 04:33:02.936,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\oleaut32.dll
+602,13244,13244,2023-09-27 04:33:02.941,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\TextShaping.dll
+603,13244,13244,2023-09-27 04:33:02.945,load,C:\Windows\System32\conhost.exe,C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\comctl32.dll
+604,13244,13244,2023-09-27 04:33:02.946,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\dwmapi.dll
+605,13244,13244,2023-09-27 04:33:02.948,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\kernel.appcore.dll
+606,13244,13244,2023-09-27 04:33:02.949,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\bcryptprimitives.dll
+607,6548,6548,2023-09-27 04:33:02.949,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+608,6548,6548,2023-09-27 04:33:02.949,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+609,13244,13244,2023-09-27 04:33:02.951,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\TextInputFramework.dll
+610,13244,13244,2023-09-27 04:33:02.951,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\CoreUIComponents.dll
+611,13244,13244,2023-09-27 04:33:02.951,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\CoreMessaging.dll
+612,13244,13244,2023-09-27 04:33:02.951,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\ws2_32.dll
+613,13244,13244,2023-09-27 04:33:02.952,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\ntmarta.dll
+614,13244,13244,2023-09-27 04:33:02.952,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\WinTypes.dll
+615,13244,13244,2023-09-27 04:33:02.952,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\WinTypes.dll
+616,13244,13244,2023-09-27 04:33:02.956,load,C:\Windows\System32\conhost.exe,C:\Windows\System32\clbcatq.dll
+617,868,13244,2023-09-27 04:33:02.957,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\conhost.exe
+618,3336,3336,2023-09-27 04:33:02.958,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SessionInfo\1\ApplicationViewManagement\W32:000000000019090E
+619,3336,3336,2023-09-27 04:33:02.958,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SessionInfo\1\ApplicationViewManagement\W32:000000000019090E\VirtualDesktop
+620,3336,3336,2023-09-27 04:33:02.960,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\R:\Rkcrevzrag\Jvaqbjf Unpxre Nggnpx Cebtenz\6\Olcnff HNP\Grfg.rkr
+621,3336,3336,2023-09-27 04:33:02.960,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+622,464,464,2023-09-27 04:33:02.967,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\msvcrt.dll
+623,6548,6548,2023-09-27 04:33:02.967,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+624,6548,6548,2023-09-27 04:33:02.967,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+625,464,464,2023-09-27 04:33:02.967,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\combase.dll
+626,464,464,2023-09-27 04:33:02.968,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\ucrtbase.dll
+627,3336,5648,2023-09-27 04:33:02.968,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+628,3336,6312,2023-09-27 04:33:02.968,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+629,3336,6492,2023-09-27 04:33:02.969,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+630,3336,4316,2023-09-27 04:33:02.969,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+631,3336,7432,2023-09-27 04:33:02.969,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+632,3336,7504,2023-09-27 04:33:02.969,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+633,3336,10152,2023-09-27 04:33:02.969,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+634,3336,5864,2023-09-27 04:33:02.969,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+635,5648,5648,2023-09-27 04:33:02.970,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+636,5648,5648,2023-09-27 04:33:02.970,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+637,464,464,2023-09-27 04:33:02.971,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\rpcrt4.dll
+638,464,464,2023-09-27 04:33:02.978,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\winbrand.dll
+639,464,464,2023-09-27 04:33:02.979,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\wldp.dll
+640,464,464,2023-09-27 04:33:02.979,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\advapi32.dll
+641,464,464,2023-09-27 04:33:02.980,load,C:\Windows\SysWOW64\cmd.exe,C:\Windows\SysWOW64\sechost.dll
+642,464,464,2023-09-27 04:33:04.364,reg_set_value,C:\Windows\SysWOW64\cmd.exe,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2994737283-653069417-2221972583-1001\\Device\HarddiskVolume3\Windows\SysWOW64\cmd.exe
+643,3336,11876,2023-09-27 04:33:04.365,access,C:\Windows\Explorer.EXE,C:\Windows\system32\conhost.exe
+644,3336,11876,2023-09-27 04:33:04.367,access,C:\Windows\Explorer.EXE,C:\Windows\system32\conhost.exe
+645,3336,3336,2023-09-27 04:33:04.367,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\{Q65231O0-O2S1-4857-N4PR-N8R7P6RN7Q27}\pzq.rkr
+646,3336,3336,2023-09-27 04:33:04.367,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+647,3336,3336,2023-09-27 04:33:04.368,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SessionInfo\1\ApplicationViewManagement\W32:000000000019090E
+648,6548,6548,2023-09-27 04:33:04.369,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+649,6548,6548,2023-09-27 04:33:04.369,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+650,868,11876,2023-09-27 04:33:04.371,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\conhost.exe
+651,3336,7432,2023-09-27 04:33:04.372,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+652,5648,5648,2023-09-27 04:33:04.373,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+653,5648,5648,2023-09-27 04:33:04.373,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+654,3336,7432,2023-09-27 04:33:04.374,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+655,3336,5648,2023-09-27 04:33:04.375,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+656,3336,6312,2023-09-27 04:33:04.375,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+657,3336,6492,2023-09-27 04:33:04.375,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+658,3336,4316,2023-09-27 04:33:04.376,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+659,3336,3336,2023-09-27 04:33:04.376,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\ActivityDataModel\ReaderRevisionInfo\C576D885-A342-B9F1-2607-4651ECE05371
+660,3336,7432,2023-09-27 04:33:04.376,access,C:\Windows\Explorer.EXE,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+661,3336,7504,2023-09-27 04:33:04.376,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+662,3336,10152,2023-09-27 04:33:04.376,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+663,3336,5864,2023-09-27 04:33:04.376,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+664,3336,3336,2023-09-27 04:33:04.377,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\ActivityDataModel\ReaderRevisionInfo\C576D885-A342-B9F1-2607-4651ECE05371
+665,9912,9912,2023-09-27 04:33:04.580,reg_create_del,E:\Software\Microsoft Visual Studio\Common7\IDE\devenv.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\VSCommon\17.0\SQM\PIDs\9912
+666,9912,9912,2023-09-27 04:33:04.580,reg_set_value,E:\Software\Microsoft Visual Studio\Common7\IDE\devenv.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\VSCommon\17.0\SQM\PIDs\9912\DebuggerPresent
+667,1760,1760,2023-09-27 04:33:05.353,reg_set_value,C:\Windows\SysWOW64\cmd.exe,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2994737283-653069417-2221972583-1001\\Device\HarddiskVolume3\Windows\SysWOW64\cmd.exe
+668,7432,7432,2023-09-27 04:33:05.354,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\kernel.appcore.dll
+669,7432,7432,2023-09-27 04:33:05.354,load,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,C:\Windows\SysWOW64\msvcrt.dll
+670,7432,7432,2023-09-27 04:33:05.355,reg_set_value,E:\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2994737283-653069417-2221972583-1001\\Device\HarddiskVolume6\Experiment\Windows Hacker Attack Program\6\Bypass UAC\Test.exe
+671,1520,1520,2023-09-27 04:33:05.357,file_create,C:\Windows\system32\svchost.exe,C:\Windows\Prefetch\TEST.EXE-7800855A.pf
+672,3336,3336,2023-09-27 04:33:05.358,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\R:\Rkcrevzrag\Jvaqbjf Unpxre Nggnpx Cebtenz\6\Olcnff HNP\Grfg.rkr
+673,3336,3336,2023-09-27 04:33:05.358,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+674,3336,3336,2023-09-27 04:33:05.358,reg_create_del,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SessionInfo\1\ApplicationViewManagement\W32:0000000000660ADC
+675,6548,6548,2023-09-27 04:33:05.359,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+676,6548,6548,2023-09-27 04:33:05.359,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+677,868,3336,2023-09-27 04:33:05.380,access,C:\Windows\system32\svchost.exe,C:\Windows\Explorer.EXE
+678,3336,5648,2023-09-27 04:33:05.385,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+679,3336,6312,2023-09-27 04:33:05.385,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+680,3336,6492,2023-09-27 04:33:05.385,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+681,3336,4316,2023-09-27 04:33:05.385,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+682,3336,7504,2023-09-27 04:33:05.385,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+683,3336,10152,2023-09-27 04:33:05.385,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+684,3336,5864,2023-09-27 04:33:05.386,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+685,5648,5648,2023-09-27 04:33:05.388,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+686,5648,5648,2023-09-27 04:33:05.389,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+687,868,9168,2023-09-27 04:33:06.778,access,C:\Windows\system32\svchost.exe,C:\Windows\system32\mmc.exe
+688,3336,3336,2023-09-27 04:33:06.783,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\Zvpebfbsg.Jvaqbjf.Rkcybere
+689,3336,3336,2023-09-27 04:33:06.783,reg_set_value,C:\Windows\Explorer.EXE,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+690,5648,5648,2023-09-27 04:33:06.784,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+691,5648,5648,2023-09-27 04:33:06.784,reg_create_del,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,\REGISTRY\A\{eb11bc1f-fa29-861c-f7d3-85b441d9e9db}\LocalState
+692,3336,5648,2023-09-27 04:33:06.789,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+693,3336,6312,2023-09-27 04:33:06.789,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+694,3336,6492,2023-09-27 04:33:06.790,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+695,3336,4316,2023-09-27 04:33:06.790,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+696,3336,7504,2023-09-27 04:33:06.790,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+697,3336,10152,2023-09-27 04:33:06.790,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+698,3336,5864,2023-09-27 04:33:06.790,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+699,6548,6548,2023-09-27 04:33:06.796,reg_create_del,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights
+700,6548,6548,2023-09-27 04:33:06.796,reg_set_value,C:\Windows\system32\ctfmon.exe,HKU\S-1-5-21-2994737283-653069417-2221972583-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights
+701,3336,5648,2023-09-27 04:33:07.647,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+702,3336,6312,2023-09-27 04:33:07.647,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+703,3336,6492,2023-09-27 04:33:07.647,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+704,3336,4316,2023-09-27 04:33:07.647,access,C:\Windows\Explorer.EXE,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+705,3336,7504,2023-09-27 04:33:07.647,access,C:\Windows\Explorer.EXE,C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+706,3336,10152,2023-09-27 04:33:07.647,access,C:\Windows\Explorer.EXE,C:\Windows\system32\ApplicationFrameHost.exe
+707,3336,5864,2023-09-27 04:33:07.647,access,C:\Windows\Explorer.EXE,C:\Program Files\Google\Chrome\Application\chrome.exe
+708,1520,1520,2023-09-27 04:33:07.918,file_create,C:\Windows\system32\svchost.exe,C:\Windows\Prefetch\DLLHOST.EXE-88E77B4E.pf
+709,1236,1236,2023-09-27 04:33:07.918,reg_create_del,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileService\References
+710,1236,1236,2023-09-27 04:33:07.918,reg_create_del,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileService\References\S-1-5-21-2994737283-653069417-2221972583-1001
+711,1236,1236,2023-09-27 04:33:07.918,reg_set_value,C:\Windows\system32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileService\References\S-1-5-21-2994737283-653069417-2221972583-1001\RefCount
+712,1692,1692,2023-09-27 04:33:08.820,reg_create_del,C:\Windows\System32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational
+713,1692,1692,2023-09-27 04:33:08.821,reg_set_value,C:\Windows\System32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational\Enabled
+714,1692,1692,2023-09-27 04:33:08.821,reg_create_del,C:\Windows\System32\svchost.exe,HKLM\System\CurrentControlSet\Control\WMI\Security\08dd09cd-9050-5a49-02f8-46fd443360a8
+715,1692,1692,2023-09-27 04:33:08.821,reg_create_del,C:\Windows\System32\svchost.exe,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Sysmon/Operational

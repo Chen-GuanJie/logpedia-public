@@ -1,0 +1,2 @@
+access object	0
+create process	1

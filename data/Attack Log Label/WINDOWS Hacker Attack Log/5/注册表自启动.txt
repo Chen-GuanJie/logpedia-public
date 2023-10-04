@@ -1,0 +1,3 @@
+AutoRun_Reg_Test.exe
+SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\520
+WOW6432Node\Microsoft\Windows\CurrentVersion\Run\520

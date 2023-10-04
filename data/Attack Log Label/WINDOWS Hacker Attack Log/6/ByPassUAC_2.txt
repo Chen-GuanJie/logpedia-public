@@ -1,0 +1,2 @@
+Test.exe
+BypassUAC2_Test.dll

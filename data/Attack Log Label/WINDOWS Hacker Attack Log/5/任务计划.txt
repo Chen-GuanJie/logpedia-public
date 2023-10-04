@@ -1,0 +1,3 @@
+AutoRun_Task_Test.exe 
+taskschd.dll 
+sspicli.dll

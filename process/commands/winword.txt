@@ -1,0 +1,16 @@
+winword.exe
+winword.exe C:\path\to\document1.docx
+winword.exe C:\path\to\document2.docx
+winword.exe C:\path\to\document3.docx
+winword.exe C:\path\to\document4.docx
+winword.exe C:\path\to\document5.docx
+winword.exe /r C:\path\to\document1.docx
+winword.exe /r C:\path\to\document2.docx
+winword.exe /m C:\path\to\document1.docx
+winword.exe /m C:\path\to\document2.docx
+winword.exe /mMacroName1
+winword.exe /mMacroName2
+winword.exe /a
+winword.exe /a C:\path\to\template1.dotx
+
+
