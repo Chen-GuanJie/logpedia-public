@@ -1,0 +1,216 @@
+MSTSC /v:ServerName
+MSTSC /v:ServerName:Port
+MSTSC /g:GatewayName
+MSTSC /admin
+MSTSC /f
+MSTSC /w:1024 /h:768
+MSTSC /public
+MSTSC /span
+MSTSC /multimon
+MSTSC /edit "connection.rdp"
+MSTSC /restrictedAdmin
+MSTSC /remoteGuard
+MSTSC /prompt
+MSTSC /shadow:SessionID
+MSTSC /control
+MSTSC /noConsentPrompt
+MSTSC /v:ServerName /admin
+MSTSC /v:ServerName /f
+MSTSC /v:ServerName /public
+MSTSC /v:ServerName /span
+MSTSC /v:ServerName /multimon
+MSTSC /v:ServerName /restrictedAdmin
+MSTSC /v:ServerName /remoteGuard
+MSTSC /v:ServerName /prompt
+MSTSC /v:ServerName /shadow:SessionID
+MSTSC /v:ServerName /control
+MSTSC /v:ServerName /noConsentPrompt
+MSTSC /v:ServerName /f /admin
+MSTSC /v:ServerName /f /public
+MSTSC /v:ServerName /f /span
+MSTSC /v:ServerName /f /multimon
+MSTSC /v:ServerName /f /restrictedAdmin
+MSTSC /v:ServerName /f /remoteGuard
+MSTSC /v:ServerName /f /prompt
+MSTSC /v:ServerName /f /shadow:SessionID
+MSTSC /v:ServerName /f /control
+MSTSC /v:ServerName /f /noConsentPrompt
+MSTSC /v:ServerName /public /admin
+MSTSC /v:ServerName /public /span
+MSTSC /v:ServerName /public /multimon
+MSTSC /v:ServerName /public /restrictedAdmin
+MSTSC /v:ServerName /public /remoteGuard
+MSTSC /v:ServerName /public /prompt
+MSTSC /v:ServerName /public /shadow:SessionID
+MSTSC /v:ServerName /public /control
+MSTSC /v:ServerName /public /noConsentPrompt
+MSTSC /v:ServerName /span /admin
+MSTSC /v:ServerName /span /f
+MSTSC /v:ServerName /span /public
+MSTSC /v:ServerName /span /multimon
+MSTSC /v:ServerName /span /restrictedAdmin
+MSTSC /v:ServerName /span /remoteGuard
+MSTSC /v:ServerName /span /prompt
+MSTSC /v:ServerName /span /shadow:SessionID
+MSTSC /v:ServerName /span /control
+MSTSC /v:ServerName /span /noConsentPrompt
+MSTSC /v:ServerName /multimon /admin
+MSTSC /v:ServerName /multimon /f
+MSTSC /v:ServerName /multimon /public
+MSTSC /v:ServerName /multimon /span
+MSTSC /v:ServerName /multimon /restrictedAdmin
+MSTSC /v:ServerName /multimon /remoteGuard
+MSTSC /v:ServerName /multimon /prompt
+MSTSC /v:ServerName /multimon /shadow:SessionID
+MSTSC /v:ServerName /multimon /control
+MSTSC /v:ServerName /multimon /noConsentPrompt
+MSTSC /v:ServerName /restrictedAdmin /admin
+MSTSC /v:ServerName /restrictedAdmin /f
+MSTSC /v:ServerName /restrictedAdmin /public
+MSTSC /v:ServerName /restrictedAdmin /span
+MSTSC /v:ServerName /restrictedAdmin /multimon
+MSTSC /v:ServerName /restrictedAdmin /remoteGuard
+MSTSC /v:ServerName /restrictedAdmin /prompt
+MSTSC /v:ServerName /restrictedAdmin /shadow:SessionID
+MSTSC /v:ServerName /restrictedAdmin /control
+MSTSC /v:ServerName /restrictedAdmin /noConsentPrompt
+MSTSC /v:ServerName /remoteGuard /admin
+MSTSC /v:ServerName /remoteGuard /f
+MSTSC /v:ServerName /remoteGuard /public
+MSTSC /v:ServerName /remoteGuard /span
+MSTSC /v:ServerName /remoteGuard /multimon
+MSTSC /v:ServerName /remoteGuard /restrictedAdmin
+MSTSC /v:ServerName /remoteGuard /prompt
+MSTSC /v:ServerName /remoteGuard /shadow:SessionID
+MSTSC /v:ServerName /remoteGuard /control
+MSTSC /v:ServerName /remoteGuard /noConsentPrompt
+MSTSC /v:ServerName /prompt /admin
+MSTSC /v:ServerName /prompt /f
+MSTSC /v:ServerName /prompt /public
+MSTSC /v:ServerName /prompt /span
+MSTSC /v:ServerName /prompt /multimon
+MSTSC /v:ServerName /prompt /restrictedAdmin
+MSTSC /v:ServerName /prompt /remoteGuard
+MSTSC /v:ServerName /prompt /shadow:SessionID
+MSTSC /v:ServerName /prompt /control
+MSTSC /v:ServerName /prompt /noConsentPrompt
+MSTSC /v:ServerName /shadow:SessionID /admin
+MSTSC /v:ServerName /shadow:SessionID /f
+MSTSC /v:ServerName /shadow:SessionID /public
+MSTSC /v:ServerName /shadow:SessionID /span
+MSTSC /v:ServerName /shadow:SessionID /multimon
+MSTSC /v:ServerName /shadow:SessionID /restrictedAdmin
+MSTSC /v:ServerName /shadow:SessionID /remoteGuard
+MSTSC /v:ServerName /shadow:SessionID /prompt
+MSTSC /v:ServerName /shadow:SessionID /control
+MSTSC /v:ServerName /shadow:SessionID /noConsentPrompt
+MSTSC /v:ServerName /control /admin
+MSTSC /v:ServerName /control /f
+MSTSC /v:ServerName /control /public
+MSTSC /v:ServerName /control /span
+MSTSC /v:ServerName /control /multimon
+MSTSC /v:ServerName /control /restrictedAdmin
+MSTSC /v:ServerName /control /remoteGuard
+MSTSC /v:ServerName /control /prompt
+MSTSC /v:ServerName /control /shadow:SessionID
+MSTSC /v:ServerName /control /noConsentPrompt
+MSTSC /v:ServerName /noConsentPrompt /admin
+MSTSC /v:ServerName /noConsentPrompt /f
+MSTSC /v:ServerName /noConsentPrompt /public
+MSTSC /v:ServerName /noConsentPrompt /span
+MSTSC /v:ServerName /noConsentPrompt /multimon
+MSTSC /v:ServerName /noConsentPrompt /restrictedAdmin
+MSTSC /v:ServerName /noConsentPrompt /remoteGuard
+MSTSC /v:ServerName /noConsentPrompt /prompt
+MSTSC /v:ServerName /noConsentPrompt /shadow:SessionID
+MSTSC /v:ServerName /noConsentPrompt /control
+MSTSC /v:ServerName /f /admin /public
+MSTSC /v:ServerName /f /admin /span
+MSTSC /v:ServerName /f /admin /multimon
+MSTSC /v:ServerName /f /admin /restrictedAdmin
+MSTSC /v:ServerName /f /admin /remoteGuard
+MSTSC /v:ServerName /f /admin /prompt
+MSTSC /v:ServerName /f /admin /shadow:SessionID
+MSTSC /v:ServerName /f /admin /control
+MSTSC /v:ServerName /f /admin /noConsentPrompt
+MSTSC /v:ServerName /f /public /admin
+MSTSC /v:ServerName /f /public /span
+MSTSC /v:ServerName /f /public /multimon
+MSTSC /v:ServerName /f /public /restrictedAdmin
+MSTSC /v:ServerName /f /public /remoteGuard
+MSTSC /v:ServerName /f /public /prompt
+MSTSC /v:ServerName /f /public /shadow:SessionID
+MSTSC /v:ServerName /f /public /control
+MSTSC /v:ServerName /f /public /noConsentPrompt
+MSTSC /v:ServerName /f /span /admin
+MSTSC /v:ServerName /f /span /public
+MSTSC /v:ServerName /f /span /multimon
+MSTSC /v:ServerName /f /span /restrictedAdmin
+MSTSC /v:ServerName /f /span /remoteGuard
+MSTSC /v:ServerName /f /span /prompt
+MSTSC /v:ServerName /f /span /shadow:SessionID
+MSTSC /v:ServerName /f /span /control
+MSTSC /v:ServerName /f /span /noConsentPrompt
+MSTSC /v:ServerName /f /multimon /admin
+MSTSC /v:ServerName /f /multimon /public
+MSTSC /v:ServerName /f /multimon /span
+MSTSC /v:ServerName /f /multimon /restrictedAdmin
+MSTSC /v:ServerName /f /multimon /remoteGuard
+MSTSC /v:ServerName /f /multimon /prompt
+MSTSC /v:ServerName /f /multimon /shadow:SessionID
+MSTSC /v:ServerName /f /multimon /control
+MSTSC /v:ServerName /f /multimon /noConsentPrompt
+MSTSC /v:ServerName /f /restrictedAdmin /admin
+MSTSC /v:ServerName /f /restrictedAdmin /public
+MSTSC /v:ServerName /f /restrictedAdmin /span
+MSTSC /v:ServerName /f /restrictedAdmin /multimon
+MSTSC /v:ServerName /f /restrictedAdmin /remoteGuard
+MSTSC /v:ServerName /f /restrictedAdmin /prompt
+MSTSC /v:ServerName /f /restrictedAdmin /shadow:SessionID
+MSTSC /v:ServerName /f /restrictedAdmin /control
+MSTSC /v:ServerName /f /restrictedAdmin /noConsentPrompt
+MSTSC /v:ServerName /f /remoteGuard /admin
+MSTSC /v:ServerName /f /remoteGuard /public
+MSTSC /v:ServerName /f /remoteGuard /span
+MSTSC /v:ServerName /f /remoteGuard /multimon
+MSTSC /v:ServerName /f /remoteGuard /restrictedAdmin
+MSTSC /v:ServerName /f /remoteGuard /prompt
+MSTSC /v:ServerName /f /remoteGuard /shadow:SessionID
+MSTSC /v:ServerName /f /remoteGuard /control
+MSTSC /v:ServerName /f /remoteGuard /noConsentPrompt
+MSTSC /v:ServerName /f /prompt /admin
+MSTSC /v:ServerName /f /prompt /public
+MSTSC /v:ServerName /f /prompt /span
+MSTSC /v:ServerName /f /prompt /multimon
+MSTSC /v:ServerName /f /prompt /restrictedAdmin
+MSTSC /v:ServerName /f /prompt /remoteGuard
+MSTSC /v:ServerName /f /prompt /shadow:SessionID
+MSTSC /v:ServerName /f /prompt /control
+MSTSC /v:ServerName /f /prompt /noConsentPrompt
+MSTSC /v:ServerName /f /shadow:SessionID /admin
+MSTSC /v:ServerName /f /shadow:SessionID /public
+MSTSC /v:ServerName /f /shadow:SessionID /span
+MSTSC /v:ServerName /f /shadow:SessionID /multimon
+MSTSC /v:ServerName /f /shadow:SessionID /restrictedAdmin
+MSTSC /v:ServerName /f /shadow:SessionID /remoteGuard
+MSTSC /v:ServerName /f /shadow:SessionID /prompt
+MSTSC /v:ServerName /f /shadow:SessionID /control
+MSTSC /v:ServerName /f /shadow:SessionID /noConsentPrompt
+MSTSC /v:ServerName /f /control /admin
+MSTSC /v:ServerName /f /control /public
+MSTSC /v:ServerName /f /control /span
+MSTSC /v:ServerName /f /control /multimon
+MSTSC /v:ServerName /f /control /restrictedAdmin
+MSTSC /v:ServerName /f /control /remoteGuard
+MSTSC /v:ServerName /f /control /prompt
+MSTSC /v:ServerName /f /control /shadow:SessionID
+MSTSC /v:ServerName /f /control /noConsentPrompt
+MSTSC /v:ServerName /f /noConsentPrompt /admin
+MSTSC /v:ServerName /f /noConsentPrompt /public
+MSTSC /v:ServerName /f /noConsentPrompt /span
+MSTSC /v:ServerName /f /noConsentPrompt /multimon
+MSTSC /v:ServerName /f /noConsentPrompt /restrictedAdmin
+MSTSC /v:ServerName /f /noConsentPrompt /remoteGuard
+MSTSC /v:ServerName /f /noConsentPrompt /prompt
+MSTSC /v:ServerName /f /noConsentPrompt /shadow:SessionID
+MSTSC /v:ServerName /f /noConsentPrompt /control

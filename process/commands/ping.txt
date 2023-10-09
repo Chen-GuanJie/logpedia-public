@@ -1,0 +1,126 @@
+ping -w 4000 google.com
+ping -i 128 yahoo.com
+ping -v 10 microsoft.com
+ping -a apple.com
+ping -n 5 facebook.com
+ping -t twitter.com
+ping -l 32 amazon.com
+ping -f bbc.com
+ping -r 5 cisco.com
+ping -s 5 oracle.com
+ping -j 192.168.1.1,192.168.1.2 google.com
+ping -k 192.168.1.1,192.168.1.2 yahoo.com
+ping -R microsoft.com
+ping -S 192.168.1.1 apple.com
+ping -4 facebook.com
+ping -6 twitter.com
+ping -n 1 Server64
+ping Server64 |find "TTL=" && ECHO MyHost found
+ping Server64 |find "TTL=" || ECHO MyHost not found
+ping -S 10.5.7.64 10.5.7.1
+ping -n 5 -w 7500 www.microsoft.com
+ping -n 1 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 16 127.0.0.1>nul
+ping -n 10 google.com
+ping -w 2000 yahoo.com
+ping -l 64 microsoft.com
+ping -f apple.com
+ping -i 64 facebook.com
+ping -v 20 twitter.com
+ping -a amazon.com
+ping -t bbc.com
+ping -r 10 cisco.com
+ping -s 10 oracle.com
+ping -j 192.168.1.1,192.168.1.3 google.com
+ping -k 192.168.1.1,192.168.1.3 yahoo.com
+ping -R microsoft.com
+ping -S 192.168.1.2 apple.com
+ping -4 facebook.com
+ping -6 twitter.com
+ping -n 2 Server64
+ping Server64 |find "TTL=" && ECHO MyHost found
+ping Server64 |find "TTL=" || ECHO MyHost not found
+ping -S 10.5.7.65 10.5.7.2
+ping -n 6 -w 7500 www.microsoft.com
+ping -n 2 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 17 127.0.0.1>nul
+ping -n 3 Server64
+ping -n 4 -w 3000 www.microsoft.com
+ping -n 3 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 18 127.0.0.1>nul
+ping -n 4 Server64
+ping -n 5 -w 3500 www.microsoft.com
+ping -n 4 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 19 127.0.0.1>nul
+ping -n 5 Server64
+ping -n 6 -w 4000 www.microsoft.com
+ping -n 5 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 20 127.0.0.1>nul
+ping -n 6 Server64
+ping -n 7 -w 4500 www.microsoft.com
+ping -n 6 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 21 127.0.0.1>nul
+ping -n 7 Server64
+ping -n 8 -w 5000 www.microsoft.com
+ping -n 7 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 22 127.0.0.1>nul
+ping -n 8 Server64
+ping -n 9 -w 5500 www.microsoft.com
+ping -n 8 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 23 127.0.0.1>nul
+ping -n 9 Server64
+ping -n 10 -w 6000 www.microsoft.com
+ping -n 9 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 24 127.0.0.1>nul
+ping -n 10 Server64
+ping -n 11 -w 6500 www.microsoft.com
+ping -n 10 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 25 127.0.0.1>nul
+ping -n 11 Server64
+ping -n 12 -w 7000 www.microsoft.com
+ping -n 11 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 26 127.0.0.1>nul
+ping -n 12 Server64
+ping -n 13 -w 7500 www.microsoft.com
+ping -n 12 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 27 127.0.0.1>nul
+ping -n 13 Server64
+ping -n 14 -w 8000 www.microsoft.com
+ping -n 13 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 28 127.0.0.1>nul
+ping -n 14 Server64
+ping -n 15 -w 8500 www.microsoft.com
+ping -n 14 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 29 127.0.0.1>nul
+ping -n 15 Server64
+ping -n 16 -w 9000 www.microsoft.com
+ping -n 15 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 30 127.0.0.1>nul
+ping -n 16 Server64
+ping -n 17 -w 9500 www.microsoft.com
+ping -n 16 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 31 127.0.0.1>nul
+ping -n 17 Server64
+ping -n 18 -w 10000 www.microsoft.com
+ping -n 17 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 32 127.0.0.1>nul
+ping -n 18 Server64
+ping -n 19 -w 10500 www.microsoft.com
+ping -n 18 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 33 127.0.0.1>nul
+ping -n 19 Server64
+ping -n 20 -w 11000 www.microsoft.com
+ping -n 19 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 34 127.0.0.1>nul
+ping -n 20 Server64
+ping -n 21 -w 11500 www.microsoft.com
+ping -n 20 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 35 127.0.0.1>nul
+ping -n 21 Server64
+ping -n 22 -w 12000 www.microsoft.com
+ping -n 21 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 36 127.0.0.1>nul
+ping -n 22 Server64
+ping -n 23 -w 12500 www.microsoft.com
+ping -n 22 example.com | find "TTL=" >>c:\\pingtest.txt
+ping -n 37 127.0.0.1>nul

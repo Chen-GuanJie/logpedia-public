@@ -1,0 +1,235 @@
+pslist
+pslist -?
+pslist -t
+pslist -m
+pslist -x
+pslist \\computer
+pslist \\computer -u user
+pslist \\computer -u user -p passwd
+pslist name
+pslist pid
+pslist -accepteula
+pslist exp
+Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Sysinternals' -Name 'EulaAccepted' -Value 1
+SC \\workstation64 start RemoteRegistry
+pslist \\workstation64
+PsKill
+OPENFILES
+ProcDump
+TASKLIST
+TLIST
+Get-Process
+ps
+pslist -t -m
+pslist -t -x
+pslist -m -x
+pslist -t -m -x
+pslist \\computer -t
+pslist \\computer -m
+pslist \\computer -x
+pslist \\computer -t -m
+pslist \\computer -t -x
+pslist \\computer -m -x
+pslist \\computer -t -m -x
+pslist \\computer -u user -t
+pslist \\computer -u user -m
+pslist \\computer -u user -x
+pslist \\computer -u user -t -m
+pslist \\computer -u user -t -x
+pslist \\computer -u user -m -x
+pslist \\computer -u user -t -m -x
+pslist \\computer -u user -p passwd -t
+pslist \\computer -u user -p passwd -m
+pslist \\computer -u user -p passwd -x
+pslist \\computer -u user -p passwd -t -m
+pslist \\computer -u user -p passwd -t -x
+pslist \\computer -u user -p passwd -m -x
+pslist \\computer -u user -p passwd -t -m -x
+pslist name -t
+pslist name -m
+pslist name -x
+pslist name -t -m
+pslist name -t -x
+pslist name -m -x
+pslist name -t -m -x
+pslist pid -t
+pslist pid -m
+pslist pid -x
+pslist pid -t -m
+pslist pid -t -x
+pslist pid -m -x
+pslist pid -t -m -x
+pslist -accepteula -t
+pslist -accepteula -m
+pslist -accepteula -x
+pslist -accepteula -t -m
+pslist -accepteula -t -x
+pslist -accepteula -m -x
+pslist -accepteula -t -m -x
+pslist exp -t
+pslist exp -m
+pslist exp -x
+pslist exp -t -m
+pslist exp -t -x
+pslist exp -m -x
+pslist exp -t -m -x
+SC \\workstation64 start RemoteRegistry -t
+SC \\workstation64 start RemoteRegistry -m
+SC \\workstation64 start RemoteRegistry -x
+SC \\workstation64 start RemoteRegistry -t -m
+SC \\workstation64 start RemoteRegistry -t -x
+SC \\workstation64 start RemoteRegistry -m -x
+SC \\workstation64 start RemoteRegistry -t -m -x
+pslist \\workstation64 -t
+pslist \\workstation64 -m
+pslist \\workstation64 -x
+pslist \\workstation64 -t -m
+pslist \\workstation64 -t -x
+pslist \\workstation64 -m -x
+pslist \\workstation64 -t -m -x
+PsKill -t
+PsKill -m
+PsKill -x
+PsKill -t -m
+PsKill -t -x
+PsKill -m -x
+PsKill -t -m -x
+OPENFILES -t
+OPENFILES -m
+OPENFILES -x
+OPENFILES -t -m
+OPENFILES -t -x
+OPENFILES -m -x
+OPENFILES -t -m -x
+ProcDump -t
+ProcDump -m
+ProcDump -x
+ProcDump -t -m
+ProcDump -t -x
+ProcDump -m -x
+ProcDump -t -m -x
+TASKLIST -t
+TASKLIST -m
+TASKLIST -x
+TASKLIST -t -m
+TASKLIST -t -x
+TASKLIST -m -x
+TASKLIST -t -m -x
+TLIST -t
+TLIST -m
+TLIST -x
+TLIST -t -m
+TLIST -t -x
+TLIST -m -x
+TLIST -t -m -x
+Get-Process -t
+Get-Process -m
+Get-Process -x
+Get-Process -t -m
+Get-Process -t -x
+Get-Process -m -x
+Get-Process -t -m -x
+ps -t
+ps -m
+ps -x
+ps -t -m
+ps -t -x
+ps -m -x
+ps -t -m -xContinuing from the previous list, here are more commands for the "PsList" process:
+pslist -t -m -x -accepteula
+pslist \\computer -t -m -x -accepteula
+pslist \\computer -u user -t -m -x -accepteula
+pslist \\computer -u user -p passwd -t -m -x -accepteula
+pslist name -t -m -x -accepteula
+pslist pid -t -m -x -accepteula
+pslist -accepteula -t -m -x
+pslist exp -t -m -x -accepteula
+SC \\workstation64 start RemoteRegistry -t -m -x -accepteula
+pslist \\workstation64 -t -m -x -accepteula
+PsKill -t -m -x -accepteula
+OPENFILES -t -m -x -accepteula
+ProcDump -t -m -x -accepteula
+TASKLIST -t -m -x -accepteula
+TLIST -t -m -x -accepteula
+Get-Process -t -m -x -accepteula
+ps -t -m -x -accepteula
+pslist -t -m -x -accepteula -u user
+pslist \\computer -t -m -x -accepteula -u user
+pslist \\computer -u user -t -m -x -accepteula -p passwd
+pslist name -t -m -x -accepteula -u user
+pslist pid -t -m -x -accepteula -u user
+pslist -accepteula -t -m -x -u user
+pslist exp -t -m -x -accepteula -u user
+SC \\workstation64 start RemoteRegistry -t -m -x -accepteula -u user
+pslist \\workstation64 -t -m -x -accepteula -u user
+PsKill -t -m -x -accepteula -u user
+OPENFILES -t -m -x -accepteula -u user
+ProcDump -t -m -x -accepteula -u user
+TASKLIST -t -m -x -accepteula -u user
+TLIST -t -m -x -accepteula -u user
+Get-Process -t -m -x -accepteula -u user
+ps -t -m -x -accepteula -u user
+pslist -t -m -x -accepteula -u user -p passwd
+pslist \\computer -t -m -x -accepteula -u user -p passwd
+pslist \\computer -u user -t -m -x -accepteula -p passwd -name
+pslist name -t -m -x -accepteula -u user -p passwd
+pslist pid -t -m -x -accepteula -u user -p passwd
+pslist -accepteula -t -m -x -u user -p passwd
+pslist exp -t -m -x -accepteula -u user -p passwd
+SC \\workstation64 start RemoteRegistry -t -m -x -accepteula -u user -p passwd
+pslist \\workstation64 -t -m -x -accepteula -u user -p passwd
+PsKill -t -m -x -accepteula -u user -p passwd
+OPENFILES -t -m -x -accepteula -u user -p passwd
+ProcDump -t -m -x -accepteula -u user -p passwd
+TASKLIST -t -m -x -accepteula -u user -p passwd
+TLIST -t -m -x -accepteula -u user -p passwd
+Get-Process -t -m -x -accepteula -u user -p passwd
+ps -t -m -x -accepteula -u user -p passwd
+pslist -t -m -x -accepteula -u user -p passwd -name
+pslist \\computer -t -m -x -accepteula -u user -p passwd -name
+pslist \\computer -u user -t -m -x -accepteula -p passwd -name -pid
+pslist name -t -m -x -accepteula -u user -p passwd -pid
+pslist pid -t -m -x -accepteula -u user -p passwd -name
+pslist -accepteula -t -m -x -u user -p passwd -name -pid
+pslist exp -t -m -x -accepteula -u user -p passwd -name
+SC \\workstation64 start RemoteRegistry -t -m -x -accepteula -u user -p passwd -name
+pslist \\workstation64 -t -m -x -accepteula -u user -p passwd -name -pid
+PsKill -t -m -x -accepteula -u user -p passwd -name
+OPENFILES -t -m -x -accepteula -u user -p passwd -name -pid
+ProcDump -t -m -x -accepteula -u user -p passwd -name
+TASKLIST -t -m -x -accepteula -u user -p passwd -name -pid
+TLIST -t -m -x -accepteula -u user -p passwd -name
+Get-Process -t -m -x -accepteula -u user -p passwd -name -pid
+ps -t -m -x -accepteula -u user -p passwd -name
+pslist -t -m -x -accepteula -u user -p passwd -name -pid -exp
+pslist \\computer -t -m -x -accepteula -u user -p passwd -name -pid -exp
+pslist \\computer -u user -t -m -x -accepteula -p passwd -name -pid -exp
+pslist name -t -m -x -accepteula -u user -p passwd -pid -exp
+pslist pid -t -m -x -accepteula -u user -p passwd -name -exp
+pslist -accepteula -t -m -x -u user -p passwd -name -pid -exp
+pslist exp -t -m -x -accepteula -u user -p passwd -name -pid
+SC \\workstation64 start RemoteRegistry -t -m -x -accepteula -u user -p passwd -name -pid -exp
+pslist \\workstation64 -t -m -x -accepteula -u user -p passwd -name -pid -exp
+PsKill -t -m -x -accepteula -u user -p passwd -name -pid -exp
+OPENFILES -t -m -x -accepteula -u user -p passwd -name -pid -exp
+ProcDump -t -m -x -accepteula -u user -p passwd -name -pid -exp
+TASKLIST -t -m -x -accepteula -u user -p passwd -name -pid -exp
+TLIST -t -m -x -accepteula -u user -p passwd -name -pid -exp
+Get-Process -t -m -x -accepteula -u user -p passwd -name -pid -exp
+ps -t -m -x -accepteula -u user -p passwd -name -pid -exp
+pslist -t -m -x -accepteula -u user -p passwd -name -pid -exp -computer
+pslist \\computer -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64
+pslist \\computer -u user -t -m -x -accepteula -p passwd -name -pid -exp -workstation64
+pslist name -t -m -x -accepteula -u user -p passwd -pid -exp -workstation64
+pslist pid -t -m -x -accepteula -u user -p passwd -name -exp -workstation64
+pslist -accepteula -t -m -x -u user -p passwd -name -pid -exp -workstation64
+pslist exp -t -m -x -accepteula -u user -p passwd -name -pid -workstation64
+SC \\workstation64 start RemoteRegistry -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64
+pslist \\workstation64 -t -m -x -accepteula -u user -p passwd -name -pid -exp -computer
+PsKill -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64
+OPENFILES -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64
+ProcDump -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64
+TASKLIST -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64
+TLIST -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64
+Get-Process -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64
+ps -t -m -x -accepteula -u user -p passwd -name -pid -exp -workstation64

@@ -1,0 +1,213 @@
+`tree`
+`tree /F`
+`tree /A`
+`tree C:\`
+`tree D:\`
+`tree E:\`
+`tree C:\ /F`
+`tree C:\ /A`
+`tree D:\ /F`
+`tree D:\ /A`
+`tree E:\ /F`
+`tree E:\ /A`
+`tree C:\Windows`
+`tree C:\Windows /F`
+`tree C:\Windows /A`
+`tree C:\Program Files`
+`tree C:\Program Files /F`
+`tree C:\Program Files /A`
+`tree %homedrive%%homepath%`
+`tree %homedrive%%homepath% /F`
+`tree %homedrive%%homepath% /A`
+`tree C:\Users`
+`tree C:\Users /F`
+`tree C:\Users /A`
+`tree C:\Windows\System32`
+`tree C:\Windows\System32 /F`
+`tree C:\Windows\System32 /A`
+`tree C:\Windows\System32\drivers`
+`tree C:\Windows\System32\drivers /F`
+`tree C:\Windows\System32\drivers /A`
+`tree C:\Windows\System32\config`
+`tree C:\Windows\System32\config /F`
+`tree C:\Windows\System32\config /A`
+`tree C:\Windows\System32\wbem`
+`tree C:\Windows\System32\wbem /F`
+`tree C:\Windows\System32\wbem /A`
+`tree C:\Windows\System32\en-US`
+`tree C:\Windows\System32\en-US /F`
+`tree C:\Windows\System32\en-US /A`
+`tree C:\Windows\SysWOW64`
+`tree C:\Windows\SysWOW64 /F`
+`tree C:\Windows\SysWOW64 /A`
+`tree C:\Windows\Boot`
+`tree C:\Windows\Boot /F`
+`tree C:\Windows\Boot /A`
+`tree C:\Windows\Branding`
+`tree C:\Windows\Branding /F`
+`tree C:\Windows\Branding /A`
+`tree C:\Windows\Debug`
+`tree C:\Windows\Debug /F`
+`tree C:\Windows\Debug /A`
+`tree C:\Windows\Fonts`
+`tree C:\Windows\Fonts /F`
+`tree C:\Windows\Fonts /A`
+`tree C:\Windows\Help`
+`tree C:\Windows\Help /F`
+`tree C:\Windows\Help /A`
+`tree C:\Windows\Logs`
+`tree C:\Windows\Logs /F`
+`tree C:\Windows\Logs /A`
+`tree C:\Windows\Media`
+`tree C:\Windows\Media /F`
+`tree C:\Windows\Media /A`
+`tree C:\Windows\ModemLogs`
+`tree C:\Windows\ModemLogs /F`
+`tree C:\Windows\ModemLogs /A`
+`tree C:\Windows\PLA`
+`tree C:\Windows\PLA /F`
+`tree C:\Windows\PLA /A`
+`tree C:\Windows\Prefetch`
+`tree C:\Windows\Prefetch /F`
+`tree C:\Windows\Prefetch /A`
+`tree C:\Windows\PrintDialog`
+`tree C:\Windows\PrintDialog /F`
+`tree C:\Windows\PrintDialog /A`
+`tree C:\Windows\addins`
+`tree C:\Windows\addins /F`
+`tree C:\Windows\addins /A`
+`tree C:\Windows\assembly`
+`tree C:\Windows\assembly /F`
+`tree C:\Windows\assembly /A`
+`tree C:\Windows\bcastdvr`
+`tree C:\Windows\bcastdvr /F`
+`tree C:\Windows\bcastdvr /A`
+`tree C:\Windows\bfsvc.exe`
+`tree C:\Windows\bfsvc.exe /F`
+`tree C:\Windows\bfsvc.exe /A`
+`tree C:\Windows\BootStat.dat`
+`tree C:\Windows\BootStat.dat /F`
+`tree C:\Windows\BootStat.dat /A`
+`tree C:\Windows\CSC`
+`tree C:\Windows\CSC /F`
+`tree C:\Windows\CSC /A`
+`tree C:\Windows\Containers`
+`tree C:\Windows\Containers /F`
+`tree C:\Windows\Containers /A`
+`tree C:\Windows\Cursors`
+`tree C:\Windows\Cursors /F`
+`tree C:\Windows\Cursors /A`
+`tree C:\Windows\debug`
+`tree C:\Windows\debug /F`
+`tree C:\Windows\debug /A`
+`tree C:\Windows\diagnostics`
+`tree C:\Windows\diagnostics /F`
+`tree C:\Windows\diagnostics /A`
+`tree C:\Windows\DigitalLocker`
+`tree C:\Windows\DigitalLocker /F`
+`tree C:\Windows\DigitalLocker /A`
+`tree C:\Windows\Downloaded Program Files`
+`tree C:\Windows\Downloaded Program Files /F`
+`tree C:\Windows\Downloaded Program Files /A`Sure, here are more commands based on the `tree` command in Windows:
+`tree C:\Windows\Driver Cache`
+`tree C:\Windows\Driver Cache /F`
+`tree C:\Windows\Driver Cache /A`
+`tree C:\Windows\en-US`
+`tree C:\Windows\en-US /F`
+`tree C:\Windows\en-US /A`
+`tree C:\Windows\Fonts`
+`tree C:\Windows\Fonts /F`
+`tree C:\Windows\Fonts /A`
+`tree C:\Windows\Help`
+`tree C:\Windows\Help /F`
+`tree C:\Windows\Help /A`
+`tree C:\Windows\IME`
+`tree C:\Windows\IME /F`
+`tree C:\Windows\IME /A`
+`tree C:\Windows\InfusedApps`
+`tree C:\Windows\InfusedApps /F`
+`tree C:\Windows\InfusedApps /A`
+`tree C:\Windows\Installer`
+`tree C:\Windows\Installer /F`
+`tree C:\Windows\Installer /A`
+`tree C:\Windows\L2Schemas`
+`tree C:\Windows\L2Schemas /F`
+`tree C:\Windows\L2Schemas /A`
+`tree C:\Windows\LiveKernelReports`
+`tree C:\Windows\LiveKernelReports /F`
+`tree C:\Windows\LiveKernelReports /A`
+`tree C:\Windows\Logs`
+`tree C:\Windows\Logs /F`
+`tree C:\Windows\Logs /A`
+`tree C:\Windows\Media`
+`tree C:\Windows\Media /F`
+`tree C:\Windows\Media /A`
+`tree C:\Windows\Microsoft.NET`
+`tree C:\Windows\Microsoft.NET /F`
+`tree C:\Windows\Microsoft.NET /A`
+`tree C:\Windows\Migration`
+`tree C:\Windows\Migration /F`
+`tree C:\Windows\Migration /A`
+`tree C:\Windows\ModemLogs`
+`tree C:\Windows\ModemLogs /F`
+`tree C:\Windows\ModemLogs /A`
+`tree C:\Windows\Offline Web Pages`
+`tree C:\Windows\Offline Web Pages /F`
+`tree C:\Windows\Offline Web Pages /A`
+`tree C:\Windows\Panther`
+`tree C:\Windows\Panther /F`
+`tree C:\Windows\Panther /A`
+`tree C:\Windows\Performance`
+`tree C:\Windows\Performance /F`
+`tree C:\Windows\Performance /A`
+`tree C:\Windows\PLA`
+`tree C:\Windows\PLA /F`
+`tree C:\Windows\PLA /A`
+`tree C:\Windows\PolicyDefinitions`
+`tree C:\Windows\PolicyDefinitions /F`
+`tree C:\Windows\PolicyDefinitions /A`
+`tree C:\Windows\Prefetch`
+`tree C:\Windows\Prefetch /F`
+`tree C:\Windows\Prefetch /A`
+`tree C:\Windows\PrintDialog`
+`tree C:\Windows\PrintDialog /F`
+`tree C:\Windows\PrintDialog /A`
+`tree C:\Windows\rescache`
+`tree C:\Windows\rescache /F`
+`tree C:\Windows\rescache /A`
+`tree C:\Windows\Resources`
+`tree C:\Windows\Resources /F`
+`tree C:\Windows\Resources /A`
+`tree C:\Windows\SchCache`
+`tree C:\Windows\SchCache /F`
+`tree C:\Windows\SchCache /A`
+`tree C:\Windows\schemas`
+`tree C:\Windows\schemas /F`
+`tree C:\Windows\schemas /A`
+`tree C:\Windows\Security`
+`tree C:\Windows\Security /F`
+`tree C:\Windows\Security /A`
+`tree C:\Windows\ServiceProfiles`
+`tree C:\Windows\ServiceProfiles /F`
+`tree C:\Windows\ServiceProfiles /A`
+`tree C:\Windows\Servicing`
+`tree C:\Windows\Servicing /F`
+`tree C:\Windows\Servicing /A`
+`tree C:\Windows\Setup`
+`tree C:\Windows\Setup /F`
+`tree C:\Windows\Setup /A`
+`tree C:\Windows\ShellComponents`
+`tree C:\Windows\ShellComponents /F`
+`tree C:\Windows\ShellComponents /A`
+`tree C:\Windows\ShellExperiences`
+`tree C:\Windows\ShellExperiences /F`
+`tree C:\Windows\ShellExperiences /A`
+`tree C:\Windows\Sidebar`
+`tree C:\Windows\Sidebar /F`
+`tree C:\Windows\Sidebar /A`
+`tree C:\Windows\SoftwareDistribution`
+`tree C:\Windows\SoftwareDistribution /F`
+`tree C:\Windows\SoftwareDistribution /A`
+`tree C:\Windows\System`
+`tree C:\Windows\System /F`
+`tree C:\Windows\System /A`

@@ -1,0 +1,113 @@
+`psexec \\computer command`
+`psexec @run_file command`
+`psexec \\* command`
+`psexec -a 2,4 command`
+`psexec -c command`
+`psexec -c -f command`
+`psexec -c -v command`
+`psexec -d command`
+`psexec -e command`
+`psexec -f command`
+`psexec -h command`
+`psexec -i command`
+`psexec -l command`
+`psexec -n 10 command`
+`psexec -p password command`
+`psexec -r servicename command`
+`psexec -s command`
+`psexec -u username command`
+`psexec -v command`
+`psexec -w directory command`
+`psexec -x command`
+`psexec -low command`
+`psexec -belownormal command`
+`psexec -abovenormal command`
+`psexec -high command`
+`psexec -realtime command`
+`psexec -background command`
+`psexec -accepteula command`
+`psexec -accepteula -s c:\\utils\\pslist.exe -accepteula`
+`psexec \\workstation64 CMD`
+`psexec \\workstation64 -h CMD`
+`psexec \\workstation64 -h powershell`
+`psexec \\workstation64 "c:\\Program Files\\test.exe"`
+`psexec \\workstation64 ipconfig`
+`psexec \\workstation64 -s cmd /c dir c:\\work`
+`psexec \\workstation64 -s cmd /c copy \\server21\\share45\\file.ext c:\\localpath`
+`psexec \\workstation64 ipconfig /all`
+`psexec \\workstation64 -c test.exe -u DannyGlover -p Pa55w0rd`
+`psexec -l -d "c:\\program files\\internet explorer\\iexplore.exe"`
+`psexec -s -i regedit.exe`
+`psexec -s \\workstation64 "c:\\windows\\system32\\cscript.exe" $script $args /log 'C:\\logs\\demo.txt'`
+`psexec \\computer -c program.exe`
+`psexec \\computer -c -f program.exe`
+`psexec \\computer -c -v program.exe`
+`psexec \\computer -d program.exe`
+`psexec \\computer -e program.exe`
+`psexec \\computer -f program.exe`
+`psexec \\computer -h program.exe`
+`psexec \\computer -i program.exe`
+`psexec \\computer -l program.exe`
+`psexec \\computer -n program.exe`
+`psexec \\computer -p password program.exe`
+`psexec \\computer -r servicename program.exe`
+`psexec \\computer -s program.exe`
+`psexec \\computer -u username program.exe`
+`psexec \\computer -v program.exe`
+`psexec \\computer -w directory program.exe`
+`psexec \\computer -x program.exe`
+`psexec \\computer -low program.exe`
+`psexec \\computer -belownormal program.exe`
+`psexec \\computer -abovenormal program.exe`
+`psexec \\computer -high program.exe`
+`psexec \\computer -realtime program.exe`
+`psexec \\computer -background program.exe`
+`psexec \\computer -accepteula program.exe`
+`psexec \\computer -c program2.exe`
+`psexec \\computer -c -f program2.exe`
+`psexec \\computer -c -v program2.exe`
+`psexec \\computer -d program2.exe`
+`psexec \\computer -e program2.exe`
+`psexec \\computer -f program2.exe`
+`psexec \\computer -h program2.exe`
+`psexec \\computer -i program2.exe`
+`psexec \\computer -l program2.exe`
+`psexec \\computer -n program2.exe`
+`psexec \\computer -p password program2.exe`
+`psexec \\computer -r servicename program2.exe`
+`psexec \\computer -s program2.exe`
+`psexec \\computer -u username program2.exe`
+`psexec \\computer -v program2.exe`
+`psexec \\computer -w directory program2.exe`
+`psexec \\computer -x program2.exe`
+`psexec \\computer -low program2.exe`
+`psexec \\computer -belownormal program2.exe`
+`psexec \\computer -abovenormal program2.exe`
+`psexec \\computer -high program2.exe`
+`psexec \\computer -realtime program2.exe`
+`psexec \\computer -background program2.exe`
+`psexec \\computer -accepteula program2.exe`
+`psexec \\computer -c program3.exe`
+`psexec \\computer -c -f program3.exe`
+`psexec \\computer -c -v program3.exe`
+`psexec \\computer -d program3.exe`
+`psexec \\computer -e program3.exe`
+`psexec \\computer -f program3.exe`
+`psexec \\computer -h program3.exe`
+`psexec \\computer -i program3.exe`
+`psexec \\computer -l program3.exe`
+`psexec \\computer -n program3.exe`
+`psexec \\computer -p password program3.exe`
+`psexec \\computer -r servicename program3.exe`
+`psexec \\computer -s program3.exe`
+`psexec \\computer -u username program3.exe`
+`psexec \\computer -v program3.exe`
+`psexec \\computer -w directory program3.exe`
+`psexec \\computer -x program3.exe`
+`psexec \\computer -low program3.exe`
+`psexec \\computer -belownormal program3.exe`
+`psexec \\computer -abovenormal program3.exe`
+`psexec \\computer -high program3.exe`
+`psexec \\computer -realtime program3.exe`
+`psexec \\computer -background program3.exe`
+`psexec \\computer -accepteula program3.exe`

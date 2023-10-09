@@ -1,0 +1,106 @@
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe`
+`SCHTASKS /Delete /TN MyTask /F`
+`SCHTASKS /Query /TN MyTask`
+`SCHTASKS /Run /TN MyTask`
+`SCHTASKS /End /TN MyTask`
+`SCHTASKS /Change /TN MyTask /DISABLE`
+`SCHTASKS /ShowSID /TN MyTask`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC MINUTE /MO 30`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC HOURLY /MO 1`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC DAILY /MO 1`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC WEEKLY /D MON,TUE,WED,THU,FRI`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC MONTHLY /M JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONSTART`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONLOGON`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONIDLE`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ST 14:00`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /RI 60`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /DELAY 01:00`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /EC MyEventChannel`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /RL HIGHEST`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /ET 14:50`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /F`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /K`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /NP`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /XML C:\MyTask.xml`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /V1`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /IT`
+`SCHTASKS /Create /TN MyTask /TR C:\MyApp\MyApp.exe /SC ONCE /SD 12/12/2021 /ED 12/12/2022 /Z`
+`SCHTASKS /Query /FO TABLE`
+`SCHTASKS /Query /FO LIST`
+`SCHTASKS /Query /FO CSV`
+`SCHTASKS /Query /NH`
+`SCHTASKS /Query /V`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC HOURLY /MO 1`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC DAILY /MO 1`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC WEEKLY /MO 1`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MONTHLY /MO 1`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONSTART`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONLOGON`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONIDLE`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ST StartTime`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /RI Interval`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /DELAY DelayTime`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /EC ChannelName`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /RL Level`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /ET EndTime`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /F`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /K`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /NP`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /XML XMLFile`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /V1`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /IT`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC ONCE /SD StartDate /ED EndDate /Z`
+`SCHTASKS /Query /FO Format /NH`
+`SCHTASKS /Query /FO Format /V`
+`SCHTASKS /Change /TN TaskName /ENABLE`
+`SCHTASKS /Change /TN TaskName /DISABLE`
+`SCHTASKS /Change /TN TaskName /RU Username /RP Password /TR TaskRun`
+`SCHTASKS /Change /TN TaskName /ST StartTime`
+`SCHTASKS /Change /TN TaskName /RI Interval /ET EndTime`
+`SCHTASKS /Change /TN TaskName /RI Interval /DU Duration`
+`SCHTASKS /Change /TN TaskName /SD StartDate /ED EndDate`
+`SCHTASKS /Change /TN TaskName /RL Level`
+`SCHTASKS /Delete /TN TaskName`
+`SCHTASKS /End /TN TaskName`
+`SCHTASKS /Run /TN TaskName`
+`SCHTASKS /Query /TN TaskName`
+`SCHTASKS /ShowSID /TN TaskName`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /D MON`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /D TUE`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /D WED`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /D THU`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /D FRI`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /D SAT`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /D SUN`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M JAN`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M FEB`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M MAR`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M APR`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M MAY`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M JUN`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M JUL`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M AUG`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M SEP`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M OCT`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M NOV`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /M DEC`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /I IdleTime`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /RI Interval`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /DELAY DelayTime`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /EC ChannelName`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /RL Level`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /ET EndTime`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /DU Duration`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /F`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /K`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /NP`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /XML XMLFile`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /V1`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /IT`
+`SCHTASKS /Create /TN TaskName /TR TaskRun /SC MINUTE /MO 1 /Z`

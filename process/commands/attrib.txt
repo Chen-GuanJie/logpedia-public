@@ -1,0 +1,270 @@
+attrib +r filename.txt
+attrib -r filename.txt
+attrib +a filename.txt
+attrib -a filename.txt
+attrib +s filename.txt
+attrib -s filename.txt
+attrib +h filename.txt
+attrib -h filename.txt
+attrib +b filename.txt
+attrib -b filename.txt
+attrib +e filename.txt
+attrib -e filename.txt
+attrib +c filename.txt
+attrib -c filename.txt
+attrib +i filename.txt
+attrib -i filename.txt
+attrib +n filename.txt
+attrib -n filename.txt
+attrib +o filename.txt
+attrib -o filename.txt
+attrib +p filename.txt
+attrib -p filename.txt
+attrib +t filename.txt
+attrib -t filename.txt
+attrib +x filename.txt
+attrib -x filename.txt
+attrib +u filename.txt
+attrib -u filename.txt
+attrib +v filename.txt
+attrib -v filename.txt
+attrib +r /s /d
+attrib -r /s /d
+attrib +a /s /d
+attrib -a /s /d
+attrib +s /s /d
+attrib -s /s /d
+attrib +h /s /d
+attrib -h /s /d
+attrib +b /s /d
+attrib -b /s /d
+attrib +e /s /d
+attrib -e /s /d
+attrib +c /s /d
+attrib -c /s /d
+attrib +i /s /d
+attrib -i /s /d
+attrib +n /s /d
+attrib -n /s /d
+attrib +o /s /d
+attrib -o /s /d
+attrib +p /s /d
+attrib -p /s /d
+attrib +t /s /d
+attrib -t /s /d
+attrib +x /s /d
+attrib -x /s /d
+attrib +u /s /d
+attrib -u /s /d
+attrib +v /s /d
+attrib -v /s /d
+attrib +r /s
+attrib -r /s
+attrib +a /s
+attrib -a /s
+attrib +s /s
+attrib -s /s
+attrib +h /s
+attrib -h /s
+attrib +b /s
+attrib -b /s
+attrib +e /s
+attrib -e /s
+attrib +c /s
+attrib -c /s
+attrib +i /s
+attrib -i /s
+attrib +n /s
+attrib -n /s
+attrib +o /s
+attrib -o /s
+attrib +p /s
+attrib -p /s
+attrib +t /s
+attrib -t /s
+attrib +x /s
+attrib -x /s
+attrib +u /s
+attrib -u /s
+attrib +v /s
+attrib -v /s
+attrib +r /d
+attrib -r /d
+attrib +a /d
+attrib -a /d
+attrib +s /d
+attrib -s /d
+attrib +h /d
+attrib -h /d
+attrib +b /d
+attrib -b /d
+attrib +e /d
+attrib -e /d
+attrib +c /d
+attrib -c /d
+attrib +i /d
+attrib -i /d
+attrib +n /d
+attrib -n /d
+attrib +o /d
+attrib -o /d
+attrib +p /d
+attrib -p /d
+attrib +t /d
+attrib -t /d
+attrib +x /d
+attrib -x /d
+attrib +u /d
+attrib -u /d
+attrib +v /d
+attrib -v /d
+attrib +r /l
+attrib -r /l
+attrib +a /l
+attrib -a /l
+attrib +s /l
+attrib -s /l
+attrib +h /l
+attrib -h /l
+attrib +b /l
+attrib -b /l
+attrib +e /l
+attrib -e /l
+attrib +c /l
+attrib -c /l
+attrib +i /l
+attrib -i /l
+attrib +n /l
+attrib -n /l
+attrib +o /l
+attrib -o /l
+attrib +p /l
+attrib -p /l
+attrib +t /l
+attrib -t /l
+attrib +x /l
+attrib -x /l
+attrib +u /l
+attrib -u /l
+attrib +v /l
+attrib -v /l
+attrib +r foldername
+attrib -r foldername
+attrib +a foldername
+attrib -a foldername
+attrib +s foldername
+attrib -s foldername
+attrib +h foldername
+attrib -h foldername
+attrib +b foldername
+attrib -b foldername
+attrib +e foldername
+attrib -e foldername
+attrib +c foldername
+attrib -c foldername
+attrib +i foldername
+attrib -i foldername
+attrib +n foldername
+attrib -n foldername
+attrib +o foldername
+attrib -o foldername
+attrib +p foldername
+attrib -p foldername
+attrib +t foldername
+attrib -t foldername
+attrib +x foldername
+attrib -x foldername
+attrib +u foldername
+attrib -u foldername
+attrib +v foldername
+attrib -v foldername
+attrib +r /s foldername
+attrib -r /s foldername
+attrib +a /s foldername
+attrib -a /s foldername
+attrib +s /s foldername
+attrib -s /s foldername
+attrib +h /s foldername
+attrib -h /s foldername
+attrib +b /s foldername
+attrib -b /s foldername
+attrib +e /s foldername
+attrib -e /s foldername
+attrib +c /s foldername
+attrib -c /s foldername
+attrib +i /s foldername
+attrib -i /s foldername
+attrib +n /s foldername
+attrib -n /s foldername
+attrib +o /s foldername
+attrib -o /s foldername
+attrib +p /s foldername
+attrib -p /s foldername
+attrib +t /s foldername
+attrib -t /s foldername
+attrib +x /s foldername
+attrib -x /s foldername
+attrib +u /s foldername
+attrib -u /s foldername
+attrib +v /s foldername
+attrib -v /s foldername
+attrib +r /d foldername
+attrib -r /d foldername
+attrib +a /d foldername
+attrib -a /d foldername
+attrib +s /d foldername
+attrib -s /d foldername
+attrib +h /d foldername
+attrib -h /d foldername
+attrib +b /d foldername
+attrib -b /d foldername
+attrib +e /d foldername
+attrib -e /d foldername
+attrib +c /d foldername
+attrib -c /d foldername
+attrib +i /d foldername
+attrib -i /d foldername
+attrib +n /d foldername
+attrib -n /d foldername
+attrib +o /d foldername
+attrib -o /d foldername
+attrib +p /d foldername
+attrib -p /d foldername
+attrib +t /d foldername
+attrib -t /d foldername
+attrib +x /d foldername
+attrib -x /d foldername
+attrib +u /d foldername
+attrib -u /d foldername
+attrib +v /d foldername
+attrib -v /d foldername
+attrib +r /l foldername
+attrib -r /l foldername
+attrib +a /l foldername
+attrib -a /l foldername
+attrib +s /l foldername
+attrib -s /l foldername
+attrib +h /l foldername
+attrib -h /l foldername
+attrib +b /l foldername
+attrib -b /l foldername
+attrib +e /l foldername
+attrib -e /l foldername
+attrib +c /l foldername
+attrib -c /l foldername
+attrib +i /l foldername
+attrib -i /l foldername
+attrib +n /l foldername
+attrib -n /l foldername
+attrib +o /l foldername
+attrib -o /l foldername
+attrib +p /l foldername
+attrib -p /l foldername
+attrib +t /l foldername
+attrib -t /l foldername
+attrib +x /l foldername
+attrib -x /l foldername
+attrib +u /l foldername
+attrib -u /l foldername
+attrib +v /l foldername
+attrib -v /l foldername

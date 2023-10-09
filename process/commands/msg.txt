@@ -1,0 +1,114 @@
+`msg user1 "This is a test message"`
+`msg user2 /SERVER:server1 "This is a test message"`
+`msg user3 /TIME:10 "This is a test message"`
+`msg user4 /V "This is a test message"`
+`msg user5 /W "This is a test message"`
+`msg * "This is a test message"`
+`msg @userlist.txt "This is a test message"`
+`msg session1 "This is a test message"`
+`msg session2 /SERVER:server1 "This is a test message"`
+`msg session3 /TIME:10 "This is a test message"`
+`msg session4 /V "This is a test message"`
+`msg session5 /W "This is a test message"`
+`msg * /SERVER:server1 "This is a test message"`
+`msg * /TIME:10 "This is a test message"`
+`msg * /V "This is a test message"`
+`msg * /W "This is a test message"`
+`msg @sessionlist.txt "This is a test message"`
+`msg sessionid1 "This is a test message"`
+`msg sessionid2 /SERVER:server1 "This is a test message"`
+`msg sessionid3 /TIME:10 "This is a test message"`
+`msg sessionid4 /V "This is a test message"`
+`msg sessionid5 /W "This is a test message"`
+`msg * "This is a test message"`
+`msg @sessionidlist.txt "This is a test message"`
+`msg user1 /SERVER:server2 "This is a test message"`
+`msg user2 /TIME:20 "This is a test message"`
+`msg user3 /V /SERVER:server1 "This is a test message"`
+`msg user4 /W /SERVER:server1 "This is a test message"`
+`msg * /SERVER:server2 "This is a test message"`
+`msg @userlist2.txt "This is a test message"`
+`msg session1 /SERVER:server2 "This is a test message"`
+`msg session2 /TIME:20 "This is a test message"`
+`msg session3 /V /SERVER:server1 "This is a test message"`
+`msg session4 /W /SERVER:server1 "This is a test message"`
+`msg * /SERVER:server2 "This is a test message"`
+`msg @sessionlist2.txt "This is a test message"`
+`msg sessionid1 /SERVER:server2 "This is a test message"`
+`msg sessionid2 /TIME:20 "This is a test message"`
+`msg sessionid3 /V /SERVER:server1 "This is a test message"`
+`msg sessionid4 /W /SERVER:server1 "This is a test message"`
+`msg * /SERVER:server2 "This is a test message"`
+`msg @sessionidlist2.txt "This is a test message"`
+`msg user1 /SERVER:server3 "This is a test message"`
+`msg user2 /TIME:30 "This is a test message"`
+`msg user3 /V /SERVER:server2 "This is a test message"`
+`msg user4 /W /SERVER:server2 "This is a test message"`
+`msg * /SERVER:server3 "This is a test message"`
+`msg @userlist3.txt "This is a test message"`
+`msg session1 /SERVER:server3 "This is a test message"`
+`msg session2 /TIME:30 "This is a test message"`
+`msg session3 /V /SERVER:server2 "This is a test message"`
+`msg session4 /W /SERVER:server2 "This is a test message"`
+`msg * /SERVER:server3 "This is a test message"`
+`msg @sessionlist3.txt "This is a test message"`
+`msg sessionid1 /SERVER:server3 "This is a test message"`
+`msg sessionid2 /TIME:30 "This is a test message"`
+`msg sessionid3 /V /SERVER:server2 "This is a test message"`
+`msg sessionid4 /W /SERVER:server2 "This is a test message"`
+`msg * /SERVER:server3 "This is a test message"`
+`msg @sessionidlist3.txt "This is a test message"`
+`msg user5 /SERVER:server4 "This is a test message"`
+`msg user6 /TIME:40 "This is a test message"`
+`msg user7 /V /SERVER:server3 "This is a test message"`
+`msg user8 /W /SERVER:server3 "This is a test message"`
+`msg * /SERVER:server4 "This is a test message"`
+`msg @userlist4.txt "This is a test message"`
+`msg session5 /SERVER:server4 "This is a test message"`
+`msg session6 /TIME:40 "This is a test message"`
+`msg session7 /V /SERVER:server3 "This is a test message"`
+`msg session8 /W /SERVER:server3 "This is a test message"`
+`msg * /SERVER:server4 "This is a test message"`
+`msg @sessionlist4.txt "This is a test message"`
+`msg sessionid5 /SERVER:server4 "This is a test message"`
+`msg sessionid6 /TIME:40 "This is a test message"`
+`msg sessionid7 /V /SERVER:server3 "This is a test message"`
+`msg sessionid8 /W /SERVER:server3 "This is a test message"`
+`msg * /SERVER:server4 "This is a test message"`
+`msg @sessionidlist4.txt "This is a test message"`
+`msg user9 /SERVER:server5 "This is a test message"`
+`msg user10 /TIME:50 "This is a test message"`
+`msg user11 /V /SERVER:server4 "This is a test message"`
+`msg user12 /W /SERVER:server4 "This is a test message"`
+`msg * /SERVER:server5 "This is a test message"`
+`msg @userlist5.txt "This is a test message"`
+`msg session9 /SERVER:server5 "This is a test message"`
+`msg session10 /TIME:50 "This is a test message"`
+`msg session11 /V /SERVER:server4 "This is a test message"`
+`msg session12 /W /SERVER:server4 "This is a test message"`
+`msg * /SERVER:server5 "This is a test message"`
+`msg @sessionlist5.txt "This is a test message"`
+`msg sessionid9 /SERVER:server5 "This is a test message"`
+`msg sessionid10 /TIME:50 "This is a test message"`
+`msg sessionid11 /V /SERVER:server4 "This is a test message"`
+`msg sessionid12 /W /SERVER:server4 "This is a test message"`
+`msg * /SERVER:server5 "This is a test message"`
+`msg @sessionidlist5.txt "This is a test message"`
+`msg user13 /SERVER:server6 "This is a test message"`
+`msg user14 /TIME:60 "This is a test message"`
+`msg user15 /V /SERVER:server5 "This is a test message"`
+`msg user16 /W /SERVER:server5 "This is a test message"`
+`msg * /SERVER:server6 "This is a test message"`
+`msg @userlist6.txt "This is a test message"`
+`msg session13 /SERVER:server6 "This is a test message"`
+`msg session14 /TIME:60 "This is a test message"`
+`msg session15 /V /SERVER:server5 "This is a test message"`
+`msg session16 /W /SERVER:server5 "This is a test message"`
+`msg * /SERVER:server6 "This is a test message"`
+`msg @sessionlist6.txt "This is a test message"`
+`msg sessionid13 /SERVER:server6 "This is a test message"`
+`msg sessionid14 /TIME:60 "This is a test message"`
+`msg sessionid15 /V /SERVER:server5 "This is a test message"`
+`msg sessionid16 /W /SERVER:server5 "This is a test message"`
+`msg * /SERVER:server6 "This is a test message"`
+`msg @sessionidlist6.txt "This is a test message"`

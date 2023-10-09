@@ -1,0 +1,60 @@
+DATE /T
+DATE
+DATE <date_today>
+%DATE%
+GetDate.cmd
+datetime.vbs
+GetLocale
+NOW
+NET TIME
+REG QUERY HKCU\\Control Panel\\International\\sShortDate
+REG QUERY HKCU\\Control Panel\\International\\sDate
+REG QUERY HKCU\\Control Panel\\International\\iCountry
+REG QUERY HKCU\\Control Panel\\International\\Locale
+TIME
+TOUCH
+Set-ADUser -Country
+Set-Date
+DATE /T > output.txt
+DATE > output.txt
+%DATE% > output.txt
+GetDate.cmd > output.txt
+datetime.vbs > output.txt
+GetLocale > output.txt
+NOW > output.txt
+NET TIME > output.txt
+REG QUERY HKCU\\Control Panel\\International\\sShortDate > output.txt
+REG QUERY HKCU\\Control Panel\\International\\sDate > output.txt
+REG QUERY HKCU\\Control Panel\\International\\iCountry > output.txt
+REG QUERY HKCU\\Control Panel\\International\\Locale > output.txt
+TIME > output.txt
+TOUCH > output.txt
+Set-ADUser -Country > output.txt
+Set-Date > output.txt
+DATE /T | findstr /i "date"
+DATE | findstr /i "date"
+%DATE% | findstr /i "date"
+GetDate.cmd | findstr /i "date"
+datetime.vbs | findstr /i "date"
+GetLocale | findstr /i "date"
+NOW | findstr /i "date"
+NET TIME | findstr /i "date"
+REG QUERY HKCU\\Control Panel\\International\\sShortDate | findstr /i "date"
+REG QUERY HKCU\\Control Panel\\International\\sDate | findstr /i "date"
+REG QUERY HKCU\\Control Panel\\International\\iCountry | findstr /i "date"
+REG QUERY HKCU\\Control Panel\\International\\Locale | findstr /i "date"
+TIME | findstr /i "date"
+TOUCH | findstr /i "date"
+Set-ADUser -Country | findstr /i "date"
+Set-Date | findstr /i "date"
+echo %DATE% > date.txt
+echo %DATE% | findstr /i "date"
+echo %DATE% | findstr /i "date" > date.txt
+echo %DATE% | findstr /i "date" | findstr /i "time"
+echo %DATE% | findstr /i "date" | findstr /i "time" > date.txt
+echo %DATE% | findstr /i "date" | findstr /i "time" | findstr /i "day"
+echo %DATE% | findstr /i "date" | findstr /i "time" | findstr /i "day" > date.txt
+echo %DATE% | findstr /i "date" | findstr /i "time" | findstr /i "day" | findstr /i "month"
+echo %DATE% | findstr /i "date" | findstr /i "time" | findstr /i "day" | findstr /i "month" > date.txt
+echo %DATE% | findstr /i "date" | findstr /i "time" | findstr /i "day" | findstr /i "month" | findstr /i "year"
+echo %DATE% | findstr /i "date" | findstr /i "time" | findstr /i "day" | findstr /i "month" | findstr /i "year" > date.txt

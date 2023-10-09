@@ -1,0 +1,70 @@
+REG QUERY [ROOT\\]RegKey /V ValueName
+REG QUERY [ROOT\\]RegKey /VE
+REG ADD [ROOT\\]RegKey /V ValueName /T DataType /S Separator /D Data /F
+REG ADD [ROOT\\]RegKey /VE /d Data /F
+REG DELETE [ROOT\\]RegKey /V ValueName /F
+REG DELETE [ROOT\\]RegKey /VE /F
+REG DELETE [ROOT\\]RegKey /VA /F
+REG COPY  [\\\\SourceMachine\\][ROOT\\]RegKey [\\\\DestMachine\\][ROOT\\]RegKey
+REG EXPORT [ROOT\\]RegKey FileName.reg /Y
+REG IMPORT FileName.reg
+REG SAVE [ROOT\\]RegKey FileName.hiv /Y
+REG RESTORE \\\\MachineName\\[ROOT]\\KeyName FileName.hiv
+REG LOAD KeyName FileName
+REG UNLOAD KeyName
+REG COMPARE [ROOT\\]RegKey [ROOT\\]RegKey /V ValueName
+REG COMPARE [ROOT\\]RegKey [ROOT\\]RegKey /VE
+REG QUERY HKCU\\Console
+REG QUERY HKCU\\Console /v ScreenBufferSize
+REG ADD HKCU\\Software\\SS64 /v Sample /d "some test data"
+REG QUERY HKCU\\Software\\SS64 /v Sample
+REG ADD "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System" /v HideFastUserSwitching /t REG_DWORD /d 1
+REG ADD HKLM\\Software\\DiLithium /v WarpSpeed /t REG_BINARY /d f1f2f3f4 /f
+REG QUERY HKLM\\Software\\DiLithium /v WarpSpeed
+REG QUERY "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders" /v "Start Menu"
+REG ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize /v AppsUseLightTheme /t REG_DWORD /d 0 /f
+REG ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize /v AppsUseLightTheme /t REG_DWORD /d 1 /f
+REG DELETE "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MyComputer\\NameSpace\\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"
+REG DELETE "HKLM\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MyComputer\\NameSpace\\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}"
+REG ADD HKLM\\Software\\SS64 /v Path /t REG_EXPAND_SZ /d ^%systemroot^%
+REG COPY HKCU\\Software\\SS64 HKCU\\Software\\SS64Copy
+REG COPY \\\\Computer64\\HKCU\\Software\\SS64 HKCU\\Software\\SS64
+REG EXPORT HKCU\\Software\\SS64 C:\\MyReg.REG
+REG IMPORT C:\\MyReg.REG
+REG SAVE HKCU\\Software\\SS64 C:\\MyRegHive.hiv
+REG RESTORE \\\\Wks580\\HKCU\\Software\\SS64 C:\\MyRegHive.hiv
+REG LOAD HKU\\TEMP "C:\\Documents and Settings\\Default User\\NTUSER.DAT"
+REG ADD HKU\\TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce /v newUserProfile /t REG_EXPAND_SZ /d "D:\\setup.cmd" /f
+REG UNLOAD HKU\\TEMP
+REG ADD HKCU\\Software\\SS64 /v Sample /d "some different data"
+REG DELETE [ROOT\\]RegKey /V AnotherValueName /F
+REG ADD [ROOT\\]AnotherRegKey /V ValueName /T DataType /S Separator /D Data /F
+REG EXPORT [ROOT\\]AnotherRegKey FileName2.reg /Y
+REG IMPORT FileName2.reg
+REG SAVE [ROOT\\]AnotherRegKey FileName2.hiv /Y
+REG RESTORE \\\\AnotherMachineName\\[ROOT]\\KeyName FileName2.hiv
+REG LOAD AnotherKeyName FileName2
+REG UNLOAD AnotherKeyName
+REG COMPARE [ROOT\\]AnotherRegKey [ROOT\\]RegKey /V ValueName
+REG COMPARE [ROOT\\]RegKey [ROOT\\]AnotherRegKey /VE
+REG QUERY HKCU\\Console /v AnotherScreenBufferSize
+REG ADD HKCU\\Software\\SS64 /v AnotherSample /d "some more test data"
+REG QUERY HKCU\\Software\\SS64 /v AnotherSample
+REG ADD "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System" /v ShowFastUserSwitching /t REG_DWORD /d 1
+REG ADD HKLM\\Software\\DiLithium /v SlowerSpeed /t REG_BINARY /d f1f2f3f4 /f
+REG QUERY HKLM\\Software\\DiLithium /v SlowerSpeed
+REG QUERY "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders" /v "Start Menu 2"
+REG ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize /v AppsUseLightTheme /t REG_DWORD /d 2 /f
+REG ADD HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize /v AppsUseLightTheme /t REG_DWORD /d 3 /f
+REG DELETE "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MyComputer\\NameSpace\\{0DB7E03F-FC29-4DC6-9020-FF41B59E513B}"
+REG DELETE "HKLM\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MyComputer\\NameSpace\\{0DB7E03F-FC29-4DC6-9020-FF41B59E513B}"
+REG ADD HKLM\\Software\\SS64 /v Path /t REG_EXPAND_SZ /d ^%systemroot^%\\system32
+REG COPY HKCU\\Software\\SS64 HKCU\\Software\\SS64Copy2
+REG COPY \\\\Computer64\\HKCU\\Software\\SS64 HKCU\\Software\\SS64Copy2
+REG EXPORT HKCU\\Software\\SS64 C:\\MyReg2.REG
+REG IMPORT C:\\MyReg2.REG
+REG SAVE HKCU\\Software\\SS64 C:\\MyRegHive2.hiv
+REG RESTORE \\\\Wks580\\HKCU\\Software\\SS64 C:\\MyRegHive2.hiv
+REG LOAD HKU\\TEMP "C:\\Documents and Settings\\Default User\\NTUSER2.DAT"
+REG ADD HKU\\TEMP\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce /v newUserProfile2 /t REG_EXPAND_SZ /d "D:\\setup2.cmd" /f
+REG UNLOAD HKU\\TEMP2

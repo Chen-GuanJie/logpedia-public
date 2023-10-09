@@ -1,0 +1,51 @@
+`sc query` - Displays the status of a service.
+`sc start {process_name}` - Starts a service.
+`sc stop {process_name}` - Stops a service.
+`sc delete {process_name}` - Deletes a service.
+`sc pause {process_name}` - Pauses a service.
+`sc continue {process_name}` - Resumes a paused service.
+`sc queryex {process_name}` - Provides extended information about a service.
+`sc qc {process_name}` - Displays the configuration information for a service.
+`sc qdescription {process_name}` - Displays the description of a service.
+`sc qfailure {process_name}` - Displays the actions to be performed when a service fails.
+`sc qprivs {process_name}` - Displays the privileges of a service.
+`sc qsidtype {process_name}` - Displays the service SID type for a service.
+`sc qtriggerinfo {process_name}` - Displays the trigger parameters of a service.
+`sc qprocess {process_name}` - Displays the process identifier of a service.
+`sc quserservice {process_name}` - Displays the user account under which a service runs.
+`sc qfailureflag {process_name}` - Displays the failure actions flag of a service.
+`sc config {process_name} start= auto` - Configures a service to start automatically.
+`sc config {process_name} start= demand` - Configures a service to start manually.
+`sc config {process_name} start= disabled` - Disables a service.
+`sc config {process_name} obj= "NT AUTHORITY\LocalService"` - Configures a service to run under the Local Service account.
+`sc config {process_name} obj= "NT AUTHORITY\NetworkService"` - Configures a service to run under the Network Service account.
+`sc config {process_name} obj= "NT AUTHORITY\System"` - Configures a service to run under the Local System account.
+`sc config {process_name} type= own` - Configures a service to run in its own process.
+`sc config {process_name} type= share` - Configures a service to share a process with other services.
+`sc config {process_name} type= interact` - Configures a service to interact with the desktop.
+`sc config {process_name} type= kernel` - Configures a service to run in kernel mode.
+`sc config {process_name} type= filesys` - Configures a service to run as a file system driver.
+`sc config {process_name} type= rec` - Configures a service to run as a recognizer driver.
+`sc config {process_name} type= adapt` - Configures a service to run as an adapter driver.
+`sc config {process_name} error= normal` - Configures a service to log on as a normal error control.
+`sc config {process_name} error= severe` - Configures a service to log on as a severe error control.
+`sc config {process_name} error= critical` - Configures a service to log on as a critical error control.
+`sc config {process_name} error= ignore` - Configures a service to ignore errors.
+`sc config {process_name} binPath= "{path_to_binary}"` - Configures the binary path of a service.
+`sc config {process_name} DisplayName= "{display_name}"` - Configures the display name of a service.
+`sc config {process_name} depend= {dependencies}` - Configures the dependencies of a service.
+`sc config {process_name} password= {password}` - Configures the password of a service.
+`sc config {process_name} startname= {username}` - Configures the username of a service.
+`sc config {process_name} privs= {privileges}` - Configures the privileges of a service.
+`sc config {process_name} sidtype= {sid_type}` - Configures the service SID type of a service.
+`sc config {process_name} failure= {actions}` - Configures the failure actions of a service.
+`sc config {process_name} failureflag= {failure_flag}` - Configures the failure actions flag of a service.
+`sc config {process_name} failureactions= {failure_actions}` - Configures the failure actions of a service.
+`sc config {process_name} failurecommand= "{command}"` - Configures the command to be run when a service fails.
+`sc config {process_name} failureactionsflag= {flag}` - Configures the failure actions flag of a service.
+`sc config {process_name} failureactions= {actions}` - Configures the failure actions of a service.
+`sc config {process_name} failurecommand= "{command}"` - Configures the command to be run when a service fails.
+`sc config {process_name} failureactionsflag= {flag}` - Configures the failure actions flag of a service.
+`sc config {process_name} failureactions= {actions}` - Configures the failure actions of a service.
+`sc config {process_name} failurecommand= "{command}"` - Configures the command to be run when a service fails.
+`sc

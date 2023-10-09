@@ -1,0 +1,24 @@
+AddUsers /c filename Domain Password_options
+AddUsers /c filename /s:x Domain Password_options
+AddUsers /c filename /s:x /? Domain Password_options
+AddUsers /d filename Domain Password_options
+AddUsers /d filename /s:x Domain Password_options
+AddUsers /d filename /s:x /? Domain Password_options
+AddUsers /d:u filename Domain Password_options
+AddUsers /d:u filename /s:x Domain Password_options
+AddUsers /d:u filename /s:x /? Domain Password_options
+AddUsers /e filename Domain Password_options
+AddUsers /e filename /s:x Domain Password_options
+AddUsers /e filename /s:x /? Domain Password_options
+AddUsers /c filename /s:, Domain /p:lc
+AddUsers /c filename /s:, Domain /p:le
+AddUsers /c filename /s:, Domain /p:ld
+AddUsers /c filename /s:, Domain /p:ce
+AddUsers /c filename /s:, Domain /p:cd
+AddUsers /c filename /s:, Domain /p:ed
+AddUsers /c filename /s:; Domain /p:lc
+AddUsers /c filename /s:; Domain /p:le
+AddUsers /c filename /s:; Domain /p:ld
+AddUsers /c filename /s:; Domain /p:ce
+AddUsers /c filename /s:; Domain /p:cd
+AddUsers /c filename /s:; Domain /p:ed

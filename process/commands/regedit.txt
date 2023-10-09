@@ -1,0 +1,52 @@
+regedit /E pathname
+regedit /E pathname "RegPath"
+regedit /A pathname "RegPath"
+regedit pathname
+regedit /S pathname
+regedit
+regedit /m
+regedit /e export.reg HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Audio
+regedit /A ansi.reg HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Audio
+REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit" /v "LastKey" /d "%_mykey%" /f
+Start /b regedit
+RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
+regedit /E pathname "HKEY_LOCAL_MACHINE\SOFTWARE"
+regedit /E pathname "HKEY_CURRENT_USER\Software"
+regedit /E pathname "HKEY_CLASSES_ROOT\Directory"
+regedit /E pathname "HKEY_CURRENT_CONFIG\System"
+regedit /E pathname "HKEY_USERS\.DEFAULT"
+regedit /E pathname "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion"
+regedit /E pathname "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion"
+regedit /E pathname "HKEY_CLASSES_ROOT\*\shellex"
+regedit /E pathname "HKEY_CURRENT_CONFIG\Software"
+regedit /E pathname "HKEY_USERS\.DEFAULT\Software"
+regedit /A pathname "HKEY_LOCAL_MACHINE\SOFTWARE"
+regedit /A pathname "HKEY_CURRENT_USER\Software"
+regedit /A pathname "HKEY_CLASSES_ROOT\Directory"
+regedit /A pathname "HKEY_CURRENT_CONFIG\System"
+regedit /A pathname "HKEY_USERS\.DEFAULT"
+regedit /A pathname "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion"
+regedit /A pathname "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion"
+regedit /A pathname "HKEY_CLASSES_ROOT\*\shellex"
+regedit /A pathname "HKEY_CURRENT_CONFIG\Software"
+regedit /A pathname "HKEY_USERS\.DEFAULT\Software"
+regedit "HKEY_LOCAL_MACHINE\SOFTWARE"
+regedit "HKEY_CURRENT_USER\Software"
+regedit "HKEY_CLASSES_ROOT\Directory"
+regedit "HKEY_CURRENT_CONFIG\System"
+regedit "HKEY_USERS\.DEFAULT"
+regedit "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion"
+regedit "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion"
+regedit "HKEY_CLASSES_ROOT\*\shellex"
+regedit "HKEY_CURRENT_CONFIG\Software"
+regedit "HKEY_USERS\.DEFAULT\Software"
+regedit /S "HKEY_LOCAL_MACHINE\SOFTWARE"
+regedit /S "HKEY_CURRENT_USER\Software"
+regedit /S "HKEY_CLASSES_ROOT\Directory"
+regedit /S "HKEY_CURRENT_CONFIG\System"
+regedit /S "HKEY_USERS\.DEFAULT"
+regedit /S "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion"
+regedit /S "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion"
+regedit /S "HKEY_CLASSES_ROOT\*\shellex"
+regedit /S "HKEY_CURRENT_CONFIG\Software"
+regedit /S "HKEY_USERS\.DEFAULT\Software"

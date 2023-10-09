@@ -1,0 +1,500 @@
+echo Hello World
+echo OFF
+echo ON
+echo This is a message
+echo %PATH%
+echo %TEMP%
+echo %USERNAME%
+echo %USERPROFILE%
+echo %SYSTEMROOT%
+echo %PROGRAMFILES%
+echo %WINDIR%
+echo %APPDATA%
+echo %COMPUTERNAME%
+echo %USERDOMAIN%
+echo %LOGONSERVER%
+echo %HOMEPATH%
+echo %HOMEDRIVE%
+echo %LOCALAPPDATA%
+echo %PUBLIC%
+echo %ALLUSERSPROFILE%
+echo %COMMONPROGRAMFILES%
+echo %COMMONPROGRAMFILES(x86)%
+echo %COMMONPROGRAMW6432%
+echo %DRIVERDATA%
+echo %ProgramData%
+echo %ProgramFiles(x86)%
+echo %ProgramW6432%
+echo %PSModulePath%
+echo %SystemDrive%
+echo %System%
+echo %PATHEXT%
+echo %PROCESSOR_ARCHITECTURE%
+echo %PROCESSOR_ARCHITEW6432%
+echo %PROCESSOR_IDENTIFIER%
+echo %PROCESSOR_LEVEL%
+echo %PROCESSOR_REVISION%
+echo %SESSIONNAME%
+echo %WinDir%
+echo %PUBLIC_DESKTOP%
+echo %WINDIR%
+echo %TMP%
+echo %OS%
+echo %COMSPEC%
+echo %NUMBER_OF_PROCESSORS%
+echo %PROCESSOR_ARCHITECTURE%
+echo %PROCESSOR_IDENTIFIER%
+echo %PROCESSOR_LEVEL%
+echo %PROCESSOR_REVISION%
+echo %SystemDrive%
+echo %SystemRoot%
+echo %TEMP%
+echo %TMP%
+echo %UserDomain%
+echo %UserName%
+echo %UserProfile%
+echo %windir%
+echo %_department%
+echo:%_department%
+echo %_var%
+echo:%_var%
+echo ^G
+echo First Line
+echo:
+echo Third line
+echo This is some Text > FileName.txt
+echo Some more text>FileName.txt
+echo. 2>EmptyFile.txt
+echo This is stream1 > myfile.dat:stream1
+echo This is stream2 > myfile.dat:stream2
+echo Nice ^&Easy
+echo Salary is ^> Commision
+echo Name ^| Username ^| Expiry Date
+echo:Off On Holiday
+echo: /? Will display help
+echo ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+echo ³                                                         ³
+echo ³ Hello this will appear inside a box                     ³
+echo ³                                                         ³
+echo ³                                                         ³
+echo ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+echo:
+pause
+echo:%PATH:;= & echo:%
+echo This is stream1 > myfile.dat:stream1
+echo This is stream2 > myfile.dat:stream2
+echo %CD%
+echo %DATE%
+echo %TIME%
+echo %RANDOM%
+echo %ERRORLEVEL%
+echo %CMDCMDLINE%
+echo %CMDEXTVERSION%
+echo %HIGHESTNUMANODENUMBER%
+echo %FP_NO_HOST_CHECK%
+echo %NODE_EXTRA_CA_CERTS%
+echo %NODE_OPTIONS%
+echo %NODE_PATH%
+echo %NODE_REPL_HISTORY%
+echo %NPM_CONFIG_USERCONFIG%
+echo %NPM_CONFIG_GLOBALCONFIG%
+echo %NPM_CONFIG_PREFIX%
+echo %OPENSSL_CONF%
+echo %ORIGINAL_PATH%
+echo %PAGER%
+echo %PHANTOMJS_CDNURL%
+echo %PREFIX%
+echo %PYTHON%
+echo %SESSIONNAME%
+echo %SHELL%
+echo %TERM%
+echo %USE_GIT_BASH_SNAPSHOT%
+echo %VSCODE_GIT_IPC_HANDLE%
+echo %VSCODE_GIT_ASKPASS_NODE%
+echo %VSCODE_GIT_ASKPASS_MAIN%
+echo %WINDIR%
+echo %_prog%
+echo %__COMPAT_LAYER%
+echo %__VIEWSTATE%
+echo %__VIEWSTATEGENERATOR%
+echo %__EVENTVALIDATION%
+echo %_prog%
+echo %_test%
+echo %_any_variable%
+echo %_demo%
+echo %_any_variable=string to emit%
+echo %_department=HR%
+echo %_department=Finance%
+echo %_department=Sales%
+echo %_department=Marketing%
+echo %_department=IT%
+echo %_department=Operations%
+echo %_department=Production%
+echo %_department=Logistics%
+echo %_department=Research%
+echo %_department=Development%
+echo %_department=Quality Assurance%
+echo %_department=Customer Service%
+echo %_department=Legal%
+echo %_department=Human Resources%
+echo %_department=Public Relations%
+echo %_department=Procurement%
+echo %_department=Business Development%
+echo %_department=Accounting%
+echo %_department=Corporate Strategy%
+echo %_department=Administrative%
+echo %_department=Engineering%
+echo %_department=Design%
+echo %_department=Product Management%
+echo %_department=Data Analysis%
+echo %_department=Information Technology%Based on the provided description for the behavior of the echo command, here are additional commands that can be executed:
+echo %_department=Project Management%
+echo %_department=Business Intelligence%
+echo %_department=Investor Relations%
+echo %_department=Corporate Communications%
+echo %_department=Risk Management%
+echo %_department=Compliance%
+echo %_department=Supply Chain%
+echo %_department=Planning%
+echo %_department=Inventory%
+echo %_department=Manufacturing%
+echo %_department=Facilities%
+echo %_department=Maintenance%
+echo %_department=Security%
+echo %_department=Transport%
+echo %_department=Import%
+echo %_department=Export%
+echo %_department=Customer Relations%
+echo %_department=Client Services%
+echo %_department=Brand Management%
+echo %_department=Innovation%
+echo %_department=Research & Development%
+echo %_department=Technical Services%
+echo %_department=Training%
+echo %_department=Learning Development%
+echo %_department=Recruitment%
+echo %_department=Compensation%
+echo %_department=Benefits%
+echo %_department=Employee Relations%
+echo %_department=Health & Safety%
+echo %_department=Workforce Planning%
+echo %_department=Talent Management%
+echo %_department=Change Management%
+echo %_department=Organizational Development%
+echo %_department=Performance Management%
+echo %_department=Employee Engagement%
+echo %_department=Employee Communication%
+echo %_department=Succession Planning%
+echo %_department=Leadership Development%
+echo %_department=Culture%
+echo %_department=Values%
+echo %_department=Vision%
+echo %_department=Mission%
+echo %_department=Strategy%
+echo %_department=Goals%
+echo %_department=Objectives%
+echo %_department=Initiatives%
+echo %_department=Operations%
+echo %_department=Finance%
+echo %_department=Sales%
+echo %_department=Marketing%
+echo %_department=IT%
+echo %_department=Operations%
+echo %_department=Production%
+echo %_department=Logistics%
+echo %_department=Research%
+echo %_department=Development%
+echo %_department=Quality Assurance%
+echo %_department=Customer Service%
+echo %_department=Legal%
+echo %_department=Human Resources%
+echo %_department=Public Relations%
+echo %_department=Procurement%
+echo %_department=Business Development%
+echo %_department=Accounting%
+echo %_department=Corporate Strategy%
+echo %_department=Administrative%
+echo %_department=Engineering%
+echo %_department=Design%
+echo %_department=Product Management%
+echo %_department=Data Analysis%
+echo %_department=Information Technology%
+echo %_department=Business Analysis%
+echo %_department=Process Improvement%
+echo %_department=Quality Control%
+echo %_department=Regulatory Affairs%
+echo %_department=Corporate Governance%
+echo %_department=Internal Audit%
+echo %_department=External Relations%
+echo %_department=Government Affairs%
+echo %_department=Public Affairs%
+echo %_department=Community Relations%
+echo %_department=Stakeholder Management%
+echo %_department=Corporate Social Responsibility%
+echo %_department=Sustainability%
+echo %_department=Environmental%
+echo %_department=Health%
+echo %_department=Safety%
+echo %_department=Ethics%
+echo %_department=Integrity%
+echo %_department=Compliance%
+echo %_department=Governance%
+echo %_department=Policy%
+echo %_department=Procedures%
+echo %_department=Standards%
+echo %_department=Best Practices%
+echo %_department=Guidelines%
+echo %_department=Protocols%
+echo %_department=Frameworks%
+echo %_department=Models%
+echo %_department=Approaches%
+echo %_department=Methods%
+echo %_department=Practices%
+echo %_department=Systems%
+echo %_department=Processes%
+echo %_department=Procedures%
+echo %_department=Tools%
+echo %_department=Techniques%
+echo %_department=Technologies%
+echo %_department=Applications%
+echo %_department=Solutions%
+echo %_department=Platforms%
+echo %_department=Services%
+echo %_department=Products%
+echo %_department=Programs%
+echo %_department=Projects%
+echo %_department=Initiatives%
+echo %_department=Activities%
+echo %_department=Tasks%
+echo %_department=Actions%
+echo %_department=Decisions%
+echo %_department=Results%
+echo %_department=Outcomes%
+echo %_department=Impacts%
+echo %_department=Effects%
+echo %_department=Consequences%
+echo %_department=Benefits%
+echo %_department=Advantages%
+echo %_department=Opportunities%
+echo %_department=Challenges%
+echo %_department=Risks%
+echo %_department=Threats%
+echo %_department=Issues%
+echo %_department=Problems%
+echo %_department=Concerns%
+echo %_department=Obstacles%
+echo %_department=Barriers%
+echo %_department=Hindrances%
+echo %_department=Difficulties%
+echo %_department=Complications%
+echo %_department=Complexities%
+echo %_department=Uncertainties%
+echo %_department=Variabilities%
+echo %_department=Inconsistencies%
+echo %_department=Discrepancies%
+echo %_department=Contradictions%
+echo %_department=Conflicts%
+echo %_department=Disputes%
+echo %_department=Controversies%
+echo %_department=Debates%
+echo %_department=Discussions%
+echo %_department=Dialogues%
+echo %_department=Conversations%
+echo %_department=Communications%
+echo %_department=Interactions%
+echo %_department=Engagements%
+echo %_department=Involvements%
+echo %_department=Participations%
+echo %_department=Contributions%
+echo %_department=Collaborations%
+echo %_department=Cooperations%
+echo %_department=Partnerships%
+echo %_department=Alliances%
+echo %_department=Associations%
+echo %_department=Relationships%
+echo %_department=Connections%
+echo %_department=Linkages%
+echo %_department=Interdependencies%
+echo %_department=Interactions%
+echo %_department=Interrelations%
+echo %_department=Interconnections%
+echo %_department=Networks%
+echo %_department=Systems%
+echo %_department=Structures%
+echo %_department=Frameworks%
+echo %_department=Models%
+echo %_department=Approaches%
+echo %_department=Methods%
+echo %_department=Practices%
+echo %_department=Principles%
+echo %_department=Values%
+echo %_department=Beliefs%
+echo %_department=Attitudes%
+echo %_department=Perceptions%
+echo %_department=Views%
+echo %_department=Opinions%
+echo %_department=Thoughts%
+echo %_department=Ideas%
+echo %_department=Insights%
+echo %_department=Understanding%
+echo %_department=Knowledge%
+echo %_department=Information%
+echo %_department=Data%
+echo %_department=Facts%
+echo %_department=Evidence%
+echo %_department=Proof%
+echo %_department=Confirmation%
+echo %_department=Verification%
+echo %_department=Validation%
+echo %_department=Authentication%
+echo %_department=Certification%
+echo %_department=Accreditation%
+echo %_department=Authorization%
+echo %_department=Approval%
+echo %_department=Acceptance%
+echo %_department=Consent%
+echo %_department=Agreement%
+echo %_department=Contract%
+echo %_department=Deal%
+echo %_department=Arrangement%
+echo %_department=Understanding%
+echo %_department=Commitment%
+echo %_department=Pledge%
+echo %_department=Promise%
+echo %_department=Oath%
+echo %_department=Vow%
+echo %_department=Guarantee%
+echo %_department=Warranty%
+echo %_department=Assurance%
+echo %_department=Confidence%
+echo %_department=Trust%
+echo %_department=Faith%
+echo %_department=Hope%
+echo %_department=Belief%
+echo %_department=Expectation%
+echo %_department=Anticipation%
+echo %_department=Excitement%
+echo %_department=Enthusiasm%
+echo %_department=Passion%
+echo %_department=Desire%
+echo %_department=Interest%
+echo %_department=Curiosity%
+echo %_department=Inquisitiveness%
+echo %_department=Inquiry%
+echo %_department=Questioning%
+echo %_department=Investigation%
+echo %_department=Research%
+echo %_department=Study%
+echo %_department=Learning%
+echo %_department=Education%
+echo %_department=Training%
+echo %_department=Development%
+echo %_department=Growth%
+echo %_department=Progress%
+echo %_department=Advancement%
+echo %_department=Improvement%
+echo %_department=Enhancement%
+echo %_department=Optimization%
+echo %_department=Elevation%
+echo %_department=Ascension%
+echo %_department=Evolution%
+echo %_department=Transformation%
+echo %_department=Change%
+echo %_department=Shift%
+echo %_department=Movement%
+echo %_department=Motion%
+echo %_department=Action%
+echo %_department=Activity%
+echo %_department=Operation%
+echo %_department=Function%
+echo %_department=Performance%
+echo %_department=Execution%
+echo %_department=Implementation%
+echo %_department=Application%
+echo %_department=Utilization%
+echo %_department=Employment%
+echo %_department=Use%
+echo %_department=Consumption%
+echo %_department=Expenditure%
+echo %_department=Outlay%
+echo %_department=Investment%
+echo %_department=Allocation%
+echo %_department=Distribution%
+echo %_department=Dispersion%
+echo %_department=Dissemination%
+echo %_department=Spreading%
+echo %_department=Expansion%
+echo %_department=Extension%
+echo %_department=Enlargement%
+echo %_department=Increase%
+echo %_department=Growth%
+echo %_department=Development%
+echo %_department=Progression%
+echo %_department=Advancement%
+echo %_department=Promotion%
+echo %_department=Elevation%
+echo %_department=Rise%
+echo %_department=Ascension%
+echo %_department=Upliftment%
+echo %_department=Elevation%
+echo %_department=Lift%
+echo %_department=Boost%
+echo %_department=Enhancement%
+echo %_department=Improvement%
+echo %_department=Refinement%
+echo %_department=Polishing%
+echo %_department=Perfecting%
+echo %_department=Completion%
+echo %_department=Fulfillment%
+echo %_department=Achievement%
+echo %_department=Accomplishment%
+echo %_department=Realization%
+echo %_department=Attainment%
+echo %_department=Victory%
+echo %_department=Triumph%
+echo %_department=Success%
+echo %_department=Win%
+echo %_department=Gain%
+echo %_department=Profit%
+echo %_department=Benefit%
+echo %_department=Reward%
+echo %_department=Prize%
+echo %_department=Honor%
+echo %_department=Praise%
+echo %_department=Recognition%
+echo %_department=Appreciation%
+echo %_department=Gratitude%
+echo %_department=Thankfulness%
+echo %_department=Joy%
+echo %_department=Happiness%
+echo %_department=Delight%
+echo %_department=Pleasure%
+echo %_department=Enjoyment%
+echo %_department=Satisfaction%
+echo %_department=Contentment%
+echo %_department=Peace%
+echo %_department=Tranquility%
+echo %_department=Harmony%
+echo %_department=Balance%
+echo %_department=Equilibrium%
+echo %_department=Stability%
+echo %_department=Consistency%
+echo %_department=Continuity%
+echo %_department=Permanence%
+echo %_department=Endurance%
+echo %_department=Persistence%
+echo %_department=Perseverance%
+echo %_department=Resilience%
+echo %_department=Tenacity%
+echo %_department=Determination%
+echo %_department=Resolution%
+echo %_department=Commitment%
+echo %_department=Dedication%
+echo %_department=Devotion%
+echo %_department=Loyalty%
+echo %_department=Faithfulness%
+echo %_department=Steadfastness%
+echo %_department=Reliability%
+echo %_department=Dependability%
+echo %_department=Trustworthiness%
+echo %_department=Integrity%

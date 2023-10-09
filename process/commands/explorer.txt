@@ -1,0 +1,204 @@
+Explorer.exe /n
+Explorer.exe /e
+Explorer.exe /root,object
+Explorer.exe /select,object
+Explorer.exe /separate
+Explorer.exe "C:\\Demo"
+Explorer.exe /root,"C:\\Demo\\examples"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com
+Explorer.exe /select,"C:\\Demo\\SS64App.exe"
+Explorer.exe /e,/root,"C:\\Demo\\SS64App.exe"
+Explorer.exe /root,"\\\\server64\\FileShare1"
+Explorer.exe /root,\\\\server64\\FileShare1,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Demo"
+Explorer.exe /e,"C:\\Demo"
+Explorer.exe /root,"C:\\Program Files"
+Explorer.exe /select,"C:\\Windows"
+Explorer.exe /separate,"C:\\Users"
+Explorer.exe "C:\\Windows\\System32"
+Explorer.exe /root,"C:\\Windows\\System32"
+%windir%\\explorer.exe microsoft-edge:https://google.com
+Explorer.exe /select,"C:\\Program Files\\Common Files"
+Explorer.exe /e,/root,"C:\\Program Files\\Common Files"
+Explorer.exe /root,"\\\\server64\\FileShare2"
+Explorer.exe /root,\\\\server64\\FileShare2,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Windows"
+Explorer.exe /e,"C:\\Windows"
+Explorer.exe /root,"C:\\Users"
+Explorer.exe /select,"C:\\Program Files"
+Explorer.exe /separate,"C:\\Windows\\System32"
+Explorer.exe "C:\\Program Files (x86)"
+Explorer.exe /root,"C:\\Program Files (x86)"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/cmd
+Explorer.exe /select,"C:\\Windows\\System32\\drivers"
+Explorer.exe /e,/root,"C:\\Windows\\System32\\drivers"
+Explorer.exe /root,"\\\\server64\\FileShare3"
+Explorer.exe /root,\\\\server64\\FileShare3,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Windows\\System32"
+Explorer.exe /e,"C:\\Windows\\System32"
+Explorer.exe /root,"C:\\Program Files\\Internet Explorer"
+Explorer.exe /select,"C:\\Program Files (x86)"
+Explorer.exe /separate,"C:\\Users\\Public"
+Explorer.exe "C:\\Users\\Default"
+Explorer.exe /root,"C:\\Users\\Default"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt
+Explorer.exe /select,"C:\\Program Files\\Common Files\\System"
+Explorer.exe /e,/root,"C:\\Program Files\\Common Files\\System"
+Explorer.exe /root,"\\\\server64\\FileShare4"
+Explorer.exe /root,\\\\server64\\FileShare4,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Program Files (x86)"
+Explorer.exe /e,"C:\\Program Files (x86)"
+Explorer.exe /root,"C:\\Users\\Public"
+Explorer.exe /select,"C:\\Users\\Default"
+Explorer.exe /separate,"C:\\Windows\\System32\\drivers"
+Explorer.exe "C:\\Windows\\System32\\DriverStore"
+Explorer.exe /root,"C:\\Windows\\System32\\DriverStore"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/cmd
+Explorer.exe /select,"C:\\Program Files\\Internet Explorer"
+Explorer.exe /e,/root,"C:\\Program Files\\Internet Explorer"
+Explorer.exe /root,"\\\\server64\\FileShare5"
+Explorer.exe /root,\\\\server64\\FileShare5,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Users\\Public"
+Explorer.exe /e,"C:\\Users\\Public"
+Explorer.exe /root,"C:\\Windows\\System32\\drivers"
+Explorer.exe /select,"C:\\Windows\\System32\\DriverStore"
+Explorer.exe /separate,"C:\\Program Files\\Common Files\\System"
+Explorer.exe "C:\\Program Files\\Common Files\\Microsoft Shared"
+Explorer.exe /root,"C:\\Program Files\\Common Files\\Microsoft Shared"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/explorer
+Explorer.exe /select,"C:\\Users\\Default"
+Explorer.exe /e,/root,"C:\\Users\\Default"
+Explorer.exe /root,"\\\\server64\\FileShare6"
+Explorer.exe /root,\\\\server64\\FileShare6,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Windows\\System32\\drivers"
+Explorer.exe /e,"C:\\Windows\\System32\\drivers"
+Explorer.exe /root,"C:\\Program Files\\Internet Explorer"
+Explorer.exe /select,"C:\\Windows\\System32\\DriverStore"
+Explorer.exe /separate,"C:\\Program Files\\Common Files\\Microsoft Shared"102. Explorer.exe /separate,"C:\\Windows\\System32\\DriverStore"
+Explorer.exe "C:\\Windows\\System32\\oobe"
+Explorer.exe /root,"C:\\Windows\\System32\\oobe"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/cmd
+Explorer.exe /select,"C:\\Program Files\\Common Files\\System"
+Explorer.exe /e,/root,"C:\\Program Files\\Common Files\\System"
+Explorer.exe /root,"\\\\server64\\FileShare7"
+Explorer.exe /root,\\\\server64\\FileShare7,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Program Files\\Common Files\\Microsoft Shared"
+Explorer.exe /e,"C:\\Program Files\\Common Files\\Microsoft Shared"
+Explorer.exe /root,"C:\\Users\\Default"
+Explorer.exe /select,"C:\\Windows\\System32\\oobe"
+Explorer.exe /separate,"C:\\Program Files\\Internet Explorer"
+Explorer.exe "C:\\Windows\\System32\\config"
+Explorer.exe /root,"C:\\Windows\\System32\\config"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/explorer
+Explorer.exe /select,"C:\\Windows\\System32\\DriverStore"
+Explorer.exe /e,/root,"C:\\Windows\\System32\\DriverStore"
+Explorer.exe /root,"\\\\server64\\FileShare8"
+Explorer.exe /root,\\\\server64\\FileShare8,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Windows\\System32\\oobe"
+Explorer.exe /e,"C:\\Windows\\System32\\oobe"
+Explorer.exe /root,"C:\\Program Files\\Internet Explorer"
+Explorer.exe /select,"C:\\Windows\\System32\\config"
+Explorer.exe /separate,"C:\\Program Files\\Common Files\\System"
+Explorer.exe "C:\\Windows\\System32\\en-US"
+Explorer.exe /root,"C:\\Windows\\System32\\en-US"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/cmd
+Explorer.exe /select,"C:\\Program Files\\Internet Explorer"
+Explorer.exe /e,/root,"C:\\Program Files\\Internet Explorer"
+Explorer.exe /root,"\\\\server64\\FileShare9"
+Explorer.exe /root,\\\\server64\\FileShare9,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Windows\\System32\\config"
+Explorer.exe /e,"C:\\Windows\\System32\\config"
+Explorer.exe /root,"C:\\Program Files\\Common Files\\Microsoft Shared"
+Explorer.exe /select,"C:\\Windows\\System32\\en-US"
+Explorer.exe /separate,"C:\\Program Files\\Common Files\\System"
+Explorer.exe "C:\\Windows\\System32\\Boot"
+Explorer.exe /root,"C:\\Windows\\System32\\Boot"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/explorer
+Explorer.exe /select,"C:\\Program Files\\Common Files\\System"
+Explorer.exe /e,/root,"C:\\Program Files\\Common Files\\System"
+Explorer.exe /root,"\\\\server64\\FileShare10"
+Explorer.exe /root,\\\\server64\\FileShare10,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Windows\\System32\\en-US"
+Explorer.exe /e,"C:\\Windows\\System32\\en-US"
+Explorer.exe /root,"C:\\Windows\\System32\\Boot"
+Explorer.exe /select,"C:\\Program Files\\Common Files\\Microsoft Shared"
+Explorer.exe /separate,"C:\\Program Files\\Internet Explorer"
+Explorer.exe "C:\\Windows\\System32\\Recovery"
+Explorer.exe /root,"C:\\Windows\\System32\\Recovery"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/cmd
+Explorer.exe /select,"C:\\Windows\\System32\\Boot"
+Explorer.exe /e,/root,"C:\\Windows\\System32\\Boot"
+Explorer.exe /root,"\\\\server64\\FileShare11"
+Explorer.exe /root,\\\\server64\\FileShare11,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Windows\\System32\\Boot"
+Explorer.exe /e,"C:\\Windows\\System32\\Boot"
+Explorer.exe /root,"C:\\Windows\\System32\\Recovery"
+Explorer.exe /select,"C:\\Program Files\\Common Files\\Microsoft Shared"
+Explorer.exe /separate,"C:\\Program Files\\Internet Explorer"
+Explorer.exe "C:\\Windows\\System32\\Logs"
+Explorer.exe /root,"C:\\Windows\\System32\\Logs"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/explorer
+Explorer.exe /select,"C:\\Windows\\System32\\Recovery"
+Explorer.exe /e,/root,"C:\\Windows\\System32\\Recovery"
+Explorer.exe /root,"\\\\server64\\FileShare12"
+Explorer.exe /root,\\\\server64\\FileShare12,select,SS64App.exe
+Explorer.exe \\
+Explorer.exe \\
+Explorer.exe /
+Explorer.exe ','
+Explorer.exe /n,"C:\\Windows\\System32\\Recovery"
+Explorer.exe /e,"C:\\Windows\\System32\\Recovery"
+Explorer.exe /root,"C:\\Windows\\System32\\Logs"
+Explorer.exe /select,"C:\\Program Files\\Common Files\\Microsoft Shared"
+Explorer.exe /separate,"C:\\Program Files\\Internet Explorer"
+Explorer.exe "C:\\Windows\\System32\\Tasks"
+Explorer.exe /root,"C:\\Windows\\System32\\Tasks"
+%windir%\\explorer.exe microsoft-edge:https://ss64.com/nt/cmd
+Explorer.exe /select,"C:\\Windows\\System32\\Logs"
+Explorer.exe /e,/root,"C:\\Windows\\System32\\Logs"
+Explorer.exe /root,"\\\\server64\\FileShare13"
+Explorer.exe /root,\\\\server64\\FileShare13,select,SS64App.exe

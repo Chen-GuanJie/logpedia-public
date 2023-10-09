@@ -1,0 +1,244 @@
+MODE COM1 BAUD=9600 PARITY=n DATA=8 STOP=1
+MODE COM1 BAUD=4800 PARITY=e DATA=7 STOP=2
+MODE COM1 to=on
+MODE COM1 xon=off
+MODE COM1 odsr=on
+MODE COM1 octs=off
+MODE COM1 dtr=on
+MODE COM1 rts=off
+MODE COM1 idsr=on
+MODE COM2 BAUD=9600 PARITY=n DATA=8 STOP=1
+MODE COM2 BAUD=4800 PARITY=e DATA=7 STOP=2
+MODE COM2 to=on
+MODE COM2 xon=off
+MODE COM2 odsr=on
+MODE COM2 octs=off
+MODE COM2 dtr=on
+MODE COM2 rts=off
+MODE COM2 idsr=on
+MODE LPT1=COM1
+MODE LPT1=COM2
+MODE LPT2=COM1
+MODE LPT2=COM2
+MODE LPT3=COM1
+MODE LPT3=COM2
+MODE CON CP SELECT=437
+MODE CON CP SELECT=850
+MODE CON CP SELECT=1252
+MODE CON CP /STATUS
+MODE CON COLS=80 LINES=25
+MODE CON COLS=120 LINES=30
+MODE CON RATE=30 DELAY=1
+MODE CON RATE=20 DELAY=2
+MODE CON RATE=10 DELAY=3
+MODE
+MODE /STATUS
+MODE LPT1=COM1 /STATUS
+MODE LPT2=COM2 /STATUS
+MODE CON CP SELECT=437 /STATUS
+MODE CON CP SELECT=850 /STATUS
+MODE CON CP SELECT=1252 /STATUS
+MODE CON COLS=80 LINES=25 /STATUS
+MODE CON COLS=120 LINES=30 /STATUS
+MODE CON RATE=30 DELAY=1 /STATUS
+MODE CON RATE=20 DELAY=2 /STATUS
+MODE CON RATE=10 DELAY=3 /STATUS
+MODE CON:cols=80 lines=25
+MODE CON:cols=120 lines=30
+MODE CON:cols=160 lines=35
+MODE CON:cols=200 lines=40
+MODE CON:cols=240 lines=45
+MODE CON:cols=280 lines=50
+MODE CON:cols=320 lines=55
+MODE CON:cols=360 lines=60
+MODE CON:cols=400 lines=65
+MODE CON:cols=440 lines=70
+MODE CON:cols=480 lines=75
+MODE CON:cols=520 lines=80
+MODE CON:cols=560 lines=85
+MODE CON:cols=600 lines=90
+MODE CON:cols=640 lines=95
+MODE CON:cols=680 lines=100
+MODE CON:cols=720 lines=105
+MODE CON:cols=760 lines=110
+MODE CON:cols=800 lines=115
+MODE CON:cols=840 lines=120
+MODE CON:cols=880 lines=125
+MODE CON:cols=920 lines=130
+MODE CON:cols=960 lines=135
+MODE CON:cols=1000 lines=140
+MODE CON:cols=1040 lines=145
+MODE CON:cols=1080 lines=150
+MODE CON:cols=1120 lines=155
+MODE CON:cols=1160 lines=160
+MODE CON:cols=1200 lines=165
+MODE CON:cols=1240 lines=170
+MODE CON:cols=1280 lines=175
+MODE CON:cols=1320 lines=180
+MODE CON:cols=1360 lines=185
+MODE CON:cols=1400 lines=190
+MODE CON:cols=1440 lines=195
+MODE CON:cols=1480 lines=200
+MODE CON:cols=1520 lines=205
+MODE CON:cols=1560 lines=210
+MODE CON:cols=1600 lines=215
+MODE CON:cols=1640 lines=220
+MODE CON:cols=1680 lines=225
+MODE CON:cols=1720 lines=230
+MODE CON:cols=1760 lines=235
+MODE CON:cols=1800 lines=240
+MODE CON:cols=1840 lines=245
+MODE CON:cols=1880 lines=250
+MODE CON:cols=1920 lines=255
+MODE CON:cols=1960 lines=260
+MODE CON:cols=2000 lines=265
+MODE CON:cols=2040 lines=270
+MODE CON:cols=2080 lines=275
+MODE CON:cols=2120 lines=280
+MODE CON:cols=2160 lines=285
+MODE CON:cols=2200 lines=290
+MODE CON:cols=2240 lines=295
+MODE CON:cols=2280 lines=300
+MODE CON:cols=2320 lines=305
+MODE CON:cols=2360 lines=310
+MODE CON:cols=2400 lines=315
+MODE CON:cols=2440 lines=320
+MODE CON:cols=2480 lines=325
+MODE CON:cols=2520 lines=330
+MODE CON:cols=2560 lines=335
+MODE CON:cols=2600 lines=340
+MODE CON:cols=2640 lines=345
+MODE CON:cols=2680 lines=350
+MODE CON:cols=2720 lines=355
+MODE CON:cols=2760 lines=360
+MODE CON:cols=2800 lines=365
+MODE CON:cols=2840 lines=370
+MODE CON:cols=2880 lines=375
+MODE CON:cols=2920 lines=380
+MODE CON:cols=2960 lines=385
+MODE CON:cols=3000 lines=390
+MODE CON:cols=3040 lines=395
+MODE CON:cols=3080 lines=400
+MODE CON:cols=3120 lines=405
+MODE CON:cols=3160 lines=410
+MODE CON:cols=3200 lines=415
+MODE CON:cols=3240 lines=420
+MODE CON:cols=3280 lines=425
+MODE CON:cols=3320 lines=430
+MODE CON:cols=3360 lines=435
+MODE CON:cols=3400 lines=440
+MODE CON:cols=3440 lines=445
+MODE CON:cols=3480 lines=450
+MODE CON:cols=3520 lines=455
+MODE CON:cols=3560 lines=460
+MODE CON:cols=3600 lines=465
+MODE CON:cols=3640 lines=470
+MODE CON:cols=3680 lines=475
+MODE CON:cols=3720 lines=480
+MODE CON:cols=3760 lines=485
+MODE CON:cols=3800 lines=490
+MODE CON:cols=3840 lines=495
+MODE CON:cols=3880 lines=500Based on the provided description, here are some additional command examples:
+MODE CON:cols=3920 lines=505
+MODE CON:cols=3960 lines=510
+MODE CON:cols=4000 lines=515
+MODE CON:cols=4040 lines=520
+MODE CON:cols=4080 lines=525
+MODE CON:cols=4120 lines=530
+MODE CON:cols=4160 lines=535
+MODE CON:cols=4200 lines=540
+MODE CON:cols=4240 lines=545
+MODE CON:cols=4280 lines=550
+MODE CON:cols=4320 lines=555
+MODE CON:cols=4360 lines=560
+MODE CON:cols=4400 lines=565
+MODE CON:cols=4440 lines=570
+MODE CON:cols=4480 lines=575
+MODE CON:cols=4520 lines=580
+MODE CON:cols=4560 lines=585
+MODE CON:cols=4600 lines=590
+MODE CON:cols=4640 lines=595
+MODE CON:cols=4680 lines=600
+MODE CON:cols=4720 lines=605
+MODE CON:cols=4760 lines=610
+MODE CON:cols=4800 lines=615
+MODE CON:cols=4840 lines=620
+MODE CON:cols=4880 lines=625
+MODE CON:cols=4920 lines=630
+MODE CON:cols=4960 lines=635
+MODE CON:cols=5000 lines=640
+MODE CON:cols=5040 lines=645
+MODE CON:cols=5080 lines=650
+MODE CON:cols=5120 lines=655
+MODE CON:cols=5160 lines=660
+MODE CON:cols=5200 lines=665
+MODE CON:cols=5240 lines=670
+MODE CON:cols=5280 lines=675
+MODE CON:cols=5320 lines=680
+MODE CON:cols=5360 lines=685
+MODE CON:cols=5400 lines=690
+MODE CON:cols=5440 lines=695
+MODE CON:cols=5480 lines=700
+MODE CON:cols=5520 lines=705
+MODE CON:cols=5560 lines=710
+MODE CON:cols=5600 lines=715
+MODE CON:cols=5640 lines=720
+MODE CON:cols=5680 lines=725
+MODE CON:cols=5720 lines=730
+MODE CON:cols=5760 lines=735
+MODE CON:cols=5800 lines=740
+MODE CON:cols=5840 lines=745
+MODE CON:cols=5880 lines=750
+MODE CON:cols=5920 lines=755
+MODE CON:cols=5960 lines=760
+MODE CON:cols=6000 lines=765
+MODE CON:cols=6040 lines=770
+MODE CON:cols=6080 lines=775
+MODE CON:cols=6120 lines=780
+MODE CON:cols=6160 lines=785
+MODE CON:cols=6200 lines=790
+MODE CON:cols=6240 lines=795
+MODE CON:cols=6280 lines=800
+MODE CON:cols=6320 lines=805
+MODE CON:cols=6360 lines=810
+MODE CON:cols=6400 lines=815
+MODE CON:cols=6440 lines=820
+MODE CON:cols=6480 lines=825
+MODE CON:cols=6520 lines=830
+MODE CON:cols=6560 lines=835
+MODE CON:cols=6600 lines=840
+MODE CON:cols=6640 lines=845
+MODE CON:cols=6680 lines=850
+MODE CON:cols=6720 lines=855
+MODE CON:cols=6760 lines=860
+MODE CON:cols=6800 lines=865
+MODE CON:cols=6840 lines=870
+MODE CON:cols=6880 lines=875
+MODE CON:cols=6920 lines=880
+MODE CON:cols=6960 lines=885
+MODE CON:cols=7000 lines=890
+MODE CON:cols=7040 lines=895
+MODE CON:cols=7080 lines=900
+MODE CON:cols=7120 lines=905
+MODE CON:cols=7160 lines=910
+MODE CON:cols=7200 lines=915
+MODE CON:cols=7240 lines=920
+MODE CON:cols=7280 lines=925
+MODE CON:cols=7320 lines=930
+MODE CON:cols=7360 lines=935
+MODE CON:cols=7400 lines=940
+MODE CON:cols=7440 lines=945
+MODE CON:cols=7480 lines=950
+MODE CON:cols=7520 lines=955
+MODE CON:cols=7560 lines=960
+MODE CON:cols=7600 lines=965
+MODE CON:cols=7640 lines=970
+MODE CON:cols=7680 lines=975
+MODE CON:cols=7720 lines=980
+MODE CON:cols=7760 lines=985
+MODE CON:cols=7800 lines=990
+MODE CON:cols=7840 lines=995
+MODE CON:cols=7880 lines=1000
+MODE CON:cols=7920 lines=1005
+MODE CON:cols=7960 lines=1010
+MODE CON:cols=8000 lines=1015

@@ -1,0 +1,251 @@
+CLS
+ECHO Hello
+CLS
+ECHO You didn't see that
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is a test
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Another test
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing 123
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Test complete
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Hello World
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is a new test
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Another new test
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing 456
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Test complete again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Hello again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is another test
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Another test again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing 789
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Test complete once more
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Hello once more
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is yet another test
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Yet another test again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing 101112
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Test complete yet again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Hello yet again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is still another test
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Still another test again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing 131415
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Test complete still again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Hello still again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is another test still
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Another test still again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing 161718
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Test complete once again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Hello once again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is the final test
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Final test complete
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Goodbye
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO End of commands
+CLS
+ECHO %ERRORLEVEL%
+CLSSure, here are additional commands based on the behavior tree of the process "CLS":
+ECHO This is another round of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round two of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing round three
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round four of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is round five of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round six of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing round seven
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round eight of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is round nine of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round ten of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing round eleven
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round twelve of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is round thirteen of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round fourteen of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing round fifteen
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round sixteen of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is round seventeen of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round eighteen of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Testing round nineteen
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Round twenty of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is the end of round twenty
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Goodbye again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO End of commands again
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO Final goodbye
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO This is really the end
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO End of testing
+CLS
+ECHO %ERRORLEVEL%
+CLS
+ECHO End of all commands
+CLS
+ECHO %ERRORLEVEL%
+CLS

@@ -1,0 +1,226 @@
+SC query
+SC queryEx
+SC GetDisplayName
+SC GetKeyName
+SC EnumDepend
+SC qc
+SC start
+SC stop
+SC pause
+SC continue
+SC create
+SC config
+SC delete
+SC control
+SC interrogate
+SC Qdescription
+SC description
+SC Qfailure
+SC failure
+SC sdShow
+SC SdSet
+SC QueryLock
+SC Lock
+SC BOOT
+SC config "Name of Service" start= disabled
+SC query messenger | FIND "STATE" | FIND "STOPPED"
+SC query messenger | FIND "STATE" | FIND "RUNNING"
+SC QUERY state= all
+SC start schedule
+SC GetKeyName "task scheduler"
+SC GetDisplayName schedule
+SC QUERY schedule
+SC CONFIG "Schedule" start= disabled
+SC QUERY type= driver
+SC QUERY state= all |findstr "DISPLAY_NAME STATE" >svc_installed.txt
+SC \\myServer CONFIG myService obj= LocalSystem password= mypassword
+SC CONFIG MyService binPath=c:\\myprogram.exe obj=".\\LocalSystem" password=""
+SC config wuauserv start= disabled
+SC config bits start= disabled
+SC config dosvc start= disabled
+SC \\computer64 config remoteregistry start= auto
+SC \\computer64 start remoteregistry
+SC query type= service
+SC query type= all
+SC query state= active
+SC query state= inactive
+SC query bufsize= bytes
+SC query ri= resume_index_number
+SC query group= groupname
+SC config "Name of Service" start= auto
+SC config "Name of Service" start= demand
+SC config "Name of Service" start= delayed-auto
+SC config "Name of Service" start= boot
+SC config "Name of Service" start= system
+SC config "Name of Service" type= own
+SC config "Name of Service" type= share
+SC config "Name of Service" type= interact
+SC config "Name of Service" type= kernel
+SC config "Name of Service" type= filesys
+SC config "Name of Service" type= rec
+SC config "Name of Service" error= normal
+SC config "Name of Service" error= severe
+SC config "Name of Service" error= critical
+SC config "Name of Service" error= ignore
+SC config "Name of Service" binpath= "path"
+SC config "Name of Service" group= "groupname"
+SC config "Name of Service" tag= yes
+SC config "Name of Service" tag= no
+SC config "Name of Service" depend= "dependencies"
+SC config "Name of Service" obj= "accountname"
+SC config "Name of Service" password= "password"
+SC config "Name of Service" displayname= "displayname"
+SC description "Name of Service"
+SC failure "Name of Service"
+SC Qfailure "Name of Service"
+SC interrogate "Name of Service"
+SC pause "Name of Service"
+SC continue "Name of Service"
+SC delete "Name of Service"
+SC qc "Name of Service"
+SC EnumDepend "Name of Service"
+SC GetKeyName "Name of Service"
+SC GetDisplayName "Name of Service"
+SC queryEx "Name of Service"
+SC query "Name of Service"
+SC BOOT ok
+SC BOOT bad
+SC Lock
+SC QueryLock
+SC query type= driver
+SC query state= active
+SC query bufsize= bytes
+SC query group= groupname
+SC query ri= resume_index_number
+SC query type= service
+SC query state= inactive
+SC query state= all
+SC query type= all
+SC config "Name of Service" start= manual
+SC config "Name of Service" start= auto-delayed
+SC config "Name of Service" type= adapter
+SC config "Name of Service" type= recognizer
+SC config "Name of Service" error= unknown
+SC config "Name of Service" binpath= "newpath"
+SC config "Name of Service" group= "newgroupname"
+SC config "Name of Service" tag= 1
+SC config "Name of Service" tag= 0
+SC config "Name of Service" depend= "newdependencies"
+SC config "Name of Service" obj= "newaccountname"
+SC config "Name of Service" password= "newpassword"
+SC config "Name of Service" displayname= "newdisplayname"Based on the provided description, here are additional commands that can be executed for the process:
+SC config "Name of Service" type= win32_own_process
+SC config "Name of Service" type= win32_share_process
+SC config "Name of Service" type= win32_interactive_process
+SC config "Name of Service" error= error_ignore
+SC config "Name of Service" error= error_normal
+SC config "Name of Service" error= error_severe
+SC config "Name of Service" error= error_critical
+SC config "Name of Service" binpath= "new_bin_path"
+SC config "Name of Service" group= "new_group_name"
+SC config "Name of Service" tag= tag_number
+SC config "Name of Service" depend= "new_dependency_name"
+SC config "Name of Service" obj= "new_object_name"
+SC config "Name of Service" password= "new_password"
+SC config "Name of Service" displayname= "new_display_name"
+SC description "New Name of Service"
+SC failure "New Name of Service"
+SC Qfailure "New Name of Service"
+SC interrogate "New Name of Service"
+SC pause "New Name of Service"
+SC continue "New Name of Service"
+SC delete "New Name of Service"
+SC qc "New Name of Service"
+SC EnumDepend "New Name of Service"
+SC GetKeyName "New Name of Service"
+SC GetDisplayName "New Name of Service"
+SC queryEx "New Name of Service"
+SC query "New Name of Service"
+SC BOOT config
+SC Lock config
+SC QueryLock config
+SC query type= new_driver
+SC query state= new_active
+SC query bufsize= new_bytes
+SC query group= new_groupname
+SC query ri= new_resume_index_number
+SC query type= new_service
+SC query state= new_inactive
+SC query state= new_all
+SC query type= new_all
+SC config "New Name of Service" start= new_manual
+SC config "New Name of Service" start= new_auto-delayed
+SC config "New Name of Service" type= new_adapter
+SC config "New Name of Service" type= new_recognizer
+SC config "New Name of Service" error= new_unknown
+SC config "New Name of Service" binpath= "new_newpath"
+SC config "New Name of Service" group= "new_newgroupname"
+SC config "New Name of Service" tag= new_1
+SC config "New Name of Service" tag= new_0
+SC config "New Name of Service" depend= "new_newdependencies"
+SC config "New Name of Service" obj= "new_newaccountname"
+SC config "New Name of Service" password= "new_newpassword"
+SC config "New Name of Service" displayname= "new_newdisplayname"
+SC config "New Name of Service" start= new_disabled
+SC config "New Name of Service" start= new_auto
+SC config "New Name of Service" start= new_demand
+SC config "New Name of Service" start= new_delayed-auto
+SC config "New Name of Service" start= new_boot
+SC config "New Name of Service" start= new_system
+SC config "New Name of Service" type= new_own
+SC config "New Name of Service" type= new_share
+SC config "New Name of Service" type= new_interact
+SC config "New Name of Service" type= new_kernel
+SC config "New Name of Service" type= new_filesys
+SC config "New Name of Service" type= new_rec
+SC config "New Name of Service" error= new_normal
+SC config "New Name of Service" error= new_severe
+SC config "New Name of Service" error= new_critical
+SC config "New Name of Service" error= new_ignore
+SC config "New Name of Service" binpath= "new_path"
+SC config "New Name of Service" group= "new_groupname"
+SC config "New Name of Service" tag= yes
+SC config "New Name of Service" tag= no
+SC config "New Name of Service" depend= "new_dependencies"
+SC config "New Name of Service" obj= "new_accountname"
+SC config "New Name of Service" password= "new_password"
+SC config "New Name of Service" displayname= "new_displayname"
+SC description "New_New Name of Service"
+SC failure "New_New Name of Service"
+SC Qfailure "New_New Name of Service"
+SC interrogate "New_New Name of Service"
+SC pause "New_New Name of Service"
+SC continue "New_New Name of Service"
+SC delete "New_New Name of Service"
+SC qc "New_New Name of Service"
+SC EnumDepend "New_New Name of Service"
+SC GetKeyName "New_New Name of Service"
+SC GetDisplayName "New_New Name of Service"
+SC queryEx "New_New Name of Service"
+SC query "New_New Name of Service"
+SC BOOT new_ok
+SC BOOT new_bad
+SC Lock new_config
+SC QueryLock new_config
+SC query type= new_new_driver
+SC query state= new_new_active
+SC query bufsize= new_new_bytes
+SC query group= new_new_groupname
+SC query ri= new_new_resume_index_number
+SC query type= new_new_service
+SC query state= new_new_inactive
+SC query state= new_new_all
+SC query type= new_new_all
+SC config "New_New Name of Service" start= new_new_manual
+SC config "New_New Name of Service" start= new_new_auto-delayed
+SC config "New_New Name of Service" type= new_new_adapter
+SC config "New_New Name of Service" type= new_new_recognizer
+SC config "New_New Name of Service" error= new_new_unknown
+SC config "New_New Name of Service" binpath= "new_new_newpath"
+SC config "New_New Name of Service" group= "new_new_newgroupname"
+SC config "New_New Name of Service" tag= new_new_1
+SC config "New_New Name of Service" tag= new_new_0
+SC config "New_New Name of Service" depend= "new_new_newdependencies"
+SC config "New_New Name of Service" obj= "new_new_newaccountname"
+SC config "New_New Name of Service" password= "new_new_newpassword"
+SC config "New_New Name of Service" displayname= "new_new_newdisplayname"

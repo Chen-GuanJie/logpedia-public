@@ -1,0 +1,102 @@
+msiexec /package Product.msi
+msiexec /i Product.msi
+msiexec /a Product.msi
+msiexec /j m Product.msi
+msiexec /j u Product.msi
+msiexec /uninstall Product.msi
+msiexec /x Product.msi
+msiexec /uninstall ProductCode
+msiexec /x ProductCode
+msiexec /a MSIFile /qb TARGETDIR=DestinationDirectory
+msiexec /quiet
+msiexec /passive
+msiexec /qn
+msiexec /qb
+msiexec /qr
+msiexec /qf
+msiexec /help
+msiexec /norestart
+msiexec /promptrestart
+msiexec /forcerestart
+msiexec /le Logfile
+msiexec /lw Logfile
+msiexec /li Logfile
+msiexec /la Logfile
+msiexec /lr Logfile
+msiexec /lu Logfile
+msiexec /lc Logfile
+msiexec /lm Logfile
+msiexec /lo Logfile
+msiexec /lp Logfile
+msiexec /lv Logfile
+msiexec /lx Logfile
+msiexec /l* Logfile
+msiexec /log Logfile
+msiexec /l+ Logfile
+msiexec /l! Logfile
+msiexec /update
+msiexec /uninstall /package
+msiexec /fp
+msiexec /fo
+msiexec /fe
+msiexec /fd
+msiexec /fc
+msiexec /fa
+msiexec /fu
+msiexec /fm
+msiexec /fs
+msiexec /fv
+msiexec /i "C:\\Install\\ss64app.msi"
+msiexec /uninstall "{5AFF6499-63BA-4A36-83B2-8D256404AC3D}" /log "C:\\install\\ss64app.txt"
+msiexec /a proginstall.msi /qb TARGETDIR=C:\\demo\\extractedprog
+msiexec /uninstall "{ProductCode1}"
+msiexec /x "{ProductCode2}"
+msiexec /a "{MSIFile1}" /qb TARGETDIR="{DestinationDirectory1}"
+msiexec /j m "{Product.msi1}" /t "{TransformList1}" /g "{LanguageID1}"
+msiexec /j u "{Product.msi2}" /t "{TransformList2}" /g "{LanguageID2}"
+msiexec /le "{Logfile1}"
+msiexec /lw "{Logfile2}"
+msiexec /li "{Logfile3}"
+msiexec /la "{Logfile4}"
+msiexec /lr "{Logfile5}"
+msiexec /lu "{Logfile6}"
+msiexec /lc "{Logfile7}"
+msiexec /lm "{Logfile8}"
+msiexec /lo "{Logfile9}"
+msiexec /lp "{Logfile10}"
+msiexec /lv "{Logfile11}"
+msiexec /lx "{Logfile12}"
+msiexec /l* "{Logfile13}"
+msiexec /log "{Logfile14}"
+msiexec /l+ "{Logfile15}"
+msiexec /l! "{Logfile16}"
+msiexec /update "{Update1.msp}"
+msiexec /uninstall "{Update2.msp}" /package "{Product.msi3}"
+msiexec /fp "{Product.msi4}"
+msiexec /fo "{Product.msi5}"
+msiexec /fe "{Product.msi6}"
+msiexec /fd "{Product.msi7}"
+msiexec /fc "{Product.msi8}"
+msiexec /fa "{Product.msi9}"
+msiexec /fu "{Product.msi10}"
+msiexec /fm "{Product.msi11}"
+msiexec /fs "{Product.msi12}"
+msiexec /fv "{Product.msi13}"
+msiexec /i "{C:\\Install\\ss64app1.msi}"
+msiexec /uninstall "{ProductCode3}" /log "{C:\\install\\ss64app1.txt}"
+msiexec /a "{proginstall1.msi}" /qb TARGETDIR="{C:\\demo\\extractedprog1}"
+msiexec /i "{C:\\Install\\ss64app2.msi}"
+msiexec /uninstall "{ProductCode4}" /log "{C:\\install\\ss64app2.txt}"
+msiexec /a "{proginstall2.msi}" /qb TARGETDIR="{C:\\demo\\extractedprog2}"
+msiexec /i "{C:\\Install\\ss64app3.msi}"
+msiexec /uninstall "{ProductCode5}" /log "{C:\\install\\ss64app3.txt}"
+msiexec /a "{proginstall3.msi}" /qb TARGETDIR="{C:\\demo\\extractedprog3}"
+msiexec /i "{C:\\Install\\ss64app4.msi}"
+msiexec /uninstall "{ProductCode6}" /log "{C:\\install\\ss64app4.txt}"
+msiexec /a "{proginstall4.msi}" /qb TARGETDIR="{C:\\demo\\extractedprog4}"
+msiexec /i "{C:\\Install\\ss64app5.msi}"
+msiexec /uninstall "{ProductCode7}" /log "{C:\\install\\ss64app5.txt}"
+msiexec /a "{proginstall5.msi}" /qb TARGETDIR="{C:\\demo\\extractedprog5}"
+msiexec /i "{C:\\Install\\ss64app6.msi}"
+msiexec /uninstall "{ProductCode8}" /log "{C:\\install\\ss64app6.txt}"
+msiexec /a "{proginstall6.msi}" /qb TARGETDIR="{C:\\demo\\extractedprog6}"

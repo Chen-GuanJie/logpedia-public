@@ -1,0 +1,193 @@
+`netsh add helper`
+`netsh advfirewall consec add`
+`netsh advfirewall consec delete`
+`netsh advfirewall consec dump`
+`netsh advfirewall consec set`
+`netsh advfirewall consec show`
+`netsh advfirewall dump`
+`netsh advfirewall export path\filename`
+`netsh advfirewall import path\filename`
+`netsh advfirewall firewall add`
+`netsh advfirewall firewall delete`
+`netsh advfirewall firewall dump`
+`netsh advfirewall firewall set`
+`netsh advfirewall firewall show`
+`netsh advfirewall firewall show rule name=all`
+`netsh advfirewall monitor delete`
+`netsh advfirewall monitor dump`
+`netsh advfirewall monitor show`
+`netsh advfirewall reset`
+`netsh advfirewall set allprofiles`
+`netsh advfirewall set currentprofile`
+`netsh advfirewall set domainprofile`
+`netsh advfirewall set global`
+`netsh advfirewall set privateprofile`
+`netsh advfirewall set publicprofile`
+`netsh advfirewall show allprofiles`
+`netsh advfirewall show currentprofile`
+`netsh advfirewall show domainprofile`
+`netsh advfirewall show global`
+`netsh advfirewall show privateprofile`
+`netsh advfirewall show publicprofile`
+`netsh advfirewall show store`
+`netsh alias`
+`netsh branchcache`
+`netsh bridge dump`
+`netsh bridge install`
+`netsh bridge set`
+`netsh bridge show`
+`netsh bridge uninstall`
+`netsh bye`
+`netsh commit`
+`netsh delete helper`
+`netsh dhcp`
+`netsh dhcpclient list`
+`netsh dhcpclient trace enable`
+`netsh dhcpclient trace disable`
+`netsh dnsclient`
+`netsh dump`
+`netsh exec`
+`netsh exit`
+`netsh firewall add`
+`netsh firewall delete`
+`netsh firewall dump`
+`netsh firewall reset`
+`netsh firewall set allowedprogram`
+`netsh firewall set icmpsetting`
+`netsh firewall set logging`
+`netsh firewall set multicastbroadcastresponse`
+`netsh firewall set notifications`
+`netsh firewall set opmode`
+`netsh firewall set portopening`
+`netsh firewall set service`
+`netsh firewall show allowedprogram`
+`netsh firewall show config`
+`netsh firewall show currentprofile`
+`netsh firewall show icmpsetting`
+`netsh firewall show logging`
+`netsh firewall show multicastbroadcastresponse`
+`netsh firewall show notifications`
+`netsh firewall show opmode`
+`netsh firewall show portopening`
+`netsh firewall show service`
+`netsh firewall show state`
+`netsh help`
+`netsh http add`
+`netsh http delete`
+`netsh http delete sslcert ipport=0.0.0.0:443`
+`netsh http delete sslcert hostnameport=localhost:443`
+`netsh http dump`
+`netsh http flush`
+`netsh http show`
+`netsh http show cacheparam`
+`netsh http show cachestate`
+`netsh http show iplisten`
+`netsh http show servicestate`
+`netsh http show setting`
+`netsh http show sslcert`
+`netsh http show timeout`
+`netsh http show urlacl`
+`netsh interface 6to4`
+`netsh interface add`
+`netsh interface delete`
+`netsh interface dump`
+`netsh interface ipv4`
+`netsh interface ipv6`
+`netsh interface isatap`
+`netsh interface portproxy`
+`netsh interface reset`
+`netsh interface set`
+`netsh interface show interface`
+`netsh interface ip show interfaces`
+`netsh interface tcp`
+`netsh interface teredo`
+`netsh ipsec dump`
+`netsh ipsec dynamic add`
+`netsh ipsec dynamic delete`
+`netsh ipsec dynamic dump`
+`netsh ipsec dynamic set`
+`netsh ipsec dynamic show`
+`netsh ipsec static add`
+`netsh ipsec static delete`
+`netsh ipsec static dump`
+`netsh ipsec static exportpolicy`
+`netsh ipsec static importpolicy`
+`netsh ipsec static set`
+`netsh ipsec static show`
+`netsh ipsecdosprotection`
+`netsh lan add`
+`netsh lan delete`
+`netsh lan dump`
+`netsh lan export`
+`netsh lan reconnect`
+`netsh lan set`
+`netsh lan show`
+`netsh mbn`
+`netsh namespace`
+`netsh netio add`
+`netsh netio delete`
+`netsh netio dump`
+`netsh netio show`
+`netsh offline`
+`netsh online`
+`netsh p2p`
+`netsh popd`
+`netsh pushd`
+`netsh quit`
+`netsh ras aaaa`
+`netsh ras add`
+`netsh ras delete`
+`netsh ras diagnostics`
+`netsh ras dump`
+`netsh ras ip`
+`netsh ras ipv6`
+`netsh ras set`
+`netsh ras show`
+`netsh routing`
+`netsh rpc add`
+`netsh rpc delete`
+`netsh rpc dump`
+`netsh rpc filter`
+`netsh rpc reset`
+`netsh rpc show`
+`netsh set machine`
+`netsh show alias`
+`netsh show helper`
+`netsh trace convert`
+`netsh trace correlate`
+`netsh trace diagnose`
+`netsh trace dump`
+`netsh trace export`
+`netsh trace help`
+`netsh trace merge`
+`netsh trace postreset`
+`netsh trace start`
+`netsh trace stop`
+`netsh unalias`
+`netsh wcn`
+`netsh wfp`
+`netsh winhttp dump`
+`netsh winhttp import`
+`netsh winhttp reset`
+`netsh winhttp set`
+`netsh winhttp show`
+`netsh winsock audit`
+`netsh winsock dump`
+`netsh winsock remove`
+`netsh winsock reset`
+`netsh winsock show`
+`netsh wlan add`
+`netsh wlan connect`
+`netsh wlan delete`
+`netsh wlan disconnect`
+`netsh wlan dump`
+`netsh wlan export`
+`netsh wlan help`
+`netsh wlan IHV`
+`netsh wlan refresh`
+`netsh wlan reportissues`
+`netsh wlan set`
+`netsh wlan show`
+`netsh wlan start`
+`netsh wlan stop`
+`netsh`

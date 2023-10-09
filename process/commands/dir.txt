@@ -1,0 +1,223 @@
+DIR
+DIR /P
+DIR /W
+DIR /D
+DIR /A:D
+DIR /A:-D
+DIR /A:R
+DIR /A:-R
+DIR /A:H
+DIR /A:-H
+DIR /A:A
+DIR /A:-A
+DIR /A:S
+DIR /A:-S
+DIR /A:I
+DIR /A:-I
+DIR /A:L
+DIR /A:-L
+DIR /A:X
+DIR /A:-X
+DIR /A:V
+DIR /A:-V
+DIR /O:N
+DIR /O:-N
+DIR /O:S
+DIR /O:-S
+DIR /O:E
+DIR /O:-E
+DIR /O:D
+DIR /O:-D
+DIR /O:G
+DIR /O:-G
+DIR /T:C
+DIR /T:A
+DIR /T:W
+DIR /S
+DIR /R
+DIR /B
+DIR /L
+DIR /Q
+DIR /N
+DIR /X
+DIR /C
+DIR /-C
+DIR /4
+DIR *.* /-S
+DIR /a c:\demo\
+DIR /b c:\demo\
+DIR /a:-D /s c:\demo\
+DIR c:\demo\ h:\work\
+DIR %USERPROFILE% /a:i
+DIR /a c:\demo\ /b
+DIR c:\demo\ /b /s
+DIR /a:-D /s c:\demo\ /b
+DIR /a c:\demo\ /b /s
+DIR /a:-D /s c:\demo\ /b /s
+DIR /a c:\demo\ /b /s /a:-D
+DIR /a c:\demo\ /b /s /a:-D /s
+DIR /a c:\demo\ /b /s /a:-D /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s
+DIR /a c:\demo\ /b /s /a:-D /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b /a /s /b
+DIR /A:R /S
+DIR /A:H /S
+DIR /A:A /S
+DIR /A:S /S
+DIR /A:I /S
+DIR /A:L /S
+DIR /A:X /S
+DIR /A:V /S
+DIR /O:N /S
+DIR /O:S /S
+DIR /O:E /S
+DIR /O:D /S
+DIR /O:G /S
+DIR /T:C /S
+DIR /T:A /S
+DIR /T:W /S
+DIR /R /S
+DIR /B /S
+DIR /L /S
+DIR /Q /S
+DIR /N /S
+DIR /X /S
+DIR /C /S
+DIR /-C /S
+DIR /4 /S
+DIR /A:R /P
+DIR /A:H /P
+DIR /A:A /P
+DIR /A:S /P
+DIR /A:I /P
+DIR /A:L /P
+DIR /A:X /P
+DIR /A:V /P
+DIR /O:N /P
+DIR /O:S /P
+DIR /O:E /P
+DIR /O:D /P
+DIR /O:G /P
+DIR /T:C /P
+DIR /T:A /P
+DIR /T:W /P
+DIR /R /P
+DIR /B /P
+DIR /L /P
+DIR /Q /P
+DIR /N /P
+DIR /X /P
+DIR /C /P
+DIR /-C /P
+DIR /4 /P
+DIR /A:R /B
+DIR /A:H /B
+DIR /A:A /B
+DIR /A:S /B
+DIR /A:I /B
+DIR /A:L /B
+DIR /A:X /B
+DIR /A:V /B
+DIR /O:N /B
+DIR /O:S /B
+DIR /O:E /B
+DIR /O:D /B
+DIR /O:G /B
+DIR /T:C /B
+DIR /T:A /B
+DIR /T:W /B
+DIR /R /B
+DIR /L /B
+DIR /Q /B
+DIR /N /B
+DIR /X /B
+DIR /C /B
+DIR /-C /B
+DIR /4 /B
+DIR /A:R /R
+DIR /A:H /R
+DIR /A:A /R
+DIR /A:S /R
+DIR /A:I /R
+DIR /A:L /R
+DIR /A:X /R
+DIR /A:V /R
+DIR /O:N /R
+DIR /O:S /R
+DIR /O:E /R
+DIR /O:D /R
+DIR /O:G /R
+DIR /T:C /R
+DIR /T:A /R
+DIR /T:W /R
+DIR /B /R
+DIR /L /R
+DIR /Q /R
+DIR /N /R
+DIR /X /R
+DIR /C /R
+DIR /-C /R
+DIR /4 /R
+DIR /A:R /L
+DIR /A:H /L
+DIR /A:A /L
+DIR /A:S /L
+DIR /A:I /L
+DIR /A:L /L
+DIR /A:X /L
+DIR /A:V /L
+DIR /O:N /L
+DIR /O:S /L
+DIR /O:E /L
+DIR /O:D /L
+DIR /O:G /L
+DIR /T:C /L
+DIR /T:A /L
+DIR /T:W /L
+DIR /R /L
+DIR /B /L
+DIR /Q /L
+DIR /N /L
+DIR /X /L
+DIR /C /L
+DIR /-C /L
+DIR /4 /L

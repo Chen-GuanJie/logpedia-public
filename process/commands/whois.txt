@@ -1,0 +1,794 @@
+whois google.com
+whois -v google.com
+whois microsoft.com
+whois -v microsoft.com
+whois yahoo.com
+whois -v yahoo.com
+whois amazon.com
+whois -v amazon.com
+whois facebook.com
+whois -v facebook.com
+whois twitter.com
+whois -v twitter.com
+whois linkedin.com
+whois -v linkedin.com
+whois instagram.com
+whois -v instagram.com
+whois youtube.com
+whois -v youtube.com
+whois pinterest.com
+whois -v pinterest.com
+whois snapchat.com
+whois -v snapchat.com
+whois tumblr.com
+whois -v tumblr.com
+whois flickr.com
+whois -v flickr.com
+whois reddit.com
+whois -v reddit.com
+whois quora.com
+whois -v quora.com
+whois github.com
+whois -v github.com
+whois stackoverflow.com
+whois -v stackoverflow.com
+whois wikipedia.org
+whois -v wikipedia.org
+whois wordpress.com
+whois -v wordpress.com
+whois yelp.com
+whois -v yelp.com
+whois imdb.com
+whois -v imdb.com
+whois netflix.com
+whois -v netflix.com
+whois hulu.com
+whois -v hulu.com
+whois spotify.com
+whois -v spotify.com
+whois apple.com
+whois -v apple.com
+whois samsung.com
+whois -v samsung.com
+whois tesla.com
+whois -v tesla.com
+whois nasa.gov
+whois -v nasa.gov
+whois whitehouse.gov
+whois -v whitehouse.gov
+whois cia.gov
+whois -v cia.gov
+whois fbi.gov
+whois -v fbi.gov
+whois nsa.gov
+whois -v nsa.gov
+whois un.org
+whois -v un.org
+whois europa.eu
+whois -v europa.eu
+whois mit.edu
+whois -v mit.edu
+whois harvard.edu
+whois -v harvard.edu
+whois stanford.edu
+whois -v stanford.edu
+whois yale.edu
+whois -v yale.edu
+whois princeton.edu
+whois -v princeton.edu
+whois oxford.ac.uk
+whois -v oxford.ac.uk
+whois cam.ac.uk
+whois -v cam.ac.uk
+whois berkeley.edu
+whois -v berkeley.edu
+whois uchicago.edu
+whois -v uchicago.edu
+whois columbia.edu
+whois -v columbia.edu
+whois nyu.edu
+whois -v nyu.edu
+whois ucla.edu
+whois -v ucla.edu
+whois cornell.edu
+whois -v cornell.edu
+whois duke.edu
+whois -v duke.edu
+whois upenn.edu
+whois -v upenn.edu
+whois northwestern.edu
+whois -v northwestern.edu
+whois jhu.edu
+whois -v jhu.edu
+whois caltech.edu
+whois -v caltech.edu
+whois dartmouth.edu
+whois -v dartmouth.edu107. whois brown.edu
+whois -v brown.edu
+whois rice.edu
+whois -v rice.edu
+whois vanderbilt.edu
+whois -v vanderbilt.edu
+whois notre-dame.edu
+whois -v notre-dame.edu
+whois usc.edu
+whois -v usc.edu
+whois carnegiemellon.edu
+whois -v carnegiemellon.edu
+whois ucsf.edu
+whois -v ucsf.edu
+whois emory.edu
+whois -v emory.edu
+whois georgetown.edu
+whois -v georgetown.edu
+whois tufts.edu
+whois -v tufts.edu
+whois wakeforest.edu
+whois -v wakeforest.edu
+whois bostoncollege.edu
+whois -v bostoncollege.edu
+whois brandeis.edu
+whois -v brandeis.edu
+whois case.edu
+whois -v case.edu
+whois northeastern.edu
+whois -v northeastern.edu
+whois tulane.edu
+whois -v tulane.edu
+whois pepperdine.edu
+whois -v pepperdine.edu
+whois yeshiva.edu
+whois -v yeshiva.edu
+whois syracuse.edu
+whois -v syracuse.edu
+whois fordham.edu
+whois -v fordham.edu
+whois smu.edu
+whois -v smu.edu
+whois umiami.edu
+whois -v umiami.edu
+whois byu.edu
+whois -v byu.edu
+whois drexel.edu
+whois -v drexel.edu
+whois stthomas.edu
+whois -v stthomas.edu
+whois clarku.edu
+whois -v clarku.edu
+whois depaul.edu
+whois -v depaul.edu
+whois hofstra.edu
+whois -v hofstra.edu
+whois howard.edu
+whois -v howard.edu
+whois udayton.edu
+whois -v udayton.edu
+whois umass.edu
+whois -v umass.edu
+whois usfca.edu
+whois -v usfca.edu
+whois duq.edu
+whois -v duq.edu
+whois seattleu.edu
+whois -v seattleu.edu
+whois setonhall.edu
+whois -v setonhall.edu
+whois stjohns.edu
+whois -v stjohns.edu
+whois uofs.edu
+whois -v uofs.edu
+whois xavier.edu
+whois -v xavier.edu
+whois creighton.edu
+whois -v creighton.edu
+whois drake.edu
+whois -v drake.edu
+whois gonzaga.edu
+whois -v gonzaga.edu
+whois marquette.edu
+whois -v marquette.edu
+whois santaclara.edu
+whois -v santaclara.edu
+whois villanova.edu
+whois -v villanova.edu
+whois butler.edu
+whois -v butler.edu
+whois richmond.edu
+whois -v richmond.edu
+whois usd.edu
+whois -v usd.edu
+whois loyola.edu
+whois -v loyola.edu
+whois providence.edu
+whois -v providence.edu
+whois scranton.edu
+whois -v scranton.edu
+whois fairfield.edu
+whois -v fairfield.edu
+whois sju.edu
+whois -v sju.edu
+whois valpo.edu
+whois -v valpo.edu
+whois canisius.edu
+whois -v canisius.edu
+whois mercer.edu
+whois -v mercer.edu
+whois niagara.edu
+whois -v niagara.edu
+whois rollins.edu
+whois -v rollins.edu
+whois stetson.edu
+whois -v stetson.edu
+whois uportland.edu
+whois -v uportland.edu
+whois belmont.edu
+whois -v belmont.edu
+whois iona.edu
+whois -v iona.edu
+whois quinnipiac.edu
+whois -v quinnipiac.edu
+whois rider.edu
+whois -v rider.edu
+whois rockhurst.edu
+whois -v rockhurst.edu
+whois siena.edu
+whois -v siena.edu
+whois uindy.edu
+whois -v uindy.edu
+whois upacific.edu
+whois -v upacific.edu
+whois wagner.edu
+whois -v wagner.edu
+whois adelphi.edu
+whois -v adelphi.edu
+whois assumption.edu
+whois -v assumption.edu
+whois bentley.edu
+whois -v bentley.edu
+whois bryant.edu
+whois -v bryant.edu
+whois chaminade.edu
+whois -v chaminade.edu
+whois clarke.edu
+whois -v clarke.edu
+whois coe.edu
+whois -v coe.edu
+whois csbsju.edu
+whois -v csbsju.edu
+whois drury.edu
+whois -v drury.edu
+whois du.edu
+whois -v du.edu
+whois elmhurst.edu
+whois -v elmhurst.edu
+whois furman.edu
+whois -v furman.edu
+whois hpu.edu
+whois -v hpu.edu
+whois ithaca.edu
+whois -v ithaca.edu
+whois jcu.edu
+whois -v jcu.edu
+whois ju.edu
+whois -v ju.edu
+whois lmu.edu
+whois -v lmu.edu
+whois lynn.edu
+whois -v lynn.edu
+whois marymount.edu
+whois -v marymount.edu
+whois merrimack.edu
+whois -v merrimack.edu
+whois misericordia.edu
+whois -v misericordia.edu
+whois mmm.edu
+whois -v mmm.edu
+whois naz.edu
+whois -v naz.edu
+whois newhaven.edu
+whois -v newhaven.edu
+whois otterbein.edu
+whois -v otterbein.edu
+whois pace.edu
+whois -v pace.edu
+whois pointloma.edu
+whois -v pointloma.edu
+whois qu.edu
+whois -v qu.edu
+whois regis.edu
+whois -v regis.edu
+whois rosemont.edu
+whois -v rosemont.edu
+whois sacredheart.edu
+whois -v sacredheart.edu
+whois saintleo.edu
+whois -v saintleo.edu
+whois se.edu
+whois -v se.edu
+whois shu.edu
+whois -v shu.edu
+whois spalding.edu
+whois -v spalding.edu
+whois stevenson.edu
+whois -v stevenson.edu
+whois uarts.edu
+whois -v uarts.edu
+whois udel.edu
+whois -v udel.edu
+whois uhd.edu
+whois -v uhd.edu
+whois uic.edu
+whois -v uic.edu
+whois umkc.edu
+whois -v umkc.edu
+whois unomaha.edu
+whois -v unomaha.edu
+whois uofl.edu
+whois -v uofl.edu
+whois usi.edu
+whois -v usi.edu
+whois utdallas.edu
+whois -v utdallas.edu
+whois utep.edu
+whois -v utep.edu
+whois utrgv.edu
+whois -v utrgv.edu
+whois utulsa.edu
+whois -v utulsa.edu
+whois uvm.edu
+whois -v uvm.edu
+whois uwf.edu
+whois -v uwf.edu
+whois uwm.edu
+whois -v uwm.edu
+whois valdosta.edu
+whois -v valdosta.edu
+whois vcu.edu
+whois -v vcu.edu
+whois villanova.edu
+whois -v villanova.edu
+whois wcu.edu
+whois -v wcu.edu
+whois wright.edu
+whois -v wright.edu
+whois xula.edu
+whois -v xula.edu
+whois ysu.edu
+whois -v ysu.edu
+whois zanestate.edu
+whois -v zanestate.edu
+whois aamu.edu
+whois -v aamu.edu
+whois abac.edu
+whois -v abac.edu
+whois acadiau.ca
+whois -v acadiau.ca
+whois adams.edu
+whois -v adams.edu
+whois adelphi.edu
+whois -v adelphi.edu
+whois adrian.edu
+whois -v adrian.edu
+whois agnesscott.edu
+whois -v agnesscott.edu
+whois aib.edu
+whois -v aib.edu
+whois aifs.edu
+whois -v aifs.edu
+whois aii.edu
+whois -v aii.edu
+whois ait.edu
+whois -v ait.edu
+whois aiusa.edu
+whois -v aiusa.edu
+whois aju.edu
+whois -v aju.edu
+whois akamaiuniversity.us
+whois -v akamaiuniversity.us
+whois ala.edu
+whois -v ala.edu
+whois alaska.edu
+whois -v alaska.edu
+whois albany.edu
+whois -v albany.edu
+whois albertus.edu
+whois -v albertus.edu
+whois albion.edu
+whois -v albion.edu
+whois alcorn.edu
+whois -v alcorn.edu
+whois alfred.edu
+whois -v alfred.edu
+whois allegheny.edu
+whois -v allegheny.edu
+whois allencol.edu
+whois -v allencol.edu
+whois alliance.edu
+whois -v alliance.edu
+whois alliant.edu
+whois -v alliant.edu
+whois alma.edu
+whois -v alma.edu
+whois alvernia.edu
+whois -v alvernia.edu
+whois alverno.edu
+whois -v alverno.edu
+whois amacad.edu
+whois -v amacad.edu
+whois amarillocollege.edu
+whois -v amarillocollege.edu
+whois amberton.edu
+whois -v amberton.edu
+whois ambs.edu
+whois -v ambs.edu
+whois amc.edu
+whois -v amc.edu
+whois amda.edu
+whois -v amda.edu
+whois american.edu
+whois -v american.edu
+whois americansentinel.edu
+whois -v americansentinel.edu
+whois amherst.edu
+whois -v amherst.edu
+whois anderson.edu
+whois -v anderson.edu
+whois andrews.edu
+whois -v andrews.edu
+whois angelo.edu
+whois -v angelo.edu
+whois antioch.edu
+whois -v antioch.edu
+whois antiochla.edu
+whois -v antiochla.edu
+whois antiochne.edu
+whois -v antiochne.edu
+whois antiochsb.edu
+whois -v antiochsb.edu
+whois antiochseattle.edu
+whois -v antiochseattle.edu
+whois apollos.edu
+whois -v apollos.edu
+whois appstate.edu
+whois -v appstate.edu
+whois aquinas.edu
+whois -v aquinas.edu
+whois arbor.edu
+whois -v arbor.edu
+whois arcadia.edu
+whois -v arcadia.edu
+whois argosy.edu
+whois -v argosy.edu
+whois ari.edu
+whois -v ari.edu
+whois arizona.edu
+whois -v arizona.edu
+whois arkansasbaptist.edu
+whois -v arkansasbaptist.edu
+whois artacademy.edu
+whois -v artacademy.edu
+whois artcenter.edu
+whois -v artcenter.edu
+whois artedu.com
+whois -v artedu.com
+whois artexch.edu
+whois -v artexch.edu
+whois artinstitutes.edu
+whois -v artinstitutes.edu
+whois artsi.edu
+whois -v artsi.edu
+whois asa.edu
+whois -v asa.edu
+whois asbury.edu
+whois -v asbury.edu
+whois asburyseminary.edu
+whois -v asburyseminary.edu
+whois ashford.edu
+whois -v ashford.edu
+whois ashland.edu
+whois -v ashland.edu
+whois aspp.edu
+whois -v aspp.edu
+whois assumption.edu
+whois -v assumption.edu
+whois astate.edu
+whois -v astate.edu
+whois ateneo.edu
+whois -v ateneo.edu
+whois athabascau.ca
+whois -v athabascau.ca
+whois ati.edu
+whois -v ati.edu
+whois atlanticuniv.edu
+whois -v atlanticuniv.edu
+whois auburn.edu
+whois -v auburn.edu
+whois auc.edu
+whois -v auc.edu
+whois augustana.edu
+whois -v augustana.edu
+whois aum.edu
+whois -v aum.edu
+whois aus.edu
+whois -v aus.edu
+whois auv.edu
+whois -v auv.edu
+whois avc.edu
+whois -v avc.edu
+whois averett.edu
+whois -v averett.edu
+whois aviation.edu
+whois -v aviation.edu
+whois avila.edu
+whois -v avila.edu
+whois azusa.edu
+whois -v azusa.edu
+whois babson.edu
+whois -v babson.edu
+whois baker.edu
+whois -v baker.edu
+whois bakersfieldcollege.edu
+whois -v bakersfieldcollege.edu
+whois baldwinw.edu
+whois -v baldwinw.edu
+whois ballstate.edu
+whois -v ballstate.edu
+whois bankstreet.edu
+whois -v bankstreet.edu
+whois barat.edu
+whois -v barat.edu
+whois barclaycollege.edu
+whois -v barclaycollege.edu
+whois bard.edu
+whois -v bard.edu
+whois barker.edu
+whois -v barker.edu
+whois barry.edu
+whois -v barry.edu
+whois barton.edu
+whois -v barton.edu
+whois bastyr.edu
+whois -v bastyr.edu
+whois bates.edu
+whois -v bates.edu
+whois bau.edu
+whois -v bau.edu
+whois bayamon.inter.edu
+whois -v bayamon.inter.edu
+whois baycollege.edu
+whois -v baycollege.edu
+whois baypath.edu
+whois -v baypath.edu
+whois baystate.edu
+whois -v baystate.edu
+whois bcc.cuny.edu
+whois -v bcc.cuny.edu
+whois bcc.edu
+whois -v bcc.edu
+whois bchs.edu
+whois -v bchs.edu
+whois bcl.edu
+whois -v bcl.edu
+whois bcn.boulder.co.us
+whois -v bcn.boulder.co.us
+whois bcregistrar.com
+whois -v bcregistrar.com
+whois bcs.edu
+whois -v bcs.edu
+whois bctc.edu
+whois -v bctc.edu
+whois beaconcollege.edu
+whois -v beaconcollege.edu
+whois becker.edu
+whois -v becker.edu
+whois belhaven.edu
+whois -v belhaven.edu
+whois bellevue.edu
+whois -v bellevue.edu
+whois bellincollege.edu
+whois -v bellincollege.edu
+whois beloit.edu
+whois -v beloit.edu
+whois bemidjistate.edu
+whois -v bemidjistate.edu
+whois ben.edu
+whois -v ben.edu
+whois benedict.edu
+whois -v benedict.edu
+whois benedictine.edu
+whois -v benedictine.edu
+whois bennington.edu
+whois -v bennington.edu
+whois bentley.edu
+whois -v bentley.edu
+whois berea.edu
+whois -v berea.edu
+whois berkeley.edu
+whois -v berkeley.edu
+whois berkeleycollege.edu
+whois -v berkeleycollege.edu
+whois berks.edu
+whois -v berks.edu
+whois bethany.edu
+whois -v bethany.edu
+whois bethel.edu
+whois -v bethel.edu
+whois bethelcollege.edu
+whois -v bethelcollege.edu
+whois bethelks.edu
+whois -v bethelks.edu
+whois bethunecookman.edu
+whois -v bethunecookman.edu
+whois beulah.edu
+whois -v beulah.edu
+whois bgsu.edu
+whois -v bgsu.edu
+whois bhcc.mass.edu
+whois -v bhcc.mass.edu
+whois bi.edu
+whois -v bi.edu
+whois bible.edu
+whois -v bible.edu
+whois biboon.umn.edu
+whois -v biboon.umn.edu
+whois bie.edu
+whois -v bie.edu
+whois bigbend.edu
+whois -v bigbend.edu
+whois bigsky.edu
+whois -v bigsky.edu
+whois binghamton.edu
+whois -v binghamton.edu
+whois biola.edu
+whois -v biola.edu
+whois birmingham.edu
+whois -v birmingham.edu
+whois bis.midco.net
+whois -v bis.midco.net
+whois bishop.edu
+whois -v bishop.edu
+whois bju.edu
+whois -v bju.edu
+whois blackburn.edu
+whois -v blackburn.edu
+whois blackhawk.edu
+whois -v blackhawk.edu
+whois blc.edu
+whois -v blc.edu
+whois blessington.net
+whois -v blessington.net
+whois blinn.edu
+whois -v blinn.edu
+whois bloomfield.edu
+whois -v bloomfield.edu
+whois bloomu.edu
+whois -v bloomu.edu
+whois blueridgectc.edu
+whois -v blueridgectc.edu
+whois bluffton.edu
+whois -v bluffton.edu
+whois bmcc.cuny.edu
+whois -v bmcc.cuny.edu
+whois bmcc.edu
+whois -v bmcc.edu
+whois bmc.edu
+whois -v bmc.edu
+whois bme.jhu.edu
+whois -v bme.jhu.edu
+whois bmif.com
+whois -v bmif.com
+whois bml.edu
+whois -v bml.edu
+whois bmwcca.org
+whois -v bmwcca.org
+whois bncollege.com
+whois -v bncollege.com
+whois boisebar.com
+whois -v boisebar.com
+whois boisestate.edu
+whois -v boisestate.edu
+whois bostonarchitecturalcollege.edu
+whois -v bostonarchitecturalcollege.edu
+whois bostonconservatory.edu
+whois -v bostonconservatory.edu
+whois bostonu.edu
+whois -v bostonu.edu
+whois bowdoin.edu
+whois -v bowdoin.edu
+whois bowiestate.edu
+whois -v bowiestate.edu
+whois bowlinggreen.edu
+whois -v bowlinggreen.edu
+whois boycecollege.com
+whois -v boycecollege.com
+whois bpcc.edu
+whois -v bpcc.edu
+whois bradley.edu
+whois -v bradley.edu
+whois brandeis.edu
+whois -v brandeis.edu
+whois brandman.edu
+whois -v brandman.edu
+whois brenau.edu
+whois -v brenau.edu
+whois brevard.edu
+whois -v brevard.edu
+whois brescia.edu
+whois -v brescia.edu
+whois bresnan.net
+whois -v bresnan.net
+whois brewsteracademy.org
+whois -v brewsteracademy.org
+whois briarcliff.edu
+whois -v briarcliff.edu
+whois bridgewater.edu
+whois -v bridgewater.edu
+whois bristol.mass.edu
+whois -v bristol.mass.edu
+whois britannica.com
+whois -v britannica.com
+whois brockport.edu
+whois -v brockport.edu
+whois brookdale.edu
+whois -v brookdale.edu
+whois brookes.ac.uk
+whois -v brookes.ac.uk
+whois brooklyn.cuny.edu
+whois -v brooklyn.cuny.edu
+whois brooklyn.liu.edu
+whois -v brooklyn.liu.edu
+whois brooklynlaw.edu
+whois -v brooklynlaw.edu
+whois brown.edu
+whois -v brown.edu
+whois bryan.edu
+whois -v bryan.edu
+whois bryantstratton.edu
+whois -v bryantstratton.edu
+whois brynmawr.edu
+whois -v brynmawr.edu
+whois bsu.edu
+whois -v bsu.edu
+whois btc.edu
+whois -v btc.edu
+whois bths.edu
+whois -v bths.edu
+whois bucknell.edu
+whois -v bucknell.edu
+whois bucks.edu
+whois -v bucks.edu
+whois bu.edu
+whois -v bu.edu
+whois buec.udel.edu
+whois -v buec.udel.edu
+whois buffalo.edu
+whois -v buffalo.edu
+whois buffalostate.edu
+whois -v buffalostate.edu
+whois buick.com
+whois -v buick.com
+whois builder.com
+whois -v builder.com
+whois burlington.edu
+whois -v burlington.edu
+whois burrell.edu
+whois -v burrell.edu
+whois business.com
+whois -v business.com
+whois butler.edu
+whois -v butler.edu
+whois butte.edu
+whois -v butte.edu
+whois bv.edu
+whois -v bv.edu
+whois byu.edu
+whois -v byu.edu
+whois byuh.edu
+whois -v byuh.edu
+whois cabarruscollege.edu
+whois -v cabarruscollege.edu
+whois cabrillo.edu
+whois -v cabrillo.edu
+whois cabrinicollege.edu
+whois -v cabrinicollege.edu
+whois calarts

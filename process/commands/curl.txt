@@ -1,0 +1,351 @@
+curl https://example.com
+curl -I https://example.com
+curl -A "Mozilla FireFox(72.0)" https://example.com
+curl -o C:\demo\testing.html https://example.com/
+curl ftp://anonymous@speedtest.tele2.net
+curl --abstract-unix-socket /path/to/socket
+curl --anyauth
+curl -a
+curl --basic
+curl -A "User-Agent Name"
+curl --cacert /path/to/cacert
+curl --capath /path/to/capath
+curl -B
+curl -E /path/to/certificate
+curl --cert-status
+curl --cert-type PEM
+curl --ciphers "ECDHE-ECDSA-AES256-GCM-SHA384"
+curl --compressed
+curl -K /path/to/config
+curl --connect-timeout 10
+curl --connect-to example.com:80:example.com:8080
+curl -C 100
+curl -b "name=daniel;age=22"
+curl -c /path/to/cookiejar
+curl --create-dirs
+curl --crlf
+curl --crlfile /path/to/crlfile
+curl -d "name=daniel&age=22"
+curl --data-ascii "name=daniel&age=22"
+curl --data-binary @binaryfile
+curl --data-raw "name=daniel&age=22"
+curl --data-urlencode "name=daniel&age=22"
+curl --delegation LEVEL
+curl --digest
+curl -q
+curl --disable-eprt
+curl --disable-epsv
+curl --dns-interface eth0
+curl --dns-ipv4-addr 8.8.8.8
+curl --dns-ipv6-addr 2001:4860:4860::8888
+curl --dns-servers 8.8.8.8,8.8.4.4
+curl -D /path/to/headerfile
+curl --egd-file /path/to/egdfile
+curl --engine openssl
+curl --expect100-timeout 10
+curl -f
+curl --fail-early
+curl --false-start
+curl -F "name=daniel"
+curl --form-string "name=daniel"
+curl --ftp-account anonymous
+curl --ftp-alternative-to-user anonymous
+curl --ftp-create-dirs
+curl --ftp-method multicwd
+curl --ftp-pasv
+curl -P 21
+curl --ftp-pret
+curl --ftp-skip-pasv-ip
+curl --ftp-ssl-ccc
+curl --ftp-ssl-ccc-mode active
+curl --ftp-ssl-control
+curl -G
+curl -g
+curl -I
+curl -H "Content-Type:application/json"
+curl -h
+curl --hostpubmd5 md5hash
+curl -0
+curl --http1.1
+curl --http2
+curl --http2-prior-knowledge
+curl --ignore-content-length
+curl -i
+curl -k
+curl --interface eth0
+curl -4
+curl -6
+curl -j
+curl --keepalive-time 60
+curl --key /path/to/key
+curl --key-type PEM
+curl --krb safe
+curl --libcurl /path/to/libcurlfile
+curl --limit-rate 100k
+curl -l
+curl --local-port 8080
+curl -L
+curl --location-trusted
+curl --login-options "option1,option2"
+curl --mail-auth "daniel@example.com"
+curl --mail-from "daniel@example.com"
+curl --mail-rcpt "john@example.com"
+curl -M
+curl --max-filesize 1000000
+curl --max-redirs 10
+curl -m 60
+curl --metalink
+curl --negotiate
+curl -n
+curl --netrc-file /path/to/netrc
+curl --netrc-optional
+curl -:
+curl --no-alpn
+curl -N
+curl --no-keepalive
+curl --no-npn
+curl --no-sessionid
+curl --noproxy example.com
+curl --ntlm
+curl --ntlm-wb
+curl --oauth2-bearer token
+curl -o /path/to/output
+curl --pass passphrase
+curl --path-as-is
+curl --pinnedpubkey "sha256//hash"
+curl --post301
+curl --post302
+curl --post303
+curl --preproxy http://proxy:8080
+curl -#
+curl --proto https
+curl --proto-default https
+curl --proto-redir https
+curl -x http://proxy:8080
+curl --proxy-anyauth
+curl --proxy-basic
+curl --proxy-cacert /path/to/cacert
+curl --proxy-capath /path/to/capath
+curl --proxy-cert /path/to/cert
+curl --proxy-cert-type PEM
+curl --proxy-ciphers "ECDHE-ECDSA-AES256-GCM-SHA384"
+curl --proxy-crlfile /path/to/crlfile
+curl --proxy-digest
+curl --proxy-header "Content-Type:application/json"
+curl --proxy-insecure
+curl --proxy-key /path/to/key
+curl --proxy-key-type PEM
+curl --proxy-negotiate
+curl --proxy-ntlm
+curl --proxy-pass passphrase
+curl --proxy-service-name servicename
+curl --proxy-ssl-allow-beast
+curl --proxy-tlsauthtype type
+curl --proxy-tlspassword password
+curl --proxy-tlsuser username
+curl --proxy-tlsv1
+curl -U "user:password"
+curl --proxy1.0 http://proxy:8080
+curl -p
+curl --pubkey /path/to/pubkey
+curl -Q "DELE /file/to/delete"
+curl --random-file /path/to/randomfile
+curl -r 0-999
+curl --raw
+curl -e "http://example.com"
+curl -J
+curl -O
+curl --remote-name-all
+curl -R
+curl -X POST
+curl --request-target "/path/to/target"
+curl --resolve example.com:80:192.0.2.1
+curl --retry 5
+curl --retry-connrefused
+curl --retry-delay 5
+curl --retry-max-time 60
+curl --sasl-ir
+curl --service-name servicename
+curl -S
+curl -s
+curl --socks4 socks4.example.com:1080
+curl --socks4a socks4a.example.com:1080
+curl --socks5 socks5.example.com:1080
+curl --socks5-basic
+curl --socks5-gssapi
+curl --socks5-gssapi-nec
+curl --socks5-gssapi-service servicename
+curl --socks5-hostname socks5.example.com:1080
+curl -Y 10000
+curl -y 30
+curl --ssl
+curl --ssl-allow-beast
+curl --ssl-no-revoke
+curl --ssl-reqd
+curl -2
+curl -3
+curl --stderr /path/to/stderr
+curl --suppress-connect-headers
+curl --tcp-fastopen
+curl --tcp-nodelay
+curl -t "option=value"
+curl --tftp-blksize 512
+curl --tftp-no-options
+curl -z "Tue, 15 Nov 1994 12:45:26 GMT"
+curl --tls-max 1.2
+curl --tlsauthtype type
+curl --tlspassword password
+curl --tlsuser username
+curl -1
+curl --tlsv1.0
+curl --tlsv1.1
+curl --tlsv1.2
+curl --tlsv1.3
+curl --tr-encoding
+curl --trace /path/to/tracefile
+curl --trace-ascii /path/to/tracefile
+curl --trace-time
+curl --unix-socket /path/to/socket
+curl -T /path/to/uploadfile
+curl --url "http://example.com"
+curl -B
+curl -u "user:password"
+curl -A "User-Agent Name"
+curl -v
+curl -V
+curl -w "%{http_code}"
+curl --xattrBased on the provided behavior tree of the CURL process, here are additional executable commands:
+curl --abstract-unix-socket /path/to/different/socket
+curl --anyauth https://another-example.com
+curl -a https://yet-another-example.com
+curl --basic https://basic-example.com
+curl -A "Another User-Agent Name"
+curl --cacert /path/to/another/cacert
+curl --capath /path/to/another/capath
+curl -B https://ascii-example.com
+curl -E /path/to/another/certificate
+curl --cert-status https://cert-status-example.com
+curl --cert-type DER
+curl --ciphers "AES128-GCM-SHA256"
+curl --compressed https://compressed-example.com
+curl -K /path/to/another/config
+curl --connect-timeout 20
+curl --connect-to another-example.com:80:another-example.com:8080
+curl -C 200
+curl -b "name=alex;age=30"
+curl -c /path/to/another/cookiejar
+curl --create-dirs https://dirs-example.com
+curl --crlf https://crlf-example.com
+curl --crlfile /path/to/another/crlfile
+curl -d "name=alex&age=30"
+curl --data-ascii "name=alex&age=30"
+curl --data-binary @another-binaryfile
+curl --data-raw "name=alex&age=30"
+curl --data-urlencode "name=alex&age=30"
+curl --delegation ANOTHER_LEVEL
+curl --digest https://digest-example.com
+curl -q https://quiet-example.com
+curl --disable-eprt https://disable-eprt-example.com
+curl --disable-epsv https://disable-epsv-example.com
+curl --dns-interface eth1
+curl --dns-ipv4-addr 8.8.4.4
+curl --dns-ipv6-addr 2001:4860:4860::8844
+curl --dns-servers 8.8.8.8,1.1.1.1
+curl -D /path/to/another/headerfile
+curl --egd-file /path/to/another/egdfile
+curl --engine cryptodev
+curl --expect100-timeout 20
+curl -f https://fail-example.com
+curl --fail-early https://fail-early-example.com
+curl --false-start https://false-start-example.com
+curl -F "name=alex"
+curl --form-string "name=alex"
+curl --ftp-account another-anonymous
+curl --ftp-alternative-to-user another-anonymous
+curl --ftp-create-dirs https://ftp-dirs-example.com
+curl --ftp-method singlecwd
+curl --ftp-pasv https://ftp-pasv-example.com
+curl -P 22
+curl --ftp-pret https://ftp-pret-example.com
+curl --ftp-skip-pasv-ip https://ftp-skip-pasv-ip-example.com
+curl --ftp-ssl-ccc https://ftp-ssl-ccc-example.com
+curl --ftp-ssl-ccc-mode passive
+curl --ftp-ssl-control https://ftp-ssl-control-example.com
+curl -G https://get-example.com
+curl -g https://globoff-example.com
+curl -I https://head-example.com
+curl -H "Content-Type:application/xml"
+curl -h https://help-example.com
+curl --hostpubmd5 another-md5hash
+curl -0 https://http1.0-example.com
+curl --http1.1 https://http1.1-example.com
+curl --http2 https://http2-example.com
+curl --http2-prior-knowledge https://http2-prior-knowledge-example.com
+curl --ignore-content-length https://ignore-content-length-example.com
+curl -i https://include-example.com
+curl -k https://insecure-example.com
+curl --interface eth1
+curl -4 https://ipv4-example.com
+curl -6 https://ipv6-example.com
+curl -j https://junk-session-cookies-example.com
+curl --keepalive-time 120
+curl --key /path/to/another/key
+curl --key-type ENG
+curl --krb clear
+curl --libcurl /path/to/another/libcurlfile
+curl --limit-rate 200k
+curl -l https://list-only-example.com
+curl --local-port 8081
+curl -L https://location-example.com
+curl --location-trusted https://location-trusted-example.com
+curl --login-options "another-option1,another-option2"
+curl --mail-auth "alex@example.com"
+curl --mail-from "alex@example.com"
+curl --mail-rcpt "john@example.com"
+curl -M https://manual-example.com
+curl --max-filesize 2000000
+curl --max-redirs 20
+curl -m 120
+curl --metalink https://metalink-example.com
+curl --negotiate https://negotiate-example.com
+curl -n https://netrc-example.com
+curl --netrc-file /path/to/another/netrc
+curl --netrc-optional https://netrc-optional-example.com
+curl -: https://next-example.com
+curl --no-alpn https://no-alpn-example.com
+curl -N https://no-buffer-example.com
+curl --no-keepalive https://no-keepalive-example.com
+curl --no-npn https://no-npn-example.com
+curl --no-sessionid https://no-sessionid-example.com
+curl --noproxy another-example.com
+curl --ntlm https://ntlm-example.com
+curl --ntlm-wb https://ntlm-wb-example.com
+curl --oauth2-bearer another-token
+curl -o /path/to/another/output
+curl --pass another-passphrase
+curl --path-as-is https://path-as-is-example.com
+curl --pinnedpubkey "sha256//another-hash"
+curl --post301 https://post301-example.com
+curl --post302 https://post302-example.com
+curl --post303 https://post303-example.com
+curl --preproxy https://preproxy-example.com
+curl -# https://progress-bar-example.com
+curl --proto ftps
+curl --proto-default ftps
+curl --proto-redir ftps
+curl -x https://proxy-example.com
+curl --proxy-anyauth https://proxy-anyauth-example.com
+curl --proxy-basic https://proxy-basic-example.com
+curl --proxy-cacert /path/to/proxy-cacert
+curl --proxy-capath /path/to/proxy-capath
+curl --proxy-cert /path/to/proxy-cert
+curl --proxy-cert-type DER
+curl --proxy-ciphers "AES128-SHA256"
+curl --proxy-crlfile /path/to/proxy-crlfile
+curl --proxy-digest https://proxy-digest-example.com
+curl --proxy-header "Content-Type:application/xml"
+curl --proxy-insecure https://proxy-insecure-example.com
+curl --proxy-key /path/to/proxy-key
+curl --proxy-key-type ENG
+curl --proxy-negotiate https://proxy-negotiate-example.com
+curl --proxy-ntlm https://proxy-ntlm-example

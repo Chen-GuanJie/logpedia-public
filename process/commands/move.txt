@@ -1,0 +1,109 @@
+MOVE /Y source_file target_file
+MOVE /-Y source_file target_file
+MOVE source_file target_file
+MOVE /Y source_folder target_folder
+MOVE /-Y source_folder target_folder
+MOVE source_folder target_folder
+SET COPYCMD=/Y
+MOVE oldfile.wp newfile.doc
+MOVE g:\department\oldfile.wp "c:\Files to Convert\newfile.doc"
+MOVE a:oldfile.wp c:newfile.doc
+MOVE g:\department\oldfile.wp
+MOVE oldfile.wp newfile.doc >nul
+Echo n|MOVE /-y c:\file1.txt c:\dir\file1.txt
+MOVE /Y C:\Users\file.txt D:\Documents\
+MOVE /-Y C:\Users\file.txt D:\Documents\
+MOVE C:\Users\file.txt D:\Documents\
+MOVE /Y C:\Users\folder1 D:\Documents\
+MOVE /-Y C:\Users\folder1 D:\Documents\
+MOVE C:\Users\folder1 D:\Documents\
+MOVE /Y C:\Users\file.txt D:\Documents\newfile.txt
+MOVE /-Y C:\Users\file.txt D:\Documents\newfile.txt
+MOVE C:\Users\file.txt D:\Documents\newfile.txt
+MOVE /Y C:\Users\folder1 D:\Documents\newfolder
+MOVE /-Y C:\Users\folder1 D:\Documents\newfolder
+MOVE C:\Users\folder1 D:\Documents\newfolder
+MOVE /Y D:\Documents\file.txt C:\Users\
+MOVE /-Y D:\Documents\file.txt C:\Users\
+MOVE D:\Documents\file.txt C:\Users\
+MOVE /Y D:\Documents\folder1 C:\Users\
+MOVE /-Y D:\Documents\folder1 C:\Users\
+MOVE D:\Documents\folder1 C:\Users\
+MOVE /Y D:\Documents\file.txt C:\Users\newfile.txt
+MOVE /-Y D:\Documents\file.txt C:\Users\newfile.txt
+MOVE D:\Documents\file.txt C:\Users\newfile.txt
+MOVE /Y D:\Documents\folder1 C:\Users\newfolder
+MOVE /-Y D:\Documents\folder1 C:\Users\newfolder
+MOVE D:\Documents\folder1 C:\Users\newfolder
+MOVE /Y E:\file.txt F:\Documents\
+MOVE /-Y E:\file.txt F:\Documents\
+MOVE E:\file.txt F:\Documents\
+MOVE /Y E:\folder1 F:\Documents\
+MOVE /-Y E:\folder1 F:\Documents\
+MOVE E:\folder1 F:\Documents\
+MOVE /Y E:\file.txt F:\Documents\newfile.txt
+MOVE /-Y E:\file.txt F:\Documents\newfile.txt
+MOVE E:\file.txt F:\Documents\newfile.txt
+MOVE /Y E:\folder1 F:\Documents\newfolder
+MOVE /-Y E:\folder1 F:\Documents\newfolder
+MOVE E:\folder1 F:\Documents\newfolder
+MOVE /Y F:\Documents\file.txt E:\
+MOVE /-Y F:\Documents\file.txt E:\
+MOVE F:\Documents\file.txt E:\
+MOVE /Y F:\Documents\folder1 E:\
+MOVE /-Y F:\Documents\folder1 E:\
+MOVE F:\Documents\folder1 E:\
+MOVE /Y F:\Documents\file.txt E:\newfile.txt
+MOVE /-Y F:\Documents\file.txt E:\newfile.txt
+MOVE F:\Documents\file.txt E:\newfile.txt
+MOVE /Y F:\Documents\folder1 E:\newfolder
+MOVE /-Y F:\Documents\folder1 E:\newfolder
+MOVE F:\Documents\folder1 E:\newfolder
+MOVE /Y G:\file.txt H:\Documents\
+MOVE /-Y G:\file.txt H:\Documents\
+MOVE G:\file.txt H:\Documents\
+MOVE /Y G:\folder1 H:\Documents\
+MOVE /-Y G:\folder1 H:\Documents\
+MOVE G:\folder1 H:\Documents\
+MOVE /Y G:\file.txt H:\Documents\newfile.txt
+MOVE /-Y G:\file.txt H:\Documents\newfile.txt
+MOVE G:\file.txt H:\Documents\newfile.txt
+MOVE /Y G:\folder1 H:\Documents\newfolder
+MOVE /-Y G:\folder1 H:\Documents\newfolder
+MOVE G:\folder1 H:\Documents\newfolder
+MOVE /Y H:\Documents\file.txt G:\
+MOVE /-Y H:\Documents\file.txt G:\
+MOVE H:\Documents\file.txt G:\
+MOVE /Y H:\Documents\folder1 G:\
+MOVE /-Y H:\Documents\folder1 G:\
+MOVE H:\Documents\folder1 G:\
+MOVE /Y H:\Documents\file.txt G:\newfile.txt
+MOVE /-Y H:\Documents\file.txt G:\newfile.txt
+MOVE H:\Documents\file.txt G:\newfile.txt
+MOVE /Y H:\Documents\folder1 G:\newfolder
+MOVE /-Y H:\Documents\folder1 G:\newfolder
+MOVE H:\Documents\folder1 G:\newfolder
+MOVE /Y I:\file.txt J:\Documents\
+MOVE /-Y I:\file.txt J:\Documents\
+MOVE I:\file.txt J:\Documents\
+MOVE /Y I:\folder1 J:\Documents\
+MOVE /-Y I:\folder1 J:\Documents\
+MOVE I:\folder1 J:\Documents\
+MOVE /Y I:\file.txt J:\Documents\newfile.txt
+MOVE /-Y I:\file.txt J:\Documents\newfile.txt
+MOVE I:\file.txt J:\Documents\newfile.txt
+MOVE /Y I:\folder1 J:\Documents\newfolder
+MOVE /-Y I:\folder1 J:\Documents\newfolder
+MOVE I:\folder1 J:\Documents\newfolder
+MOVE /Y J:\Documents\file.txt I:\
+MOVE /-Y J:\Documents\file.txt I:\
+MOVE J:\Documents\file.txt I:\
+MOVE /Y J:\Documents\folder1 I:\
+MOVE /-Y J:\Documents\folder1 I:\
+MOVE J:\Documents\folder1 I:\
+MOVE /Y J:\Documents\file.txt I:\newfile.txt
+MOVE /-Y J:\Documents\file.txt I:\newfile.txt
+MOVE J:\Documents\file.txt I:\newfile.txt
+MOVE /Y J:\Documents\folder1 I:\newfolder
+MOVE /-Y J:\Documents\folder1 I:\newfolder
+MOVE J:\Documents\folder1 I:\newfolder

@@ -1,0 +1,874 @@
+net accounts
+net user
+net group
+net localgroup
+net computer
+net config workstation
+net config server
+net file
+net sessions
+net help
+net helpmsg
+net print
+net time
+net start
+net stop
+net pause
+net continue
+net share
+net use
+net view
+net accounts /domain
+net user /add
+net user /delete
+net user /times
+net user /passwordchg
+net user /active
+net user /expires
+net user /comment
+net user /homedir
+net user /profilepath
+net user /scriptpath
+net user /workstations
+net user /fullname
+net user /passwordreq
+net user /logonpasswordchg
+net group /add
+net group /delete
+net localgroup /add
+net localgroup /delete
+net localgroup /comment
+net computer /add
+net computer /delete
+net config server /autodisconnect
+net config server /srvcomment
+net config server /hidden
+net file /close
+net sessions /delete
+net helpmsg 4006
+net print /delete
+net time /set
+net time /rtsdomain
+net time /setsntp
+net start wuauserv
+net stop wuauserv
+net pause wuauserv
+net continue wuauserv
+net share /delete
+net use /delete
+net view /domain
+net accounts /force logoff
+net user /domain
+net group /domain
+net localgroup /domain
+net computer /domain
+net config workstation /domain
+net config server /domain
+net file /domain
+net sessions /domain
+net help /domain
+net helpmsg /domain
+net print /domain
+net time /domain
+net start /domain
+net stop /domain
+net pause /domain
+net continue /domain
+net share /domain
+net use /domain
+net view /all
+net accounts /sync
+net user /password
+net group /comment
+net localgroup /comment
+net computer /comment
+net config workstation /comment
+net config server /comment
+net file /comment
+net sessions /comment
+net help /comment
+net helpmsg /comment
+net print /comment
+net time /comment
+net start /comment
+net stop /comment
+net pause /comment
+net continue /comment
+net share /comment
+net use /comment
+net view /comment
+net accounts /maxpwage
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment
+net pause /usercomment
+net continue /usercomment
+net share /usercomment
+net use /usercomment
+net view /usercomment
+net accounts /forcelogoff
+net user /paranoid
+net group /paranoid
+net localgroup /paranoid
+net computer /paranoid
+net config workstation /paranoid
+net config server /paranoid
+net file /paranoid
+net sessions /paranoid
+net help /paranoid
+net helpmsg /paranoid
+net print /paranoid
+net time /paranoid
+net start /paranoid
+net stop /paranoid
+net pause /paranoid
+net continue /paranoid
+net share /paranoid
+net use /paranoid
+net view /paranoid
+net accounts /uniquepw
+net user /countrycode
+net group /countrycode
+net localgroup /countrycode
+net computer /countrycode
+net config workstation /countrycode
+net config server /countrycode
+net file /countrycode
+net sessions /countrycode
+net help /countrycode
+net helpmsg /countrycode
+net print /countrycode
+net time /countrycode
+net start /countrycode
+net stop /countrycode
+net pause /countrycode
+net continue /countrycode
+net share /countrycode
+net use /countrycode
+net view /countrycode
+net accounts /minpwlen
+net user /uniquepw
+net group /uniquepw
+net localgroup /uniquepw
+net computer /uniquepw
+net config workstation /uniquepw
+net config server /uniquepw
+net file /uniquepw
+net sessions /uniquepw
+net help /uniquepw
+net helpmsg /uniquepw
+net print /uniquepw
+net time /uniquepw
+net start /uniquepw
+net stop /uniquepw
+net pause /uniquepw
+net continue /uniquepw
+net share /uniquepw
+net use /uniquepw
+net view /uniquepw
+net accounts /minpwage
+net user /usercomment
+net group /usercomment
+net localgroup /usercomment
+net computer /usercomment
+net config workstation /usercomment
+net config server /usercomment
+net file /usercomment
+net sessions /usercomment
+net help /usercomment
+net helpmsg /usercomment
+net print /usercomment
+net time /usercomment
+net start /usercomment
+net stop /usercomment

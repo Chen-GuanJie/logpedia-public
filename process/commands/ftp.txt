@@ -1,0 +1,111 @@
+`FTP -a`
+`FTP -A`
+`FTP -d`
+`FTP -g`
+`FTP -i`
+`FTP -n`
+`FTP -s:filename`
+`FTP -v`
+`FTP -b:asyncbuffers`
+`FTP -r:recvbuffer`
+`FTP -x:sendbuffer`
+`FTP -w:windowsize`
+`FTP -?`
+`FTP append local-file remote-file`
+`FTP ascii`
+`FTP bell`
+`FTP binary`
+`FTP bye`
+`FTP cd`
+`FTP close`
+`FTP debug`
+`FTP delete remote-file`
+`FTP dir remote-directory local-file`
+`FTP disconnect`
+`FTP get remote-file local-file`
+`FTP glob`
+`FTP hash`
+`FTP help command`
+`FTP lcd directory`
+`FTP literal argument`
+`FTP ls remote-directory local-file`
+`FTP mdelete remote-files`
+`FTP mdir remote-files local-file`
+`FTP mget remote-files`
+`FTP mkdir directory`
+`FTP mls remote-files local-file`
+`FTP mput local-files`
+`FTP open computer port`
+`FTP prompt`
+`FTP put local-file remote-file`
+`FTP pwd`
+`FTP quit`
+`FTP quote argument`
+`FTP recv remote-file local-file`
+`FTP remotehelp command`
+`FTP rename filename newfilename`
+`FTP rmdir directory`
+`FTP send local-file remote-file`
+`FTP status`
+`FTP trace`
+`FTP type type-name`
+`FTP user user-name password account`
+`FTP verbose`
+`FTP ! command`
+`FTP ? command`
+`FTP -s:GetFiles.ftp hostname`
+`FTP -s:PutFiles.ftp hostname`
+`FTP -a 192.168.1.1`
+`FTP -A 192.168.1.1`
+`FTP -d 192.168.1.1`
+`FTP -g 192.168.1.1`
+`FTP -i 192.168.1.1`
+`FTP -n 192.168.1.1`
+`FTP -s:file.txt`
+`FTP -v 192.168.1.1`
+`FTP -b:5`
+`FTP -r:10240`
+`FTP -x:10240`
+`FTP -w:8192`
+`FTP append file1.txt file2.txt`
+`FTP ascii 192.168.1.1`
+`FTP bell 192.168.1.1`
+`FTP binary 192.168.1.1`
+`FTP bye 192.168.1.1`
+`FTP cd /home/user`
+`FTP close 192.168.1.1`
+`FTP debug 192.168.1.1`
+`FTP delete file.txt`
+`FTP dir /home/user file.txt`
+`FTP disconnect 192.168.1.1`
+`FTP get file.txt file_copy.txt`
+`FTP glob 192.168.1.1`
+`FTP hash 192.168.1.1`
+`FTP help get`
+`FTP lcd /home/user`
+`FTP literal PASV`
+`FTP ls /home/user file.txt`
+`FTP mdelete file1.txt file2.txt`
+`FTP mdir /home/user file.txt`
+`FTP mget *.txt`
+`FTP mkdir new_directory`
+`FTP mls /home/user file.txt`
+`FTP mput *.txt`
+`FTP open 192.168.1.1 21`
+`FTP prompt 192.168.1.1`
+`FTP put file.txt file_copy.txt`
+`FTP pwd 192.168.1.1`
+`FTP quit 192.168.1.1`
+`FTP quote PASV`
+`FTP recv file.txt file_copy.txt`
+`FTP remotehelp get`
+`FTP rename file.txt new_name.txt`
+`FTP rmdir directory`
+`FTP send file.txt file_copy.txt`
+`FTP status 192.168.1.1`
+`FTP trace 192.168.1.1`
+`FTP type binary`
+`FTP user user_name password account`
+`FTP verbose 192.168.1.1`
+`FTP ! dir`
+`FTP ? get`

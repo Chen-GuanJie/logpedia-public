@@ -1,0 +1,115 @@
+nslookup
+nslookup -option MyHost
+nslookup -option MyHost MyNameServer
+nslookup help
+nslookup exit
+nslookup set all
+nslookup finger USER
+nslookup MyHost
+nslookup MyHost MyNameServer
+nslookup set debug
+nslookup set nodebug
+nslookup set d2
+nslookup set nod2
+nslookup set domain=NAME
+nslookup set root=NAME
+nslookup root
+nslookup server NAME
+nslookup lserver NAME
+nslookup set srchlist=N1/N2/N3/N4/N5/N6
+nslookup set retry=X
+nslookup set timeout=X
+nslookup set defname
+nslookup set nodefname
+nslookup set recurse
+nslookup set norecurse
+nslookup set search
+nslookup set nosearch
+nslookup set vc
+nslookup set novc
+nslookup set class=X
+nslookup set msxfr
+nslookup set nomsxfr
+nslookup set ixfrver=X
+nslookup set type=X
+nslookup set querytype=X
+nslookup ls DOMAIN
+nslookup ls DOMAIN > FILE
+nslookup -d
+nslookup -t TYPE
+nslookup -a
+nslookup view FILE
+nslookup -querytype=TXT -timeout=10 porttest.dns-oarc.net
+nslookup set type=A
+nslookup set type=ANY
+nslookup set type=CNAME
+nslookup set type=MX
+nslookup set type=NS
+nslookup set type=PTR
+nslookup set type=SOA
+nslookup set type=SRV
+nslookup set querytype=A
+nslookup set querytype=ANY
+nslookup set querytype=CNAME
+nslookup set querytype=MX
+nslookup set querytype=NS
+nslookup set querytype=PTR
+nslookup set querytype=SOA
+nslookup set querytype=SRV
+nslookup -t A
+nslookup -t ANY
+nslookup -t CNAME
+nslookup -t MX
+nslookup -t NS
+nslookup -t PTR
+nslookup -t SOA
+nslookup -t SRV
+nslookup ls -d DOMAIN
+nslookup ls -t A DOMAIN
+nslookup ls -t ANY DOMAIN
+nslookup ls -t CNAME DOMAIN
+nslookup ls -t MX DOMAIN
+nslookup ls -t NS DOMAIN
+nslookup ls -t PTR DOMAIN
+nslookup ls -t SOA DOMAIN
+nslookup ls -t SRV DOMAIN
+nslookup ls -a DOMAIN
+nslookup set class=IN
+nslookup set class=ANY
+nslookup set class=HS
+nslookup set class=CH
+nslookup set class=NONE
+nslookup set class=ANY
+nslookup set type=AAAA
+nslookup set type=AFSDB
+nslookup set type=APL
+nslookup set type=CAA
+nslookup set type=CDNSKEY
+nslookup set type=CDS
+nslookup set type=CERT
+nslookup set type=DHCID
+nslookup set type=DLV
+nslookup set type=DNAME
+nslookup set type=DS
+nslookup set type=HIP
+nslookup set type=IPSECKEY
+nslookup set type=KEY
+nslookup set type=KX
+nslookup set type=LOC
+nslookup set type=NAPTR
+nslookup set type=NSEC
+nslookup set type=NSEC3
+nslookup set type=NSEC3PARAM
+nslookup set type=RRSIG
+nslookup set type=RP
+nslookup set type=SIG
+nslookup set type=SPF
+nslookup set type=SSHFP
+nslookup set type=TA
+nslookup set type=TKEY
+nslookup set type=TLSA
+nslookup set type=TSIG
+nslookup set type=URI
+nslookup set type=OPENPGPKEY
+nslookup set type=CSYNC
+nslookup set type=ZONEMD

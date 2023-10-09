@@ -1,0 +1,101 @@
+FIND "string" filename.txt
+FIND /V "string" filename.txt
+FIND /C "string" filename.txt
+FIND /N "string" filename.txt
+FIND /I "string" filename.txt
+FIND "string" C:\path\to\file.txt
+FIND /V "string" C:\path\to\file.txt
+FIND /C "string" C:\path\to\file.txt
+FIND /N "string" C:\path\to\file.txt
+FIND /I "string" C:\path\to\file.txt
+FIND "string" *.txt
+FIND /V "string" *.txt
+FIND /C "string" *.txt
+FIND /N "string" *.txt
+FIND /I "string" *.txt
+TYPE filename.txt | FIND "string"
+TYPE filename.txt | FIND /V "string"
+TYPE filename.txt | FIND /C "string"
+TYPE filename.txt | FIND /N "string"
+TYPE filename.txt | FIND /I "string"
+TYPE C:\path\to\file.txt | FIND "string"
+TYPE C:\path\to\file.txt | FIND /V "string"
+TYPE C:\path\to\file.txt | FIND /C "string"
+TYPE C:\path\to\file.txt | FIND /N "string"
+TYPE C:\path\to\file.txt | FIND /I "string"
+FIND "string" < filename.txt
+FIND /V "string" < filename.txt
+FIND /C "string" < filename.txt
+FIND /N "string" < filename.txt
+FIND /I "string" < filename.txt
+FIND "string" < C:\path\to\file.txt
+FIND /V "string" < C:\path\to\file.txt
+FIND /C "string" < C:\path\to\file.txt
+FIND /N "string" < C:\path\to\file.txt
+FIND /I "string" < C:\path\to\file.txt
+FOR %G IN (*.txt) DO FIND "string" %G
+FOR %G IN (*.txt) DO FIND /V "string" %G
+FOR %G IN (*.txt) DO FIND /C "string" %G
+FOR %G IN (*.txt) DO FIND /N "string" %G
+FOR %G IN (*.txt) DO FIND /I "string" %G
+FOR %G IN (*.txt) DO FIND "string" < %G
+FOR %G IN (*.txt) DO FIND /V "string" < %G
+FOR %G IN (*.txt) DO FIND /C "string" < %G
+FOR %G IN (*.txt) DO FIND /N "string" < %G
+FOR %G IN (*.txt) DO FIND /I "string" < %G
+FOR %G IN (*.txt) DO FIND "string" > %G
+FOR %G IN (*.txt) DO FIND /V "string" > %G
+FOR %G IN (*.txt) DO FIND /C "string" > %G
+FOR %G IN (*.txt) DO FIND /N "string" > %G
+FOR %G IN (*.txt) DO FIND /I "string" > %G
+FOR %G IN (*.doc) DO FIND "string" %G
+FOR %G IN (*.doc) DO FIND /V "string" %G
+FOR %G IN (*.doc) DO FIND /C "string" %G
+FOR %G IN (*.doc) DO FIND /N "string" %G
+FOR %G IN (*.doc) DO FIND /I "string" %G
+FOR %G IN (*.doc) DO FIND "string" < %G
+FOR %G IN (*.doc) DO FIND /V "string" < %G
+FOR %G IN (*.doc) DO FIND /C "string" < %G
+FOR %G IN (*.doc) DO FIND /N "string" < %G
+FOR %G IN (*.doc) DO FIND /I "string" < %G
+FOR %G IN (*.doc) DO FIND "string" > %G
+FOR %G IN (*.doc) DO FIND /V "string" > %G
+FOR %G IN (*.doc) DO FIND /C "string" > %G
+FOR %G IN (*.doc) DO FIND /N "string" > %G
+FOR %G IN (*.doc) DO FIND /I "string" > %G
+FIND "string" filename.doc
+FIND /V "string" filename.doc
+FIND /C "string" filename.doc
+FIND /N "string" filename.doc
+FIND /I "string" filename.doc
+FIND "string" C:\path\to\file.doc
+FIND /V "string" C:\path\to\file.doc
+FIND /C "string" C:\path\to\file.doc
+FIND /N "string" C:\path\to\file.doc
+FIND /I "string" C:\path\to\file.doc
+FIND "string" *.doc
+FIND /V "string" *.doc
+FIND /C "string" *.doc
+FIND /N "string" *.doc
+FIND /I "string" *.doc
+TYPE filename.doc | FIND "string"
+TYPE filename.doc | FIND /V "string"
+TYPE filename.doc | FIND /C "string"
+TYPE filename.doc | FIND /N "string"
+TYPE filename.doc | FIND /I "string"
+TYPE C:\path\to\file.doc | FIND "string"
+TYPE C:\path\to\file.doc | FIND /V "string"
+TYPE C:\path\to\file.doc | FIND /C "string"
+TYPE C:\path\to\file.doc | FIND /N "string"
+TYPE C:\path\to\file.doc | FIND /I "string"
+FIND "string" < filename.doc
+FIND /V "string" < filename.doc
+FIND /C "string" < filename.doc
+FIND /N "string" < filename.doc
+FIND /I "string" < filename.doc
+FIND "string" < C:\path\to\file.doc
+FIND /V "string" < C:\path\to\file.doc
+FIND /C "string" < C:\path\to\file.doc
+FIND /N "string" < C:\path\to\file.doc
+FIND /I "string" < C:\path\to\file.doc
+FOR %G IN (*.doc) DO (FIND /N /I "string" "%G")

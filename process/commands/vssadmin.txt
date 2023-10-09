@@ -1,0 +1,112 @@
+`VSSADMIN add shadowstorage /for=C: /on=D: /maxsize=900mb`
+`VSSADMIN create shadow /for=C:`
+`VSSADMIN delete shadows /for=C: /oldest`
+`VSSADMIN delete shadows /for=C: /all`
+`VSSADMIN delete shadows /for=C: /shadow={shadow_id}`
+`VSSADMIN delete shadows /for=C: /shadow={shadow_id} /quiet`
+`VSSADMIN delete shadowstorage /for=C:`
+`VSSADMIN delete shadowstorage /for=C: /on=D:`
+`VSSADMIN delete shadowstorage /for=C: /on=D: /quiet`
+`VSSADMIN list providers`
+`VSSADMIN list shadows`
+`VSSADMIN list shadows /for=C:`
+`VSSADMIN list shadows /for=C: /shadow={shadow_id}`
+`VSSADMIN list shadowstorage`
+`VSSADMIN list shadowstorage /for=C:`
+`VSSADMIN list shadowstorage /on=D:`
+`VSSADMIN list volumes`
+`VSSADMIN list writers`
+`VSSADMIN resize shadowstorage /for=C: /on=D: /maxsize=900mb`
+`$shadow = Get-CIMinstance win32_shadowcopy`
+`"There are {0} shadow copies on this system" -f $shadow.count`
+`$class=[WMICLASS]"root\\cimv2:win32_shadowcopy"`
+`"Creating a new shadow copy"`
+`$class.create("E:\\", "ClientAccessible")`
+`$shadow = Get-CIMinstance win32_shadowcopy`
+`"There are now {0} shadow copies on this system" -f $shadow.count`
+`(Get-CIMinstance -list win32_shadowcopy).Create('E:\\','ClientAccessible')`
+`WMIC shadowcopy call create Volume='E:\\'`
+`VSSADMIN add shadowstorage /for=D: /on=E: /maxsize=1GB`
+`VSSADMIN create shadow /for=D:`
+`VSSADMIN delete shadows /for=D: /oldest`
+`VSSADMIN delete shadows /for=D: /all`
+`VSSADMIN delete shadows /for=D: /shadow={shadow_id}`
+`VSSADMIN delete shadows /for=D: /shadow={shadow_id} /quiet`
+`VSSADMIN delete shadowstorage /for=D:`
+`VSSADMIN delete shadowstorage /for=D: /on=E:`
+`VSSADMIN delete shadowstorage /for=D: /on=E: /quiet`
+`VSSADMIN list shadows /for=D:`
+`VSSADMIN list shadows /for=D: /shadow={shadow_id}`
+`VSSADMIN list shadowstorage /for=D:`
+`VSSADMIN list shadowstorage /on=E:`
+`VSSADMIN resize shadowstorage /for=D: /on=E: /maxsize=1GB`
+`VSSADMIN add shadowstorage /for=E: /on=F: /maxsize=1GB`
+`VSSADMIN create shadow /for=E:`
+`VSSADMIN delete shadows /for=E: /oldest`
+`VSSADMIN delete shadows /for=E: /all`
+`VSSADMIN delete shadows /for=E: /shadow={shadow_id}`
+`VSSADMIN delete shadows /for=E: /shadow={shadow_id} /quiet`
+`VSSADMIN delete shadowstorage /for=E:`
+`VSSADMIN delete shadowstorage /for=E: /on=F:`
+`VSSADMIN delete shadowstorage /for=E: /on=F: /quiet`
+`VSSADMIN list shadows /for=E:`
+`VSSADMIN list shadows /for=E: /shadow={shadow_id}`
+`VSSADMIN list shadowstorage /for=E:`
+`VSSADMIN list shadowstorage /on=F:`
+`VSSADMIN resize shadowstorage /for=E: /on=F: /maxsize=1GB`
+`VSSADMIN add shadowstorage /for=F: /on=G: /maxsize=1GB`
+`VSSADMIN create shadow /for=F:`
+`VSSADMIN delete shadows /for=F: /oldest`
+`VSSADMIN delete shadows /for=F: /all`
+`VSSADMIN delete shadows /for=F: /shadow={shadow_id}`
+`VSSADMIN delete shadows /for=F: /shadow={shadow_id} /quiet`
+`VSSADMIN delete shadowstorage /for=F:`
+`VSSADMIN delete shadowstorage /for=F: /on=G:`
+`VSSADMIN delete shadowstorage /for=F: /on=G: /quiet`
+`VSSADMIN list shadows /for=F:`
+`VSSADMIN list shadows /for=F: /shadow={shadow_id}`
+`VSSADMIN list shadowstorage /for=F:`
+`VSSADMIN list shadowstorage /on=G:`
+`VSSADMIN resize shadowstorage /for=F: /on=G: /maxsize=1GB`
+`VSSADMIN add shadowstorage /for=G: /on=H: /maxsize=1GB`
+`VSSADMIN create shadow /for=G:`
+`VSSADMIN delete shadows /for=G: /oldest`
+`VSSADMIN delete shadows /for=G: /all`
+`VSSADMIN delete shadows /for=G: /shadow={shadow_id}`
+`VSSADMIN delete shadows /for=G: /shadow={shadow_id} /quiet`
+`VSSADMIN delete shadowstorage /for=G:`
+`VSSADMIN delete shadowstorage /for=G: /on=H:`
+`VSSADMIN delete shadowstorage /for=G: /on=H: /quiet`
+`VSSADMIN list shadows /for=G:`
+`VSSADMIN list shadows /for=G: /shadow={shadow_id}`
+`VSSADMIN list shadowstorage /for=G:`
+`VSSADMIN list shadowstorage /on=H:`
+`VSSADMIN resize shadowstorage /for=G: /on=H: /maxsize=1GB`
+`VSSADMIN add shadowstorage /for=H: /on=I: /maxsize=1GB`
+`VSSADMIN create shadow /for=H:`
+`VSSADMIN delete shadows /for=H: /oldest`
+`VSSADMIN delete shadows /for=H: /all`
+`VSSADMIN delete shadows /for=H: /shadow={shadow_id}`
+`VSSADMIN delete shadows /for=H: /shadow={shadow_id} /quiet`
+`VSSADMIN delete shadowstorage /for=H:`
+`VSSADMIN delete shadowstorage /for=H: /on=I:`
+`VSSADMIN delete shadowstorage /for=H: /on=I: /quiet`
+`VSSADMIN list shadows /for=H:`
+`VSSADMIN list shadows /for=H: /shadow={shadow_id}`
+`VSSADMIN list shadowstorage /for=H:`
+`VSSADMIN list shadowstorage /on=I:`
+`VSSADMIN resize shadowstorage /for=H: /on=I: /maxsize=1GB`
+`VSSADMIN add shadowstorage /for=I: /on=J: /maxsize=1GB`
+`VSSADMIN create shadow /for=I:`
+`VSSADMIN delete shadows /for=I: /oldest`
+`VSSADMIN delete shadows /for=I: /all`
+`VSSADMIN delete shadows /for=I: /shadow={shadow_id}`
+`VSSADMIN delete shadows /for=I: /shadow={shadow_id} /quiet`
+`VSSADMIN delete shadowstorage /for=I:`
+`VSSADMIN delete shadowstorage /for=I: /on=J:`
+`VSSADMIN delete shadowstorage /for=I: /on=J: /quiet`
+`VSSADMIN list shadows /for=I:`
+`VSSADMIN list shadows /for=I: /shadow={shadow_id}`
+`VSSADMIN list shadowstorage /for=I:`
+`VSSADMIN list shadowstorage /on=J:`
+`VSSADMIN resize shadowstorage /for=I: /on=J: /maxsize=1GB`

@@ -1,0 +1,107 @@
+Sysmon.exe -i
+Sysmon.exe -i -h sha1
+Sysmon.exe -i -h md5
+Sysmon.exe -i -h sha256
+Sysmon.exe -i -n
+Sysmon.exe -i -accepteula
+Sysmon.exe -i -h sha1 -n
+Sysmon.exe -i -h md5 -n
+Sysmon.exe -i -h sha256 -n
+Sysmon.exe -i -h sha1 -accepteula
+Sysmon.exe -i -h md5 -accepteula
+Sysmon.exe -i -h sha256 -accepteula
+Sysmon.exe -i -n -accepteula
+Sysmon.exe -i -h sha1 -n -accepteula
+Sysmon.exe -i -h md5 -n -accepteula
+Sysmon.exe -i -h sha256 -n -accepteula
+Sysmon.exe -c
+Sysmon.exe -c -h sha1
+Sysmon.exe -c -h md5
+Sysmon.exe -c -h sha256
+Sysmon.exe -c -n
+Sysmon.exe -c -h sha1 -n
+Sysmon.exe -c -h md5 -n
+Sysmon.exe -c -h sha256 -n
+Sysmon.exe -c --
+Sysmon.exe -u
+Sysmon.exe -m
+Sysmon.exe -m -i
+Sysmon.exe -m -i -h sha1
+Sysmon.exe -m -i -h md5
+Sysmon.exe -m -i -h sha256
+Sysmon.exe -m -i -n
+Sysmon.exe -m -i -accepteula
+Sysmon.exe -m -i -h sha1 -n
+Sysmon.exe -m -i -h md5 -n
+Sysmon.exe -m -i -h sha256 -n
+Sysmon.exe -m -i -h sha1 -accepteula
+Sysmon.exe -m -i -h md5 -accepteula
+Sysmon.exe -m -i -h sha256 -accepteula
+Sysmon.exe -m -i -n -accepteula
+Sysmon.exe -m -i -h sha1 -n -accepteula
+Sysmon.exe -m -i -h md5 -n -accepteula
+Sysmon.exe -m -i -h sha256 -n -accepteula
+Sysmon.exe -m -c
+Sysmon.exe -m -c -h sha1
+Sysmon.exe -m -c -h md5
+Sysmon.exe -m -c -h sha256
+Sysmon.exe -m -c -n
+Sysmon.exe -m -c -h sha1 -n
+Sysmon.exe -m -c -h md5 -n
+Sysmon.exe -m -c -h sha256 -n
+Sysmon.exe -m -c --
+Sysmon.exe -m -u
+Sysmon.exe -i -h sha1 -n -accepteula -m
+Sysmon.exe -i -h md5 -n -accepteula -m
+Sysmon.exe -i -h sha256 -n -accepteula -m
+Sysmon.exe -m -i -h sha1 -n -accepteula
+Sysmon.exe -m -i -h md5 -n -accepteula
+Sysmon.exe -m -i -h sha256 -n -accepteula
+Sysmon.exe -c -h sha1 -n -m
+Sysmon.exe -c -h md5 -n -m
+Sysmon.exe -c -h sha256 -n -m
+Sysmon.exe -m -c -h sha1 -n
+Sysmon.exe -m -c -h md5 -n
+Sysmon.exe -m -c -h sha256 -n
+Sysmon.exe -c -h sha1 -n -accepteula
+Sysmon.exe -c -h md5 -n -accepteula
+Sysmon.exe -c -h sha256 -n -accepteula
+Sysmon.exe -m -c -h sha1 -n -accepteula
+Sysmon.exe -m -c -h md5 -n -accepteula
+Sysmon.exe -m -c -h sha256 -n -accepteula
+Sysmon.exe -i -h sha1 -n -accepteula -c
+Sysmon.exe -i -h md5 -n -accepteula -c
+Sysmon.exe -i -h sha256 -n -accepteula -c
+Sysmon.exe -c -i -h sha1 -n -accepteula
+Sysmon.exe -c -i -h md5 -n -accepteula
+Sysmon.exe -c -i -h sha256 -n -accepteula
+Sysmon.exe -m -i -h sha1 -n -accepteula -c
+Sysmon.exe -m -i -h md5 -n -accepteula -c
+Sysmon.exe -m -i -h sha256 -n -accepteula -c
+Sysmon.exe -c -m -i -h sha1 -n -accepteula
+Sysmon.exe -c -m -i -h md5 -n -accepteula
+Sysmon.exe -c -m -i -h sha256 -n -accepteula
+Sysmon.exe -i -h sha1 -n -accepteula -u
+Sysmon.exe -i -h md5 -n -accepteula -u
+Sysmon.exe -i -h sha256 -n -accepteula -u
+Sysmon.exe -u -i -h sha1 -n -accepteula
+Sysmon.exe -u -i -h md5 -n -accepteula
+Sysmon.exe -u -i -h sha256 -n -accepteula
+Sysmon.exe -m -i -h sha1 -n -accepteula -u
+Sysmon.exe -m -i -h md5 -n -accepteula -u
+Sysmon.exe -m -i -h sha256 -n -accepteula -u
+Sysmon.exe -u -m -i -h sha1 -n -accepteula
+Sysmon.exe -u -m -i -h md5 -n -accepteula
+Sysmon.exe -u -m -i -h sha256 -n -accepteula
+Sysmon.exe -c -h sha1 -n -accepteula -u
+Sysmon.exe -c -h md5 -n -accepteula -u
+Sysmon.exe -c -h sha256 -n -accepteula -u
+Sysmon.exe -u -c -h sha1 -n -accepteula
+Sysmon.exe -u -c -h md5 -n -accepteula
+Sysmon.exe -u -c -h sha256 -n -accepteula
+Sysmon.exe -m -c -h sha1 -n -accepteula -u
+Sysmon.exe -m -c -h md5 -n -accepteula -u
+Sysmon.exe -m -c -h sha256 -n -accepteula -u
+Sysmon.exe -u -m -c -h sha1 -n -accepteula
+Sysmon.exe -u -m -c -h md5 -n -accepteula
+Sysmon.exe -u -m -c -h sha256 -n -accepteula

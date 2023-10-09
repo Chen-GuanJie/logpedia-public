@@ -1,0 +1,110 @@
+`Tasklist`
+`Tasklist /s computer`
+`Tasklist /u domain\user`
+`Tasklist /P password`
+`Tasklist /M module`
+`Tasklist /svc`
+`Tasklist /APPS`
+`Tasklist /V`
+`Tasklist /FO TABLE`
+`Tasklist /FO LIST`
+`Tasklist /FO CSV`
+`Tasklist /NH`
+`Tasklist /FI "ImageName eq imagename"`
+`Tasklist /FI "PID eq pid"`
+`Tasklist /FI "Session eq session"`
+`Tasklist /FI "SessionName eq sessionname"`
+`Tasklist /FI "Status eq status"`
+`Tasklist /FI "CPUTime eq cputime"`
+`Tasklist /FI "MemUsage eq memusage"`
+`Tasklist /FI "Username eq username"`
+`Tasklist /FI "Services eq services"`
+`Tasklist /FI "Windowtitle eq windowtitle"`
+`Tasklist /FI "Modules eq modules"`
+`Tasklist /FI "ImageName ne imagename"`
+`Tasklist /FI "PID ne pid"`
+`Tasklist /FI "Session ne session"`
+`Tasklist /FI "SessionName ne sessionname"`
+`Tasklist /FI "Status ne status"`
+`Tasklist /FI "CPUTime ne cputime"`
+`Tasklist /FI "MemUsage ne memusage"`
+`Tasklist /FI "Username ne username"`
+`Tasklist /FI "Services ne services"`
+`Tasklist /FI "Windowtitle ne windowtitle"`
+`Tasklist /FI "Modules ne modules"`
+`Tasklist /FI "PID gt pid"`
+`Tasklist /FI "Session gt session"`
+`Tasklist /FI "CPUTime gt cputime"`
+`Tasklist /FI "MemUsage gt memusage"`
+`Tasklist /FI "PID lt pid"`
+`Tasklist /FI "Session lt session"`
+`Tasklist /FI "CPUTime lt cputime"`
+`Tasklist /FI "MemUsage lt memusage"`
+`Tasklist /FI "PID ge pid"`
+`Tasklist /FI "Session ge session"`
+`Tasklist /FI "CPUTime ge cputime"`
+`Tasklist /FI "MemUsage ge memusage"`
+`Tasklist /FI "PID le pid"`
+`Tasklist /FI "Session le session"`
+`Tasklist /FI "CPUTime le cputime"`
+`Tasklist /FI "MemUsage le memusage"`
+`Tasklist /FI "ImageName eq imagename" /V`
+`Tasklist /FI "PID eq pid" /V`
+`Tasklist /FI "Session eq session" /V`
+`Tasklist /FI "SessionName eq sessionname" /V`
+`Tasklist /FI "Status eq status" /V`
+`Tasklist /FI "CPUTime eq cputime" /V`
+`Tasklist /FI "MemUsage eq memusage" /V`
+`Tasklist /FI "Username eq username" /V`
+`Tasklist /FI "Services eq services" /V`
+`Tasklist /FI "Windowtitle eq windowtitle" /V`
+`Tasklist /FI "Modules eq modules" /V`
+`Tasklist /FI "ImageName ne imagename" /V`
+`Tasklist /FI "PID ne pid" /V`
+`Tasklist /FI "Session ne session" /V`
+`Tasklist /FI "SessionName ne sessionname" /V`
+`Tasklist /FI "Status ne status" /V`
+`Tasklist /FI "CPUTime ne cputime" /V`
+`Tasklist /FI "MemUsage ne memusage" /V`
+`Tasklist /FI "Username ne username" /V`
+`Tasklist /FI "Services ne services" /V`
+`Tasklist /FI "Windowtitle ne windowtitle" /V`
+`Tasklist /FI "Modules ne modules" /V`
+`Tasklist /FI "PID gt pid" /V`
+`Tasklist /FI "Session gt session" /V`
+`Tasklist /FI "CPUTime gt cputime" /V`
+`Tasklist /FI "MemUsage gt memusage" /V`
+`Tasklist /FI "PID lt pid" /V`
+`Tasklist /FI "Session lt session" /V`
+`Tasklist /FI "CPUTime lt cputime" /V`
+`Tasklist /FI "MemUsage lt memusage" /V`
+`Tasklist /FI "PID ge pid" /V`
+`Tasklist /FI "Session ge session" /V`
+`Tasklist /FI "CPUTime ge cputime" /V`
+`Tasklist /FI "MemUsage ge memusage" /V`
+`Tasklist /FI "PID le pid" /V`
+`Tasklist /FI "Session le session" /V`
+`Tasklist /FI "CPUTime le cputime" /V`
+`Tasklist /FI "MemUsage le memusage" /V`
+`Tasklist /FI "ImageName eq imagename" /svc`
+`Tasklist /FI "PID eq pid" /svc`
+`Tasklist /FI "Session eq session" /svc`
+`Tasklist /FI "SessionName eq sessionname" /svc`
+`Tasklist /FI "Status eq status" /svc`
+`Tasklist /FI "CPUTime eq cputime" /svc`
+`Tasklist /FI "MemUsage eq memusage" /svc`
+`Tasklist /FI "Username eq username" /svc`
+`Tasklist /FI "Services eq services" /svc`
+`Tasklist /FI "Windowtitle eq windowtitle" /svc`
+`Tasklist /FI "Modules eq modules" /svc`
+`Tasklist /FI "ImageName ne imagename" /svc`
+`Tasklist /FI "PID ne pid" /svc`
+`Tasklist /FI "Session ne session" /svc`
+`Tasklist /FI "SessionName ne sessionname" /svc`
+`Tasklist /FI "Status ne status" /svc`
+`Tasklist /FI "CPUTime ne cputime" /svc`
+`Tasklist /FI "MemUsage ne memusage" /svc`
+`Tasklist /FI "Username ne username" /svc`
+`Tasklist /FI "Services ne services" /svc`
+`Tasklist /FI "Windowtitle ne windowtitle" /svc`
+`Tasklist /FI "Modules ne modules" /svc`

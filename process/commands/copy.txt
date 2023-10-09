@@ -1,0 +1,121 @@
+`COPY source_file.doc newfile.doc`
+`COPY /A source_file.doc newfile.doc`
+`COPY /B source_file.doc newfile.doc`
+`COPY /D source_file.doc newfile.doc`
+`COPY /V source_file.doc newfile.doc`
+`COPY /N source_file.doc newfile.doc`
+`COPY /L source_file.doc newfile.doc`
+`COPY /Y source_file.doc newfile.doc`
+`COPY /-Y source_file.doc newfile.doc`
+`COPY /Z source_file.doc newfile.doc`
+`COPY source_file.doc + source_file2.doc newfile.doc`
+`COPY /A source_file.doc + source_file2.doc newfile.doc`
+`COPY /B source_file.doc + source_file2.doc newfile.doc`
+`COPY /D source_file.doc + source_file2.doc newfile.doc`
+`COPY /V source_file.doc + source_file2.doc newfile.doc`
+`COPY /N source_file.doc + source_file2.doc newfile.doc`
+`COPY /L source_file.doc + source_file2.doc newfile.doc`
+`COPY /Y source_file.doc + source_file2.doc newfile.doc`
+`COPY /-Y source_file.doc + source_file2.doc newfile.doc`
+`COPY /Z source_file.doc + source_file2.doc newfile.doc`
+`COPY /Z source_file100.doc newfile.doc`
+`COPY /A /B source_file.doc newfile.doc`
+`COPY /A /D source_file.doc newfile.doc`
+`COPY /A /V source_file.doc newfile.doc`
+`COPY /A /N source_file.doc newfile.doc`
+`COPY /A /L source_file.doc newfile.doc`
+`COPY /A /Y source_file.doc newfile.doc`
+`COPY /A /-Y source_file.doc newfile.doc`
+`COPY /A /Z source_file.doc newfile.doc`
+`COPY /B /D source_file.doc newfile.doc`
+`COPY /B /V source_file.doc newfile.doc`
+`COPY /B /N source_file.doc newfile.doc`
+`COPY /B /L source_file.doc newfile.doc`
+`COPY /B /Y source_file.doc newfile.doc`
+`COPY /B /-Y source_file.doc newfile.doc`
+`COPY /B /Z source_file.doc newfile.doc`
+`COPY /D /V source_file.doc newfile.doc`
+`COPY /D /N source_file.doc newfile.doc`
+`COPY /D /L source_file.doc newfile.doc`
+`COPY /D /Y source_file.doc newfile.doc`
+`COPY /D /-Y source_file.doc newfile.doc`
+`COPY /D /Z source_file.doc newfile.doc`
+`COPY /V /N source_file.doc newfile.doc`
+`COPY /V /L source_file.doc newfile.doc`
+`COPY /V /Y source_file.doc newfile.doc`
+`COPY /V /-Y source_file.doc newfile.doc`
+`COPY /V /Z source_file.doc newfile.doc`
+`COPY /N /L source_file.doc newfile.doc`
+`COPY /N /Y source_file.doc newfile.doc`
+`COPY /N /-Y source_file.doc newfile.doc`
+`COPY /N /Z source_file.doc newfile.doc`
+`COPY /L /Y source_file.doc newfile.doc`
+`COPY /L /-Y source_file.doc newfile.doc`
+`COPY /L /Z source_file.doc newfile.doc`
+`COPY /Y /-Y source_file.doc newfile.doc`
+`COPY /Y /Z source_file.doc newfile.doc`
+`COPY /-Y /Z source_file.doc newfile.doc`
+`COPY /A /B /D source_file.doc newfile.doc`
+`COPY /A /B /V source_file.doc newfile.doc`
+`COPY /A /B /N source_file.doc newfile.doc`
+`COPY /A /B /L source_file.doc newfile.doc`
+`COPY /A /B /Y source_file.doc newfile.doc`
+`COPY /A /B /-Y source_file.doc newfile.doc`
+`COPY /A /B /Z source_file.doc newfile.doc`
+`COPY /A /D /V source_file.doc newfile.doc`
+`COPY /A /D /N source_file.doc newfile.doc`
+`COPY /A /D /L source_file.doc newfile.doc`
+`COPY /A /D /Y source_file.doc newfile.doc`
+`COPY /A /D /-Y source_file.doc newfile.doc`
+`COPY /A /D /Z source_file.doc newfile.doc`
+`COPY /A /V /N source_file.doc newfile.doc`
+`COPY /A /V /L source_file.doc newfile.doc`
+`COPY /A /V /Y source_file.doc newfile.doc`
+`COPY /A /V /-Y source_file.doc newfile.doc`
+`COPY /A /V /Z source_file.doc newfile.doc`
+`COPY /A /N /L source_file.doc newfile.doc`
+`COPY /A /N /Y source_file.doc newfile.doc`
+`COPY /A /N /-Y source_file.doc newfile.doc`
+`COPY /A /N /Z source_file.doc newfile.doc`
+`COPY /A /L /Y source_file.doc newfile.doc`
+`COPY /A /L /-Y source_file.doc newfile.doc`
+`COPY /A /L /Z source_file.doc newfile.doc`
+`COPY /A /Y /-Y source_file.doc newfile.doc`
+`COPY /A /Y /Z source_file.doc newfile.doc`
+`COPY /A /-Y /Z source_file.doc newfile.doc`
+`COPY /B /D /V source_file.doc newfile.doc`
+`COPY /B /D /N source_file.doc newfile.doc`
+`COPY /B /D /L source_file.doc newfile.doc`
+`COPY /B /D /Y source_file.doc newfile.doc`
+`COPY /B /D /-Y source_file.doc newfile.doc`
+`COPY /B /D /Z source_file.doc newfile.doc`
+`COPY /B /V /N source_file.doc newfile.doc`
+`COPY /B /V /L source_file.doc newfile.doc`
+`COPY /B /V /Y source_file.doc newfile.doc`
+`COPY /B /V /-Y source_file.doc newfile.doc`
+`COPY /B /V /Z source_file.doc newfile.doc`
+`COPY /B /N /L source_file.doc newfile.doc`
+`COPY /B /N /Y source_file.doc newfile.doc`
+`COPY /B /N /-Y source_file.doc newfile.doc`
+`COPY /B /N /Z source_file.doc newfile.doc`
+`COPY /B /L /Y source_file.doc newfile.doc`
+`COPY /B /L /-Y source_file.doc newfile.doc`
+`COPY /B /L /Z source_file.doc newfile.doc`
+`COPY /B /Y /-Y source_file.doc newfile.doc`
+`COPY /B /Y /Z source_file.doc newfile.doc`
+`COPY /B /-Y /Z source_file.doc newfile.doc`
+`COPY /D /V /N source_file.doc newfile.doc`
+`COPY /D /V /L source_file.doc newfile.doc`
+`COPY /D /V /Y source_file.doc newfile.doc`
+`COPY /D /V /-Y source_file.doc newfile.doc`
+`COPY /D /V /Z source_file.doc newfile.doc`
+`COPY /D /N /L source_file.doc newfile.doc`
+`COPY /D /N /Y source_file.doc newfile.doc`
+`COPY /D /N /-Y source_file.doc newfile.doc`
+`COPY /D /N /Z source_file.doc newfile.doc`
+`COPY /D /L /Y source_file.doc newfile.doc`
+`COPY /D /L /-Y source_file.doc newfile.doc`
+`COPY /D /L /Z source_file.doc newfile.doc`
+`COPY /D /Y /-Y source_file.doc newfile.doc`
+`COPY /D /Y /Z source_file.doc newfile.doc`
+`COPY /D /-Y /Z source_file.doc newfile.doc`

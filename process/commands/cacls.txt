@@ -1,0 +1,106 @@
+`CACLS pathname`
+`CACLS pathname /T`
+`CACLS pathname /E`
+`CACLS pathname /C`
+`CACLS pathname /L`
+`CACLS pathname /M`
+`CACLS pathname /G user:R`
+`CACLS pathname /G user:W`
+`CACLS pathname /G user:C`
+`CACLS pathname /G user:F`
+`CACLS pathname /R user`
+`CACLS pathname /P user:R`
+`CACLS pathname /P user:W`
+`CACLS pathname /P user:C`
+`CACLS pathname /P user:F`
+`CACLS pathname /P user:N`
+`CACLS pathname /D user`
+`CACLS pathname /S`
+`CACLS pathname /S:sddl`
+`ECHO Y| CACLS filename /g username:R`
+`ECHO Y| CACLS filename /g username:W`
+`ECHO Y| CACLS filename /g username:C`
+`ECHO Y| CACLS filename /g username:F`
+`CACLS .`
+`CACLS MyFile.txt`
+`CACLS *.txt`
+`CACLS myfile.txt /E /G "Power Users":R`
+`CACLS myfile.txt /E /G "FinanceUsers":F`
+`CACLS myfile.txt /E /R "Power Users"`
+`CACLS myfile.txt /E /G "Power Users":F`
+`CACLS c:\\docs\\work /E /T /C /G "FinanceUsers":F`
+`CACLS myfile.txt /E /G "Admin":R`
+`CACLS myfile.txt /E /G "Admin":W`
+`CACLS myfile.txt /E /G "Admin":C`
+`CACLS myfile.txt /E /G "Admin":F`
+`CACLS myfile.txt /E /R "Admin"`
+`CACLS myfile.txt /E /P "Admin":R`
+`CACLS myfile.txt /E /P "Admin":W`
+`CACLS myfile.txt /E /P "Admin":C`
+`CACLS myfile.txt /E /P "Admin":F`
+`CACLS myfile.txt /E /P "Admin":N`
+`CACLS myfile.txt /E /D "Admin"`
+`ECHO Y| CACLS filename /g Admin:R`
+`ECHO Y| CACLS filename /g Admin:W`
+`ECHO Y| CACLS filename /g Admin:C`
+`ECHO Y| CACLS filename /g Admin:F`
+`CACLS myfile.txt /E /G "User":R`
+`CACLS myfile.txt /E /G "User":W`
+`CACLS myfile.txt /E /G "User":C`
+`CACLS myfile.txt /E /G "User":F`
+`CACLS myfile.txt /E /R "User"`
+`CACLS myfile.txt /E /P "User":R`
+`CACLS myfile.txt /E /P "User":W`
+`CACLS myfile.txt /E /P "User":C`
+`CACLS myfile.txt /E /P "User":F`
+`CACLS myfile.txt /E /P "User":N`
+`CACLS myfile.txt /E /D "User"`
+`ECHO Y| CACLS filename /g User:R`
+`ECHO Y| CACLS filename /g User:W`
+`ECHO Y| CACLS filename /g User:C`
+`ECHO Y| CACLS filename /g User:F`
+`CACLS myfile.txt /E /G "Guest":R`
+`CACLS myfile.txt /E /G "Guest":W`
+`CACLS myfile.txt /E /G "Guest":C`
+`CACLS myfile.txt /E /G "Guest":F`
+`CACLS myfile.txt /E /R "Guest"`
+`CACLS myfile.txt /E /P "Guest":R`
+`CACLS myfile.txt /E /P "Guest":W`
+`CACLS myfile.txt /E /P "Guest":C`
+`CACLS myfile.txt /E /P "Guest":F`
+`CACLS myfile.txt /E /P "Guest":N`
+`CACLS myfile.txt /E /D "Guest"`
+`ECHO Y| CACLS filename /g Guest:R`
+`ECHO Y| CACLS filename /g Guest:W`
+`ECHO Y| CACLS filename /g Guest:C`
+`ECHO Y| CACLS filename /g Guest:F`
+`CACLS myfile.txt /E /G "Everyone":R`
+`CACLS myfile.txt /E /G "Everyone":W`
+`CACLS myfile.txt /E /G "Everyone":C`
+`CACLS myfile.txt /E /G "Everyone":F`
+`CACLS myfile.txt /E /R "Everyone"`
+`CACLS myfile.txt /E /P "Everyone":R`
+`CACLS myfile.txt /E /P "Everyone":W`
+`CACLS myfile.txt /E /P "Everyone":C`
+`CACLS myfile.txt /E /P "Everyone":F`
+`CACLS myfile.txt /E /P "Everyone":N`
+`CACLS myfile.txt /E /D "Everyone"`
+`ECHO Y| CACLS filename /g Everyone:R`
+`ECHO Y| CACLS filename /g Everyone:W`
+`ECHO Y| CACLS filename /g Everyone:C`
+`ECHO Y| CACLS filename /g Everyone:F`
+`CACLS myfile.txt /E /G "System":R`
+`CACLS myfile.txt /E /G "System":W`
+`CACLS myfile.txt /E /G "System":C`
+`CACLS myfile.txt /E /G "System":F`
+`CACLS myfile.txt /E /R "System"`
+`CACLS myfile.txt /E /P "System":R`
+`CACLS myfile.txt /E /P "System":W`
+`CACLS myfile.txt /E /P "System":C`
+`CACLS myfile.txt /E /P "System":F`
+`CACLS myfile.txt /E /P "System":N`
+`CACLS myfile.txt /E /D "System"`
+`ECHO Y| CACLS filename /g System:R`
+`ECHO Y| CACLS filename /g System:W`
+`ECHO Y| CACLS filename /g System:C`
+`ECHO Y| CACLS filename /g System:F`

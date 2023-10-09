@@ -1,0 +1,23 @@
+`hostname`
+`echo %computername%`
+`set _CLUSTER_NETWORK_NAME_=MyCluster`
+`hostname /?`
+`set _CLUSTER_NETWORK_NAME_=`
+`echo $_CLUSTER_NETWORK_NAME_`
+`set _CLUSTER_NETWORK_NAME_=NewHostName`
+`set _CLUSTER_NETWORK_NAME_=OldHostName`
+`echo %_CLUSTER_NETWORK_NAME_%`
+`set _CLUSTER_NETWORK_NAME_=TestCluster`
+`set _CLUSTER_NETWORK_NAME_=ProductionCluster`
+`set _CLUSTER_NETWORK_NAME_=Cluster1`
+`set _CLUSTER_NETWORK_NAME_=Cluster2`
+`set _CLUSTER_NETWORK_NAME_=Cluster3`
+`set _CLUSTER_NETWORK_NAME_=Cluster4`
+`set _CLUSTER_NETWORK_NAME_=Cluster5`
+`set _CLUSTER_NETWORK_NAME_=Cluster6`
+`set _CLUSTER_NETWORK_NAME_=Cluster7`
+`set _CLUSTER_NETWORK_NAME_=Cluster8`
+`set _CLUSTER_NETWORK_NAME_=Cluster9`
+`set _CLUSTER_NETWORK_NAME_=Cluster10`
+`set _CLUSTER_NETWORK_NAME_=Cluster100`
+`set _CLUSTER_NETWORK_NAME_=Cluster101`

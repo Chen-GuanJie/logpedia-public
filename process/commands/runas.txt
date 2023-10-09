@@ -1,0 +1,203 @@
+`runas /noprofile /user:UserName program`
+`runas /profile /user:UserName program`
+`runas /env /user:UserName program`
+`runas /netonly /user:UserName program`
+`runas /savecred /user:UserName program`
+`runas /smartcard /user:UserName program`
+`runas /trustlevel:TrustLevel program`
+`runas /showtrustlevels`
+`runas /user:UserName program`
+`runas /noprofile /env /user:UserName program`
+`runas /noprofile /netonly /user:UserName program`
+`runas /noprofile /savecred /user:UserName program`
+`runas /noprofile /smartcard /user:UserName program`
+`runas /noprofile /trustlevel:TrustLevel program`
+`runas /profile /env /user:UserName program`
+`runas /profile /netonly /user:UserName program`
+`runas /profile /savecred /user:UserName program`
+`runas /profile /smartcard /user:UserName program`
+`runas /profile /trustlevel:TrustLevel program`
+`runas /env /netonly /user:UserName program`
+`runas /env /savecred /user:UserName program`
+`runas /env /smartcard /user:UserName program`
+`runas /env /trustlevel:TrustLevel program`
+`runas /netonly /savecred /user:UserName program`
+`runas /netonly /smartcard /user:UserName program`
+`runas /netonly /trustlevel:TrustLevel program`
+`runas /savecred /smartcard /user:UserName program`
+`runas /savecred /trustlevel:TrustLevel program`
+`runas /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /env /netonly /user:UserName program`
+`runas /noprofile /env /savecred /user:UserName program`
+`runas /noprofile /env /smartcard /user:UserName program`
+`runas /noprofile /env /trustlevel:TrustLevel program`
+`runas /noprofile /netonly /savecred /user:UserName program`
+`runas /noprofile /netonly /smartcard /user:UserName program`
+`runas /noprofile /netonly /trustlevel:TrustLevel program`
+`runas /noprofile /savecred /smartcard /user:UserName program`
+`runas /noprofile /savecred /trustlevel:TrustLevel program`
+`runas /noprofile /smartcard /trustlevel:TrustLevel program`
+`runas /profile /env /netonly /user:UserName program`
+`runas /profile /env /savecred /user:UserName program`
+`runas /profile /env /smartcard /user:UserName program`
+`runas /profile /env /trustlevel:TrustLevel program`
+`runas /profile /netonly /savecred /user:UserName program`
+`runas /profile /netonly /smartcard /user:UserName program`
+`runas /profile /netonly /trustlevel:TrustLevel program`
+`runas /profile /savecred /smartcard /user:UserName program`
+`runas /profile /savecred /trustlevel:TrustLevel program`
+`runas /profile /smartcard /trustlevel:TrustLevel program`
+`runas /env /netonly /savecred /user:UserName program`
+`runas /env /netonly /smartcard /user:UserName program`
+`runas /env /netonly /trustlevel:TrustLevel program`
+`runas /env /savecred /smartcard /user:UserName program`
+`runas /env /savecred /trustlevel:TrustLevel program`
+`runas /env /smartcard /trustlevel:TrustLevel program`
+`runas /netonly /savecred /smartcard /user:UserName program`
+`runas /netonly /savecred /trustlevel:TrustLevel program`
+`runas /netonly /smartcard /trustlevel:TrustLevel program`
+`runas /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /env /netonly /savecred /user:UserName program`
+`runas /noprofile /env /netonly /smartcard /user:UserName program`
+`runas /noprofile /env /netonly /trustlevel:TrustLevel program`
+`runas /noprofile /env /savecred /smartcard /user:UserName program`
+`runas /noprofile /env /savecred /trustlevel:TrustLevel program`
+`runas /noprofile /env /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /netonly /savecred /smartcard /user:UserName program`
+`runas /noprofile /netonly /savecred /trustlevel:TrustLevel program`
+`runas /noprofile /netonly /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /profile /env /netonly /savecred /user:UserName program`
+`runas /profile /env /netonly /smartcard /user:UserName program`
+`runas /profile /env /netonly /trustlevel:TrustLevel program`
+`runas /profile /env /savecred /smartcard /user:UserName program`
+`runas /profile /env /savecred /trustlevel:TrustLevel program`
+`runas /profile /env /smartcard /trustlevel:TrustLevel program`
+`runas /profile /netonly /savecred /smartcard /user:UserName program`
+`runas /profile /netonly /savecred /trustlevel:TrustLevel program`
+`runas /profile /netonly /smartcard /trustlevel:TrustLevel program`
+`runas /profile /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /env /netonly /savecred /smartcard /user:UserName program`
+`runas /env /netonly /savecred /trustlevel:TrustLevel program`
+`runas /env /netonly /smartcard /trustlevel:TrustLevel program`
+`runas /env /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /netonly /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /env /netonly /savecred /smartcard /user:UserName program`
+`runas /noprofile /env /netonly /savecred /trustlevel:TrustLevel program`
+`runas /noprofile /env /netonly /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /env /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /netonly /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /profile /env /netonly /savecred /smartcard /user:UserName program`
+`runas /profile /env /netonly /savecred /trustlevel:TrustLevel program`
+`runas /profile /env /netonly /smartcard /trustlevel:TrustLevel program`
+`runas /profile /env /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /profile /netonly /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /env /netonly /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /env /netonly /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /profile /env /netonly /savecred /smartcard /trustlevel:TrustLevel program`
+`runas /noprofile /env /user:UserName "program path"`
+`runas /noprofile /user:UserName "program path"`
+`runas /profile /user:UserName "program path"`
+`runas /env /user:UserName "program path"`
+`runas /netonly /user:UserName "program path"`
+`runas /savecred /user:UserName "program path"`
+`runas /smartcard /user:UserName "program path"`
+`runas /trustlevel:TrustLevel "program path"`
+`runas /showtrustlevels "program path"`
+`runas /user:UserName "program path"`
+`runas /profile /user:UserName "program path with spaces"`
+`runas /env /user:UserName "program path with spaces"`
+`runas /netonly /user:UserName "program path with spaces"`
+`runas /savecred /user:UserName "program path with spaces"`
+`runas /smartcard /user:UserName "program path with spaces"`
+`runas /trustlevel:TrustLevel "program path with spaces"`
+`runas /showtrustlevels "program path with spaces"`
+`runas /user:UserName "program path with spaces"`
+`runas /noprofile /env /user:UserName "program path with spaces"`
+`runas /noprofile /netonly /user:UserName "program path with spaces"`
+`runas /noprofile /savecred /user:UserName "program path with spaces"`
+`runas /noprofile /smartcard /user:UserName "program path with spaces"`
+`runas /noprofile /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /user:UserName "program path with spaces"`
+`runas /profile /netonly /user:UserName "program path with spaces"`
+`runas /profile /savecred /user:UserName "program path with spaces"`
+`runas /profile /smartcard /user:UserName "program path with spaces"`
+`runas /profile /trustlevel:TrustLevel "program path with spaces"`
+`runas /env /netonly /user:UserName "program path with spaces"`
+`runas /env /savecred /user:UserName "program path with spaces"`
+`runas /env /smartcard /user:UserName "program path with spaces"`
+`runas /env /trustlevel:TrustLevel "program path with spaces"`
+`runas /netonly /savecred /user:UserName "program path with spaces"`
+`runas /netonly /smartcard /user:UserName "program path with spaces"`
+`runas /netonly /trustlevel:TrustLevel "program path with spaces"`
+`runas /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /env /netonly /user:UserName "program path with spaces"`
+`runas /noprofile /env /savecred /user:UserName "program path with spaces"`
+`runas /noprofile /env /smartcard /user:UserName "program path with spaces"`
+`runas /noprofile /env /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /netonly /savecred /user:UserName "program path with spaces"`
+`runas /noprofile /netonly /smartcard /user:UserName "program path with spaces"`
+`runas /noprofile /netonly /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /noprofile /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /netonly /user:UserName "program path with spaces"`
+`runas /profile /env /savecred /user:UserName "program path with spaces"`
+`runas /profile /env /smartcard /user:UserName "program path with spaces"`
+`runas /profile /env /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /netonly /savecred /user:UserName "program path with spaces"`
+`runas /profile /netonly /smartcard /user:UserName "program path with spaces"`
+`runas /profile /netonly /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /profile /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /env /netonly /savecred /user:UserName "program path with spaces"`
+`runas /env /netonly /smartcard /user:UserName "program path with spaces"`
+`runas /env /netonly /trustlevel:TrustLevel "program path with spaces"`
+`runas /env /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /env /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /env /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /netonly /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /netonly /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /netonly /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /env /netonly /savecred /user:UserName "program path with spaces"`
+`runas /noprofile /env /netonly /smartcard /user:UserName "program path with spaces"`
+`runas /noprofile /env /netonly /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /env /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /noprofile /env /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /env /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /netonly /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /noprofile /netonly /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /netonly /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /netonly /savecred /user:UserName "program path with spaces"`
+`runas /profile /env /netonly /smartcard /user:UserName "program path with spaces"`
+`runas /profile /env /netonly /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /profile /env /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /netonly /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /profile /netonly /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /netonly /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /env /netonly /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /env /netonly /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /env /netonly /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /env /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /netonly /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /env /netonly /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /noprofile /env /netonly /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /env /netonly /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /env /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /netonly /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /netonly /savecred /smartcard /user:UserName "program path with spaces"`
+`runas /profile /env /netonly /savecred /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /netonly /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /netonly /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /env /netonly /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /noprofile /env /netonly /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`
+`runas /profile /env /netonly /savecred /smartcard /trustlevel:TrustLevel "program path with spaces"`

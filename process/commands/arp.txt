@@ -1,0 +1,17 @@
+arp -a
+arp -a -N 192.168.1.1
+arp -a -N 10.0.0.1
+arp -a -N 172.16.0.1
+arp -s 192.168.1.2 00-14-22-01-23-45
+arp -s 10.0.0.2 00-14-22-01-23-45
+arp -s 172.16.0.2 00-14-22-01-23-45
+arp -d 192.168.1.2
+arp -d 10.0.0.2
+arp -d 172.16.0.2
+arp -a
+arp -a -N {ip_addr}
+arp -s {ip_addr} {eth_addr}
+arp -d {ip_addr}
+arp -d *
+arp -s {ip_addr} {eth_addr} {if_addr}
+arp -d {ip_addr} {if_addr}
