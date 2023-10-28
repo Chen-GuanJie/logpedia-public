@@ -29,10 +29,10 @@ class DataBase(object):
         inter_file: A list including all interaction files excluding ignore interactions.
         ...
     """
-    def __init__(self, args) -> None:
+    def __init__(self, args,test) -> None:
         """Init DataBase class with args namespace.
         """
-        self.path = 'ShadeWatcher/data/encoding/' + args.dataset
+        self.path = '../data/encoding/' + args.dataset
         self.args = args
         self.batch_size_gnn = args.batch_size_gnn
         self.batch_size_kg = args.batch_size_kg
@@ -57,6 +57,9 @@ class DataBase(object):
         # split inter_data into training data, validation data, and testing data
         self.n_train_inter, self.n_test_inter, self.n_val_inter = 0, 0, 0
         self.inter_train_data, inter_test_data, inter_val_data = self._train_test_split(inter_data)
+        if test:
+            inter_test_data = inter_data
+            self.n_test_inter = len(inter_test_data)
 
         # inter_val_e: system entities,  inter_val_neg: negative items
         self.n_batch_test, self.n_batch_val = 0, 0
@@ -116,13 +119,13 @@ class DataBase(object):
         """
         n_attr = 0
 
-        with open(self.entity_file, 'r') as f:
+        with open(self.entity_file, 'r',encoding='utf-8') as f:
             n_entity = int(f.readline().strip())
 
-        with open(self.rel_file, 'r') as f:
+        with open(self.rel_file, 'r',encoding='utf-8') as f:
             n_relation = int(f.readline().strip())
 
-        with open(self.kg_file, 'r') as f:
+        with open(self.kg_file, 'r',encoding='utf-8') as f:
             n_triple = int(f.readline().strip())
 
         return n_entity, n_attr, n_relation, n_triple

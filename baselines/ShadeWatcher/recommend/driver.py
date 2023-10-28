@@ -187,10 +187,16 @@ def main() -> None:
 
     # Testing Phase
     if args.show_test:
-        rel_stat = test(sess, model, data_generator, args.threshold)
-        logger.info('test model:')
-        for metrics, value in rel_stat.items():
-            logger.info('metrics: {}, value: {}'.format(metrics, value))
+        continue_data = int(args.dataset)
+        for i in range(1,10):
+            if i == continue_data:
+                continue
+            args.dataset=str(i)
+            test_data_generator = load_data_engine(args, MetaData(str(i)),test=True)
+            rel_stat = test(sess, model, test_data_generator, args.threshold)
+            logger.info(f'test model {i}:')
+            for metrics, value in rel_stat.items():
+                logger.info('metrics: {}, value: {}'.format(metrics, value))
 
     # Save model parameters
     t3 = time()

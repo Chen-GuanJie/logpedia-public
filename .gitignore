@@ -1,0 +1,7 @@
+*.pt
+*.txt
+*.csv
+**/__pycache__
+*.pyc
+baselines/ATLAS/output/*
+baselines/ATLAS/resampling/*

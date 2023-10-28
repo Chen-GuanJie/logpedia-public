@@ -54,6 +54,13 @@ from matplotlib import pyplot
 import json
 import time
 
+import argparse
+parser = argparse.ArgumentParser(prog="atlas",description="")
+parser.add_argument('--load_resampling',type=bool,default=False)
+parser.add_argument('--do_train',type=bool,default=False)
+parser.add_argument('--test', type=int, default=2)
+parser.add_argument('--mal', type=int, default=0)
+args = parser.parse_args()
 prediction_counter = 0
 current_file = ""
 user_artifact =  ""
@@ -89,9 +96,6 @@ tokenized_x_train_elements = {}
 
 tokenized_elements["process"] = 1
 tokenized_elements["file"] = 2
-tokenized_elements["IP_Address"] = 3
-tokenized_elements["domain_name"] = 4
-tokenized_elements["web_object"] = 5
 tokenized_elements["read"] = 6
 tokenized_elements["write"] = 7
 tokenized_elements["delete"] = 8
@@ -102,7 +106,7 @@ tokenized_elements["connect"] = 12
 tokenized_elements["resolve"] = 13
 tokenized_elements["web_request"] = 14
 tokenized_elements["refer"] = 15
-tokenized_elements["combined_files"] = 16 
+tokenized_elements["combined_files"] = 16
 tokenized_elements["windows_file"] = 17
 tokenized_elements["windows_process"] = 18
 tokenized_elements["system32_file"] = 19
@@ -111,12 +115,15 @@ tokenized_elements["programfiles_file"] = 21
 tokenized_elements["programfiles_process"] = 22
 tokenized_elements["user_file"] = 23
 tokenized_elements["user_process"] = 24
-tokenized_elements["bind"] = 25
-tokenized_elements["sock_send"] = 26
-tokenized_elements["connection"] = 27
-tokenized_elements["connected_remote_ip"] = 28
-tokenized_elements["session"] = 29
-tokenized_elements["connected_session"] = 30
+tokenized_elements["reg_create_del"] = 3
+tokenized_elements["reg_set_value"] = 4
+tokenized_elements["access"] = 5
+tokenized_elements["load"] = 25
+tokenized_elements["process_create"] = 26
+tokenized_elements["file_create"] = 27
+tokenized_elements["software_key"] = 28
+tokenized_elements["system_key"] = 29
+tokenized_elements["key"] = 30
 
 
 tokenized_x_train_elements[1] = "a"
@@ -160,8 +167,8 @@ embedding_size = 128 # 128 dimensions that the model learns for each word=featur
 lstm_output_size = 256 
 EPOCH = 8 
 u_thresh = 80 
-DO_TRAINING =  False # True # 
-load_resampling = True # False # 
+DO_TRAINING =  args.do_train # True # 
+load_resampling = args.load_resampling # False # 
 load_nonsampling = False # True # 
 load_undersampling = False
 SHOW_STAT = False # True # # show graphs after calling fit()
@@ -184,8 +191,8 @@ def generate_model():
 if DO_TRAINING:
 	generate_model()
 else:
-	print("Saved model ATLAS/paper_experiments/S1/output/model.h5 has been loaded!")
-	model = load_model('ATLAS/paper_experiments/S1/output/model.h5')
+	print("Saved model output/model.h5 has been loaded!")
+	model = load_model('output/model.h5')
 	print("%s" % (model.metrics_names[1]))
 
 
@@ -195,11 +202,11 @@ def load_malicious_labels(file):
 	training_prefix = "seq_graph_training_preprocessed_logs_"
 	testing_prefix = "seq_graph_testing_preprocessed_logs_"
 	if file.startswith(training_prefix):
-		mlabels_file = open("ATLAS/paper_experiments/S1/training_logs/" + file[len(training_prefix):-8] + "/malicious_labels.txt")
-		mlabels_file_events = open("ATLAS/paper_experiments/S1/training_logs/" + file[len(training_prefix):-8] + "/malicious_labels.txt")
+		mlabels_file = open("training_logs/" + file[len(training_prefix):-8] + "/malicious_labels.txt", encoding="utf-8")
+		mlabels_file_events = open("training_logs/" + file[len(training_prefix):-8] + "/malicious_labels.txt", encoding="utf-8")
 	if file.startswith(testing_prefix):
-		mlabels_file = open("ATLAS/paper_experiments/S1/testing_logs/" + file[len(testing_prefix):-8] + "/malicious_labels.txt")
-		mlabels_file_events = open("ATLAS/paper_experiments/S1/testing_logs/" + file[len(testing_prefix):-8] + "/malicious_labels.txt")
+		mlabels_file = open("testing_logs/" + file[len(testing_prefix):-8] + "/malicious_labels.txt", encoding="utf-8")
+		mlabels_file_events = open("testing_logs/" + file[len(testing_prefix):-8] + "/malicious_labels.txt", encoding="utf-8")
 	malicious_labels = mlabels_file.readlines()
 	malicious_labels = [x.strip().lower() for x in malicious_labels]
 	malicious_labels_events = mlabels_file_events.readlines()
@@ -217,131 +224,55 @@ def is_matched(string, labels=None):
 	return False
 
 
-def tokenize_sequences(seq):
-	seq_list = seq.split()
-	
-	for i in range(0, int(len(seq_list)/3)):
-		if seq_list[i*3+1] == "read" or seq_list[i*3+1] == "write" or seq_list[i*3+1] == "delete" or seq_list[i*3+1] == "execute":
-			if "c:/windows/system32" in seq_list[i*3]:
-				seq_list[i*3] = "system32_process"
-			elif "c:/windows" in seq_list[i*3]:
-				seq_list[i*3] = "windows_process"
-			elif "c:/programfiles" in seq_list[i*3]:
-				seq_list[i*3] = "programfiles_process"
-			elif "c:/users" in seq_list[i*3]:
-				seq_list[i*3] = "user_process"
-			else:
-				seq_list[i*3] = "process"
+def what_process(pro: str):
+    p = pro.lower()
+    if "c:/windows/system32" in p:
+        return "system32_process"
+    elif "c:/windows" in p:
+        return "windows_process"
+    elif "c:/programfiles" in p:
+        return "programfiles_process"
+    elif "c:/users" in p:
+        return "user_process"
+    else:
+        return "process"
 
-			if not ";" in seq_list[i*3+2]:
-				if "c:/windows/system32" in seq_list[i*3+2]:
-					seq_list[i*3+2] = "system32_file"
-				elif "c:/windows" in seq_list[i*3+2]:
-					seq_list[i*3+2] = "windows_file"
-				elif "c:/programfiles" in seq_list[i*3+2]:
-					seq_list[i*3+2] = "programfiles_file"
-				elif "c:/users" in seq_list[i*3+2]:
-					seq_list[i*3+2] = "user_file"
-				else:
-					seq_list[i*3+2] = "file"
-			else:
-				seq_list[i*3+2] = "combined_files"
-		elif seq_list[i*3+1] == "fork":
-			if "c:/windows/system32" in seq_list[i*3]:
-				seq_list[i*3] = "system32_process"
-			elif "c:/windows" in seq_list[i*3]:
-				seq_list[i*3] = "windows_process"
-			elif "c:/programfiles" in seq_list[i*3]:
-				seq_list[i*3] = "programfiles_process"
-			elif "c:/users" in seq_list[i*3]:
-				seq_list[i*3] = "user_process"
-			else:
-				seq_list[i*3] = "process"
 
-			if "c:/windows/system32" in seq_list[i*3+2]:
-				seq_list[i*3+2] = "system32_process"
-			elif "c:/windows" in seq_list[i*3+2]:
-				seq_list[i*3+2] = "windows_process"
-			elif "c:/programfiles" in seq_list[i*3+2]:
-				seq_list[i*3+2] = "programfiles_process"
-			elif "c:/users" in seq_list[i*3+2]:
-				seq_list[i*3+2] = "user_process"
-			else:
-				seq_list[i*3+2] = "process"
+def what_reg(reg: str):
+    r = reg.lower()
+    if "software" in r:
+        return "software_key"
+    elif "system" in r:
+        return "system_key"
+    else:
+        return "key"
 
-		elif seq_list[i*3+1] == "connect" or seq_list[i*3+1] == "bind":
-			if "c:/windows/system32" in seq_list[i*3]:
-				seq_list[i*3] = "system32_process"
-			elif "c:/windows" in seq_list[i*3]:
-				seq_list[i*3] = "windows_process"
-			elif "c:/programfiles" in seq_list[i*3]:
-				seq_list[i*3] = "programfiles_process"
-			elif "c:/users" in seq_list[i*3]:
-				seq_list[i*3] = "user_process"
-			else:
-				seq_list[i*3] = "process"
 
-			if seq_list[i*3+1] == "connect":
-				seq_list[i*3+2] = "connection" 
-			else:
-				seq_list[i*3+2] = "session"
+def what_file(file: str):
+    f = file.lower()
+    if "c:/windows/system32" in f:
+        return "system32_file"
+    elif "c:/windows" in f:
+        return "windows_file"
+    elif "c:/programfiles" in f:
+        return "programfiles_file"
+    elif "c:/users" in f:
+        return "user_file"
+    else:
+        return "file"
 
-		elif seq_list[i*3+1] == "resolve":
-			seq_list[i*3] = "IP_Address"
-			seq_list[i*3+2] = "domain_name"
-		elif seq_list[i*3+1] == "web_request":
-			seq_list[i*3] = "domain_name"
-			seq_list[i*3+2] = "web_object"
-		elif seq_list[i*3+1] == "refer":
-			seq_list[i*3] = "web_object"
-			seq_list[i*3+2] = "web_object"
-		elif seq_list[i*3+1] == "executed":
-			if "c:/windows/system32" in seq_list[i*3]:
-				seq_list[i*3] = "system32_file"
-			elif "c:/windows" in seq_list[i*3]:
-				seq_list[i*3] = "windows_file"
-			elif "c:/programfiles" in seq_list[i*3]:
-				seq_list[i*3] = "programfiles_file"
-			elif "c:/users" in seq_list[i*3]:
-				seq_list[i*3] = "user_file"
-			else:
-				seq_list[i*3] = "file"
 
-			if "c:/windows/system32" in seq_list[i*3+2]:
-				seq_list[i*3+2] = "system32_process"
-			elif "c:/windows" in seq_list[i*3+2]:
-				seq_list[i*3+2] = "windows_process"
-			elif "c:/programfiles" in seq_list[i*3+2]:
-				seq_list[i*3+2] = "programfiles_process"
-			elif "c:/users" in seq_list[i*3+2]:
-				seq_list[i*3+2] = "user_process"
-			else:
-				seq_list[i*3+2] = "process"
-		elif seq_list[i*3+1] == "sock_send":
-			seq_list[i*3] = "session"
-			seq_list[i*3+2] = "session"
-		elif seq_list[i*3+1] == "connected_remote_ip":
-			seq_list[i*3] = "IP_Address"
-			if not seq_list[i*3+2].startswith("connection_"):
-				if "c:/windows/system32" in seq_list[i*3+2]:
-					seq_list[i*3+2] = "system32_process"
-				elif "c:/windows" in seq_list[i*3+2]:
-					seq_list[i*3+2] = "windows_process"
-				elif "c:/programfiles" in seq_list[i*3+2]:
-					seq_list[i*3+2] = "programfiles_process"
-				elif "c:/users" in seq_list[i*3+2]:
-					seq_list[i*3+2] = "user_process"
-				else:
-					seq_list[i*3+2] = "process"
-			else:
-				seq_list[i*3+2] = "connection"
-		elif seq_list[i*3+1] == "connected_session":
-			seq_list[i*3] = "IP_Address"
-			seq_list[i*3+2] = "session"
-
-	joined_seq_list = " ".join(seq_list)
-	
-	return joined_seq_list
+def tokenize_sequences(seq: str):
+    seq_list = seq.split()
+    for i in range(0, len(seq_list), 3):
+        seq_list[i] = what_process(seq_list[i])
+        if seq_list[i + 1] == "process_create" or seq_list[i + 1] == "access":
+            seq_list[i + 2] = what_process(seq_list[i + 2])
+        if seq_list[i + 1] == "load" or seq_list[i + 1] == "file_create":
+            seq_list[i + 2] = what_file(seq_list[i + 2])
+        if seq_list[i + 1] == "reg_create_del" or seq_list[i + 1] == "reg_set_value":
+            seq_list[i + 2] = what_reg(seq_list[i + 2])
+    return " ".join(seq_list)
 
 def construct_seq_using_labels(lines, possible_labels):
 	seq_list = []
@@ -437,7 +368,11 @@ def testing_suggest_ground_truth(lines, possible_labels):
 
 	while True:
 		done_work_counter = 0
-		print(work_list)
+		# print(work_list)
+		if len(work_list) > 1:
+			with open(f"./result/test_{args.test}_mal_{args.mal}.txt", "w", encoding="utf-8") as f:
+				f.writelines("\n".join([i[1] for i in work_list]))
+
 		# work_list = sorted(work_list, key = lambda x: len)	#, reverse=True
 		work_list = sorted(work_list, key=len)	# python 3
 		# print(list(result_labels)[0])
@@ -452,15 +387,16 @@ def testing_suggest_ground_truth(lines, possible_labels):
 		
 		# exit()
 		if prediction_counter >= maximum_number_of_test_iterations: # 1
+			exit() # too slow
 			file_name = current_file[len("seq_graph_"):-8]
-			file_path = "ATLAS/paper_experiments/S1/output/" + file_name
-			ofile = open(file_path, "r")
+			file_path = "output/" + file_name
+			ofile = open(file_path, "r", encoding="utf-8")
 			ofile_lines = ofile.readlines()
 	
 			print("Finished the testing iterations. Bye.")
 	
-			w_current_file = 'ATLAS/paper_experiments/S1/output/eval_' + current_file + '.json'
-			with open(w_current_file, 'w') as f:
+			w_current_file = 'output/eval_' + current_file + '.json'
+			with open(w_current_file, 'w', encoding="utf-8") as f:
 				print("wrote data to: " + w_current_file)
 				classified_words_prediction = classified_words_prediction.tolist() #[:len(z_test)]
 				classified_words_proba = classified_words_proba.tolist() #[:len(z_test)]
@@ -573,7 +509,7 @@ def get_active_actions_statements(lines):
 	subjects_statements = []
 
 	for statement in lines:
-		if statement.split()[1] == "write" or statement.split()[1] == "connect":
+		if statement.split()[1] == "file_create" or statement.split()[1] == "reg_set_value":
 			if not statement.split()[2] in subjects:
 				subjects.append(statement.split()[2])
 			
@@ -784,21 +720,21 @@ if __name__ == '__main__':
 		#'''
 		if load_nonsampling:
 				print("Loading nonsampled datasets ...")
-				nonsampling_in = open("resampling/nonsampling.json")
+				nonsampling_in = open("resampling/nonsampling.json", encoding="utf-8")
 				x_y_z_list = json.load(nonsampling_in)
 				x_train = x_y_z_list[0]
 				y_train = x_y_z_list[1]
 				z_train = x_y_z_list[2]
 		elif load_resampling:
 			print("Loading resampled datasets ...")
-			resampling_in = open("resampling/resampling.json")
+			resampling_in = open("resampling/resampling.json", encoding="utf-8")
 			x_y_z_list = json.load(resampling_in)
 			x_train = x_y_z_list[0]
 			y_train = x_y_z_list[1]
 			z_train = x_y_z_list[2]
 		elif load_undersampling:
 			print("Loading undersampled datasets ...")
-			undersampling_in = open("resampling/undersampling.json")
+			undersampling_in = open("resampling/undersampling.json", encoding="utf-8")
 			x_y_z_list = json.load(undersampling_in)
 			x_train = x_y_z_list[0]
 			y_train = x_y_z_list[1]
@@ -813,8 +749,8 @@ if __name__ == '__main__':
 					
 					load_malicious_labels(file)
 					malicious_labels_len = len(malicious_labels)
-					input_file_path = "ATLAS/paper_experiments/S1/output/" + file
-					input_file = open(input_file_path, "r")
+					input_file_path = "output/" + file
+					input_file = open(input_file_path, "r", encoding="utf-8")
 					lines = input_file.readlines()
 	
 					for i in range(0, malicious_labels_len):
@@ -832,8 +768,8 @@ if __name__ == '__main__':
 					
 					load_malicious_labels(file)
 					malicious_labels_len = len(malicious_labels)
-					input_file_path = "ATLAS/paper_experiments/S1/output/" + file
-					input_file = open(input_file_path, "r")
+					input_file_path = "output/" + file
+					input_file = open(input_file_path, "r", encoding="utf-8")
 					lines = input_file.readlines()
 					
 					
@@ -884,7 +820,7 @@ if __name__ == '__main__':
 				if os.path.exists("resampling/nonsampling.json"):
 					os.remove("resampling/nonsampling.json")
 					
-				nonsampling_out = open("resampling/nonsampling.json", 'w')
+				nonsampling_out = open("resampling/nonsampling.json", 'w', encoding="utf-8")
 				json.dump(x_y_z_list, nonsampling_out)
 				nonsampling_out.close()
 				print("Saved nonsampling.json file ...")
@@ -936,7 +872,7 @@ if __name__ == '__main__':
 					if os.path.exists("resampling/undersampling.json"):
 						os.remove("resampling/undersampling.json")
 
-					undersampling_out = open("resampling/undersampling.json", 'w')
+					undersampling_out = open("resampling/undersampling.json", 'w', encoding="utf-8")
 					json.dump(x_y_z_list, undersampling_out)
 					undersampling_out.close()
 					print("Saved undersampling.json file ...")
@@ -976,7 +912,7 @@ if __name__ == '__main__':
 					if os.path.exists("resampling/resampling.json"):
 						os.remove("resampling/resampling.json")
 						
-					resampling_out = open("resampling/resampling.json", 'w')
+					resampling_out = open("resampling/resampling.json", 'w', encoding="utf-8")
 					json.dump(x_y_z_list, resampling_out)
 					resampling_out.close()
 					print("Saved resampling.json file ...")
@@ -998,19 +934,19 @@ if __name__ == '__main__':
 		print("Training time: " + str(elapsed))
 		# save model and weights
 		print('Save the model...')
-		model.save('ATLAS/paper_experiments/S1/output/model.h5')
+		model.save('output/model.h5')
 		exit()
 
 	TESTING_STARTED = True
 
 	# testing
-	for file in os.listdir("ATLAS/paper_experiments/S1/output"):
+	for file in os.listdir("output"):
 		if file.startswith("seq_graph_testing_"):
 			load_malicious_labels(file)
-			user_artifact = malicious_labels[0]
+			user_artifact = malicious_labels[args.mal]
 			print("\nLoading the malicious labels:")
 			print(str(malicious_labels) + "\n")
-			input_file_path = "ATLAS/paper_experiments/S1/output/" + file
-			input_file = open(input_file_path, "r")
+			input_file_path = "output/" + file
+			input_file = open(input_file_path, "r", encoding="utf-8")
 			lines = input_file.readlines()
 			x_test, y_test, z_test, subjects_statements = prepare_dataset(lines, file)

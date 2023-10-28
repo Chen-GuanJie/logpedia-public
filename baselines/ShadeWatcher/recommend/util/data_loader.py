@@ -15,11 +15,11 @@ def load_pretrain_embedding(embedding_save_path: str) -> np.array:
 
     return pretrain_embedding
 
-def load_data_engine(args, meta_data: MetaData) -> GnnLoader:
+def load_data_engine(args, meta_data: MetaData,test=False) -> GnnLoader:
     """Load GNN data engine and initialize meta data.
     """
     if args.model_type == 'gnn':
-        data_generator = GnnLoader(args)
+        data_generator = GnnLoader(args,test)
         meta_data.n_entity = data_generator.n_entity
         meta_data.n_relation = data_generator.n_relation
         meta_data.n_attr = data_generator.n_attr

@@ -15,8 +15,8 @@ class MetaData(object):
     def __init__(self, dataset: str) -> None:
         """Init class MetaData with dataset.
         """
-        self.in_path = 'ShadeWatcher/data/encoding/' + dataset
-        self.out_path = 'ShadeWatcher/data/encoding/' + dataset
+        self.in_path = '../data/encoding/' + dataset
+        self.out_path = '../data/embedding/' + dataset
 
         self.n_entity = 0
         self.n_attr = 0

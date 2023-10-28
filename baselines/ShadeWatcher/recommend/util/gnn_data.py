@@ -14,8 +14,8 @@ class GnnLoader(DataBase):
 
     Processing and Preparing data for GNN model.
     """
-    def __init__(self, args):
-        super().__init__(args)
+    def __init__(self, args,test):
+        super().__init__(args,test)
 
         # generate sparse adjacency matrices for system entity inter_train_data & relation_dict
         adj_list, self.adj_r_list = self._get_relational_adj_list()

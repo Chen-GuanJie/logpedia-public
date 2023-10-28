@@ -85,9 +85,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument('--no_att', default=False, action='store_true',
                         help='whether using attention mechanism.')
 
-    parser.add_argument('--show_test', default=True, action='store_true',
+    parser.add_argument('--show_test', default=False, action='store_true',
                         help='show test results')
-    parser.add_argument('--show_val', default=True, action='store_true',
+    parser.add_argument('--show_val', default=False, action='store_true',
                         help='show validation results')
     parser.add_argument('--no_step', default=False, action='store_true',
                         help='number of epoch to show training loss')
