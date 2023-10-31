@@ -94,7 +94,7 @@ def prepare_shadewatcher(
 
 
 def test_shadewatcher():
-    EBD_PATH = f"{ROOT_PATH}/baselines/shadewatcher/embedding"
+    EBD_PATH = f"{ROOT_PATH}/baselines/shadewatcher/data/embedding"
     ENCODE_PATH = f"{ROOT_PATH}/baselines/ShadeWatcher/data/encoding"
     import numpy as np
     from sklearn.neighbors import LocalOutlierFactor
@@ -166,7 +166,9 @@ def test_shadewatcher():
         result[int(file.name)]["False Negative"] = [mal_entities[i] for i in fn]
 
     df = calc(df)
-    save_path = f"{ROOT_PATH}/baselines/baseline/shadewatcher"
+    save_path = f"{ROOT_PATH}/baselines/result/shadewatcher"
+    check_dir(f"{ROOT_PATH}/baselines/result")
+    check_dir(save_path)
     df.to_csv(f"{save_path}/result.csv")
     import json
 
@@ -192,6 +194,6 @@ if __name__ == "__main__":
     prepare_shadewatcher()
     os.chdir(f"{ROOT_PATH}/baselines/ShadeWatcher/recommend")
 
-    for i in range(1, SCENARIO_NUM + 1):
+    for i in range(1, SCENARIO_NUM + 1): #or run manually
         os.system(f"python driver.py --dataset {i} --save_embedding")
     test_shadewatcher()

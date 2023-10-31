@@ -5,3 +5,4 @@
 *.pyc
 baselines/ATLAS/output/*
 baselines/ATLAS/resampling/*
+baselines/ShadeWatcher/data/embedding/

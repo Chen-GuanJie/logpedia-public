@@ -3,7 +3,7 @@ import networkx as nx
 import pandas as pd
 from datetime import datetime
 
-ROOT_PATH = ""
+ROOT_PATH = "" #set it as the root path of this repository
 LOG_DIR = f"{ROOT_PATH}/data/attack-scenario"
 SCENARIO_NUM = 10
 

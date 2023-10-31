@@ -1,20 +1,22 @@
 from baseline import *
 
+from threaTrace_torch_test import (
+    nxGraph2Loder,
+    train_single_model,
+    evaluation,
+    no2nid_map,
+    node_map,
+)
+
+folder = f"{ROOT_PATH}/baselines/result/threatace"
+
 
 def threatace(
     scenario=1,
-    folder=f"{ROOT_PATH}/baselines/baseline/threatace",
     process_only=False,
 ):
     import torch
     import numpy as np
-    from threaTrace_torch_test import (
-        nxGraph2Loder,
-        train_single_model,
-        evaluation,
-        no2nid_map,
-        node_map,
-    )
 
     wrong_node = {}
     g, mal_node_ids = load_all_file(scenario)
@@ -88,5 +90,17 @@ def threatace(
         json.dump(wrong_node, f, ensure_ascii=False)
 
 
+def train(scenario=1):
+    g, mal_node_ids = load_all_file(scenario)
+    train_loaders = []
+    train_loaders.append(nxGraph2Loder(g, mal_node_ids, graph_id=1))
+    test_loader = nxGraph2Loder(g, mal_node_ids, is_train=False, graph_id=1)
+    model_pth = f"{folder}/model_scenario{scenario}.pt"
+    train_single_model(train_loaders, test_loader, model_pth)
+
+
 if __name__ == "__main__":
+    check_dir(f"{ROOT_PATH}/baselines/result")
+    check_dir(f"{ROOT_PATH}/baselines/result/threatace")
+    train()
     threatace()
